@@ -1,0 +1,8 @@
+class: info.magnolia.editor.content.block.stock.FieldSetBlockDefinition
+templateId: travel-demo-stories-app:blocks/date
+icon: datepicker
+fields:
+  date:
+    class: info.magnolia.ui.form.field.definition.DateFieldDefinition
+    required: true
+    time: true

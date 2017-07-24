@@ -1,0 +1,1488 @@
+'stories-demo': 
+  jcr:mixinTypes: ['mgnl:hasVersion']
+  jcr:primaryType: 'mgnl:folder'
+  jcr:uuid: '2e44b1fa-44c8-4026-aa8b-15413590d826'
+  mgnl:activationStatus: true
+  mgnl:comment: ''
+  mgnl:created: 2017-07-24T15:02:57.787+02:00
+  mgnl:createdBy: 'superuser'
+  mgnl:lastActivated: 2017-08-21T17:22:35.978+02:00
+  mgnl:lastActivatedBy: 'superuser'
+  mgnl:lastModified: 2017-08-07T17:26:03.904+02:00
+  mgnl:lastModifiedBy: 'superuser'
+  'lost-and-found-in-swiss-alps': 
+    'authorBio': 'Englishman and mountaineering enthusiast Richard Douglas blogs regularly about his forays into nature. His most recent post takes on darker overtones as he pens some last words to his wife Margaret.'
+    'authorImage': 'jcr:fba1c915-94d5-45b7-9e59-686fd0f3fad4'
+    'author': 'Richard Douglas'
+    'created': 2017-02-16T15:29:00.000+01:00
+    'embedimage': 'jcr:602d9a8a-4411-4239-a738-3cd98a483931'
+    'embedsource': '<iframe src="https://player.vimeo.com/video/228199156?background=1" class="responsive-element" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> '
+    'lead': 'Dear M, Here’s a confession. Did I ever tell you that I’ve been afraid all my life? Afraid of the challenges, of just not being up to it. Afraid of failing and falling down. Being afraid doesn’t get you very far, so I sought to rid myself of this fear. That’s why I took up those activities that pushed me to the edge of my limits. Remember that November when we spent a weekend in Zermatt? I was there a day before you joined me. '
+    'location': 'Birmingham, UK'
+    'stories': ['9ffafe31-c443-49e2-94e8-d5e1355e0037']
+    'title': 'Losing and finding myself in the Swiss Alps'
+    'tours': ['d30b9ca6-e22d-45c5-9456-7538ab7bccf8','5556af16-66f5-445a-9150-bae8d2adcf3a']
+    'visualType': 'embed'
+    jcr:mixinTypes: ['mgnl:hasVersion']
+    jcr:primaryType: 'mgnl:composition'
+    jcr:uuid: '07d3a126-2882-4329-802a-357ae2e1aeeb'
+    mgnl:activationStatus: true
+    mgnl:comment: ''
+    mgnl:created: 2017-07-24T15:31:41.834+02:00
+    mgnl:createdBy: 'superuser'
+    mgnl:lastActivated: 2017-08-21T17:22:37.230+02:00
+    mgnl:lastActivatedBy: 'superuser'
+    mgnl:lastModified: 2017-08-21T15:36:11.905+02:00
+    mgnl:lastModifiedBy: 'superuser'
+    '28': 
+      'date': 2016-09-06T11:08:00.000+02:00
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '6ffd8b7e-c573-486d-abb1-6e02ce2688bf'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-25T17:32:12.493+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.231+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.910+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'date'
+    '1': 
+      'text': '<p>I started off in the late morning with the train from Bern to Zermatt. I had a hangover from four beers the previous night - simply drank too much after those nights of abstinence while being on-call. All my gear was stashed in a large backpack, and a group of Swiss asked me if I was going to the Matterhorn.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '7f3ea561-269a-4d3c-8906-8e596d5eeda0'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.836+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.231+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.914+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '0': 
+      'text': '<h2>Zermatt</h2>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '8bc31c64-3539-43ea-b7e9-d28c52df77f7'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.835+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.232+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.914+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '21': 
+      'imageAltText': 'Mountaineer walking through the snow into the sun'
+      'imageCaption': 'Endless freedom'
+      'image': 'jcr:194b5a16-0d35-45b9-9e66-f165599d9d78'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '02bed412-df4d-473b-ad1b-04d52d402a08'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:18:28.767+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.232+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.914+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '22': 
+      'imageAltText': 'Scenery showing a lake and mountains'
+      'imageCaption': 'From Bern to Zermatt'
+      'image': 'jcr:ebdcb3df-0d44-48af-b452-b4dbfdeb33a7'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '811cfb30-b122-4a64-8336-cea7021744e8'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:18:28.768+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.232+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.914+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '38': 
+      'tour': 'd30b9ca6-e22d-45c5-9456-7538ab7bccf8'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '6e9738b0-7686-40fa-a33e-3dccfb7a0813'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-27T22:12:22.012+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.232+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.914+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'tour'
+    '2': 
+      'text': '<p>My plan was to head for the Schönbielhütte (2694m) and spend the night there. The hut would not be manned in winter, but would be a resting place. The route takes about four hours and runs parallel to the north face of the Matterhorn along a lake and glacier towards the hut. It’s an easy trail in summer, but this was November. Still, the snow was not high as I started off in the mid-afternoon and made good progress.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'f1412a64-00d6-48cf-b582-c5264ac100a1'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.836+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.232+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.914+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '3': 
+      'text': '<p>Then, round a corner, the snow became knee-deep. I trudged on until the snow was up to my mid-thigh, but it was getting darker close to the evening. I realized that I would not make it to the hut and that it was too late to turn back. I would have to rough it out in the cold.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'fa458713-8a32-4e93-9895-7b134272a92e'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.836+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.232+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '23': 
+      'imageAltText': 'Hand holding some snow'
+      'imageCaption': 'Snow everywhere'
+      'image': 'jcr:ee5ceb5b-4663-470c-84c2-6519f5467033'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '366a08c7-8eb6-4960-a602-00d8bc314932'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:18:28.768+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.232+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '36': 
+      'url': 'https://twitter.com/bluemlisalph/status/888050979161206785'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '0ef63f2e-2370-4753-a89c-2265b55ffc29'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-27T16:00:23.019+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.233+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'externalLink'
+    '4': 
+      'text': '<p>As luck would have it, I sighted the entrance to one of those Swiss bunkers they have tucked away in the mountains. It was locked of course, but the cove offered enough protection from the wind and other elements. I packed out my mat and put on everything I had - two pairs of trousers, two jackets, two pairs of gloves. After nibbling on muesli bars and sipping isotonic energy drinks, I slept quite peacefully, tucked up in my sleeping bag.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '4d24c758-4db3-45a5-913f-f4fe43fe3d34'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.837+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.233+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '5': 
+      'text': '<p>I did wake up once in the night to the roaring of several avalanches, most likely washing down the north face of the Matterhorn. A snow storm passed in the early morning and when I got up at 8am ready to break off, you could hardly see anything.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'cec4b3e4-ddce-4c92-9200-7434d9ecfff4'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.838+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.233+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '30': 
+      'date': 2016-09-07T08:10:00.000+02:00
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'e9aa0019-0b99-474d-810b-c7d189271968'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-25T17:32:12.496+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.233+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'date'
+    '6': 
+      'text': '<p>I was afraid of losing orientation. With only about 50m sight, I couldn’t see anything, let alone the Matterhorn, and my tracks from yesterday afternoon were gone. Nothing left but to test my way gingerly on the edge and keep the height. When I reached Zmutt, the weather got better. No problem making my way back to Zermatt for an afternoon coffee and a stop in the church.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '5c9e8e33-aabc-4e73-bcd4-a89187eb95ef'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.838+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.233+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '7': 
+      'text': '<p>When I later shared the story with my Swiss friends, they laughed. Seasoned mountain folk have seen worse things. For my next birthday, they gave me a pocket oven, a dozen flares and a subscription for the Swiss Rega, the vanguard of mountain search and rescue.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'd49ea43f-a388-4b64-ab60-d2e4b6fc10b1'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.839+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.233+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '29': 
+      'date': 2017-01-16T09:05:00.000+01:00
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '42dee708-4376-473a-a725-9f793243ab32'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-25T17:32:12.493+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.233+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'date'
+    '8': 
+      'text': '<h2>Kandersteg</h2>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'a47e4312-9722-4887-9630-74b13a68bba0'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.839+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.234+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '9': 
+      'text': '<p>In January, I was in Kandersteg again. There had been little snow that winter and the trails were clear. But the very next day, it started snowing and there was 5 to 10cm of snow.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '8615a0c1-e87f-4b29-9b51-1f6702a5acdd'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.839+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.234+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '24': 
+      'imageAltText': 'Lake with a small boat from a distance'
+      'imageCaption': 'In Kandersteg again'
+      'image': 'jcr:1bcf0a7b-3b86-4736-bf09-aa2ec49cef11'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '2c9db107-dcf9-4e03-83e0-3790f393e982'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:18:28.768+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.234+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '27': 
+      'imageAltText': 'Mountains hidden in clouds'
+      'imageCaption': 'Rinderhorn'
+      'image': 'jcr:4d0f8458-7151-4b39-8edc-d9bb53662030'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '086769ff-57e1-4b76-81c5-f4d53e2a738a'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:18:28.769+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.234+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '10': 
+      'text': '<p>Heading for the Blüemlisalphütte from Oeschinensee, I met two hikers from Zurich. They had mountain boots on, but with jeans and rather flimsy jackets, apparently not the sort of Swiss you usually meet on alpine trails. I asked them if they wanted to join me, but they were headed lower.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '31fc7a00-82f9-4d6c-a5b0-f1a1e5a8732f'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.840+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.234+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '26': 
+      'imageAltText': 'Chapel overlooking Oeschinensee surrounded by snow'
+      'imageCaption': 'Chapel overlooking Oeschinensee'
+      'imageCredit': 'Samuel Zeller'
+      'image': 'jcr:523e3495-0d91-4ee4-814c-ff6a1fc77c81'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'cd70d4f3-128b-4094-a3b3-8abdc63dd941'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:18:28.769+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.234+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '11': 
+      'text': '<p>There’s a lower trail around Oeschinensee and another one higher up that’s the standard route in summer. I found the higher trail that was cut narrowly into the cliff and 30cm wide. It was all iced grass and I could have slided deep down into nothing.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'becf7fa9-3087-40c4-96af-41c89f91e101'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.840+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.234+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '12': 
+      'text': '<p>I started to veer away from the trail into wilder terrain, thinking that a shortcut would help. On a steep slope, I slipped and started sliding. There was nothing to hold on to, but I saw a large stone ahead. I figured that if my left foot caught the stone, this would break the slide, so I pinpointed all my energy on that.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'e481a0b1-2f26-4730-9148-bccb2c8e3dc5'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.841+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.235+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '32': 
+      'date': 2017-01-16T15:35:00.000+01:00
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '78d08a7f-99e2-4c78-86d3-bb9ed6082f9b'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-25T17:37:54.324+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.235+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'date'
+    '13': 
+      'text': '<p>Whoosh! The stone fell away, but the impact was enough to bring me to a stop, barely. I turned around carefully. I had lost a hiking pole, which lay a bit further down. I figured I had to get it back because I would need it later, so I lowered myself gingerly, picked up the stick and made my way up again back to the makeshift trail. Adrenaline gives you strength and blacks out pain - it was only then that I noticed I’d injured my right hand on the little finger, which was bleeding.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '44758698-976d-4117-8a83-a2fa85b9ee33'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.841+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.235+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '14': 
+      'text': '<p>It was afternoon and the conditions had changed. The ice had melted and then re-froze, which meant that the way back was worse. I fell two more times along the way. The first could have killed me. I ended up lying on the narrow iced trail knowing that I would fall into dead space if I turned over too quickly. My only thought was to get out of danger and I almost jogged the rest of the way. I was very relieved when the conditions got better around a corner. I fell again, this time from sheer exhaustion.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'ba347a72-7db6-4e88-8e04-0a382dee14f6'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.842+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.235+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '35': 
+      'assetautoplay': true
+      'assetcontrols': true
+      'assetloop': true
+      'assetmuted': true
+      'assetpreload': 'auto'
+      'assetsource': 'jcr:62a92d2f-0b1e-47dd-a06c-cae0769b7866'
+      'scale': 'true'
+      'type': 'asset'
+      'videoCaption': 'Timelapse over Doldenhorn range'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '9e54d978-a227-4ac9-8e20-c66354a7d8ef'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-08T13:51:29.413+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.235+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'video'
+    '15': 
+      'text': '<p>I did not make it to the Blüemlisalphütte. This was the second time that I had failed in winter, after having basically jogged up once in summertime. But I had realized something: I could stay calm in the face of danger and still think straight. You don’t need to go looking for adventures. They’ll find you anyway.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '2a5328c4-02b1-4b11-9eb8-2b0e2edf619b'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.842+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.235+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '33': 
+      'date': 2017-01-16T19:22:00.000+01:00
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '12e1605f-4a5d-49ae-afec-269d49fd1e99'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-25T17:37:54.324+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.235+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'date'
+    '16': 
+      'text': '<p>I was glad when I got down to the valley again. I stopped at the little chapel - for a moment of silence, reverence for the still nature that holds more power even without trying, gratitude for experiencing the ups and downs that I did and being able to speak about them.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'da679b75-115d-47b6-9305-202a46e2e683'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.843+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.236+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '20': 
+      'text': '<h2>Postscript</h2>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '60c0bb08-07fa-4465-a165-c4490c1516bb'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:10:23.146+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.236+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '34': 
+      'date': 2017-02-03T19:22:00.000+01:00
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '93dc3593-b066-4bc0-85d2-cede2aa1312f'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-25T17:37:54.324+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.236+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'date'
+    '25': 
+      'imageAltText': 'Lonely person standing on a mountain surrounded by fog'
+      'imageCaption': 'Lost...and found'
+      'image': 'jcr:ec0ce82e-7b33-434a-8354-a8feab10b647'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '15772543-6ae7-4c6c-90a2-0a0f3c190abf'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:18:28.769+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.236+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '17': 
+      'text': '<p>Why should I be afraid of anything or anyone? All that we have is given. I just ask for the fortitude to give it back with an open palm when the time comes. Thanks for joining me on the road, M. I’ll cherish all the walks and hikes that we did together, especially the ones where I challenged you to go beyond your limits.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'b99aca32-7dd0-4858-ae18-baedf3ab830d'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.843+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.236+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '18': 
+      'text': '<p>You’ll be fine on your own. You’re better, stronger and more resilient than you think. Forget the fear and the angst. I’ll watch over you. Even when I’m when somewhere out there in the dark mountains.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'f16e0a59-2367-4401-8cd0-4c0d61f6c4c1'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.844+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.236+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '19': 
+      'text': '<p>Love, R</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'e36c236a-2a16-4036-9a55-82444a140866'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T15:31:41.844+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:22:37.237+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+  'flying-grand-canyon-and-southwest': 
+    'authorBio': 'Mike Vriesman is a medical doctor who wishes he had made flying his career. In his free time, he applies clinical precision and airway management principles to hobby piloting wherever his travels take him - subject to finding the right flying partner and airspace.'
+    'authorImage': 'jcr:554d96a5-1745-4f48-b843-cf9a2e8dc25d'
+    'author': 'Mike Vriesman'
+    'created': 2017-06-15T16:24:00.000+02:00
+    'embedimage': 'jcr:5b33297b-ba04-4b7e-a0e7-a0a34e910038'
+    'embedsource': '<iframe src="https://player.vimeo.com/video/229701551?background=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+    'lead': 'The best way to take in the full grandeur of the Grand Canyon, or the vast expanse of the Australian outback, is to fly. When you reach those destinations and stand before the doors, there’re lots of scenic flights on offer. But nothing beats flying yourself, if you’re an experienced pilot of course.'
+    'title': 'Flying, and other bumps, over the Grand Canyon'
+    'tours': ['820a075a-8c95-4f00-b0ee-5f3bf339f1ff','ae0036c5-c313-4be2-ae7e-6b5f660435f5']
+    'visualType': 'embed'
+    jcr:mixinTypes: ['mgnl:hasVersion']
+    jcr:primaryType: 'mgnl:composition'
+    jcr:uuid: '9ffafe31-c443-49e2-94e8-d5e1355e0037'
+    mgnl:activationStatus: true
+    mgnl:comment: ''
+    mgnl:created: 2017-07-24T16:24:54.511+02:00
+    mgnl:createdBy: 'superuser'
+    mgnl:lastActivated: 2017-08-21T17:27:49.295+02:00
+    mgnl:lastActivatedBy: 'superuser'
+    mgnl:lastModified: 2017-08-21T17:27:39.463+02:00
+    mgnl:lastModifiedBy: 'superuser'
+    '24': 
+      'date': 2017-03-10T10:54:00.000+01:00
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '925f90e4-e24f-4847-897a-79666c396bf1'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-02T11:06:02.509+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.295+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.486+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'date'
+    '0': 
+      'text': '<p>My colleague Danny and I decided that during the next annual anaesthesia conference in the US, we would extend our stay to do our own flying tour of the American southwest. It’s not difficult if you know what you’re doing and trim your flight plans down to the last detail, but Danny turned out to be more unpredictable than I’d expected.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '6c48f27e-ff2b-409e-889c-0d985a75cefa'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:24:54.512+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.296+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.499+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '17': 
+      'imageAltText': 'Derek flying in the helicopter'
+      'imageCaption': 'What a view'
+      'image': 'jcr:f454f024-14b5-4cf9-946e-30f6f06a78fc'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '9f0468ca-1958-487f-92c9-d6e678b1df0f'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.678+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.296+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.499+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '15': 
+      'imageAltText': 'Cockpit with city lights in the background'
+      'imageCaption': 'Spending the blue hour in a cockpit'
+      'image': 'jcr:808f8667-ed65-4876-be6c-ba4995263610'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'c07aa1c3-fa77-4898-a7ad-132aa92fb599'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.677+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.296+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.500+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '1': 
+      'text': '<p>The problem started when we arrived in Las Vegas. Preparations revealed that we were both rusty after not flying for a while, which dented our confidence. However, the flying school was convinced and/or foolhardy enough to allow us a single-engine machine and turn us loose in the canyons.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'f1443e59-c912-4b0a-87d7-af0ae3a0087c'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.673+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.297+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.500+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '25': 
+      'date': 2017-03-10T20:56:00.000+01:00
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'd320930c-ee36-43c3-9317-72d8dcffe66c'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-02T11:06:02.511+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.297+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.500+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'date'
+    '2': 
+      'text': '<p>We flew from North Las Vegas to St. George, Utah, through Nellis military air space. Aviate, navigate, communicate, they say. Danny flew while I handled the navigation and communication. It was dark when we got there, and Danny landed the plane quite hard, still within safety limits. But no one held it against him. Afterall, he was not an experienced pilot and, as they say, any landing you and your passengers can walk away from, is a good landing.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '328dafae-368b-4cf4-a9c1-2b43350bdc9d'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.673+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.297+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.500+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '21': 
+      'imageAltText': 'Sundown in the Grand Canyon'
+      'imageCaption': 'Sundown in the Grand Canyon'
+      'image': 'jcr:654096e4-7199-483f-a00d-3222072215d8'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '5e014b55-0aff-4ccd-ba9f-a6599469c44b'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.679+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.297+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.501+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '23': 
+      'imageAltText': 'Hazy sky at twilight'
+      'imageCaption': 'Endless sky'
+      'image': 'jcr:3b692fd5-d65d-4b6c-ae12-9d9db1e626ba'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'e8d943fe-eb12-4340-b372-44a32f52c884'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.680+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.297+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.501+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '3': 
+      'text': '<p>Flying at least three hours each day, as our contract stipulated, we became pretty competent with the plane. We covered Bryce Canyon, Zion National Park and Grand Canyon West, among others.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '9d52a998-45aa-48db-b39a-ebe645b410e9'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.674+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.297+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.501+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '22': 
+      'imageAltText': 'Bryce canyon'
+      'imageCaption': 'Bryce canyon was a surreal spectacle from the plane'
+      'image': 'jcr:34e51de7-8332-47a5-9a3a-dca336807def'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'e80b56d3-ef6f-4f1e-b1d7-b089de1aa055'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.679+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.297+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.502+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '26': 
+      'date': 2017-03-12T09:20:00.000+01:00
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '20bdb364-411b-4ce3-bc9e-3573f44c2760'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-02T11:06:02.511+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.298+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.502+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'date'
+    '4': 
+      'text': '<p>When we got to Page and Canyonlands, the quarrels picked up. Danny and I had quite different ideas about flying and respect for the indigenous people. At 11,500 feet, I had to urinate into a bottle and Danny suggested to dump it out of the plane, as a biological weapon, so to speak. I hesitated. “Bombs away” would have been funny, but I knew that Monument Valley was a sacred place to the Indians, the Navajos, more precisely. To his great disappointment, I declined.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '09ac2135-6001-4979-8cb8-4279e2245f3b'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.674+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.298+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.502+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '16': 
+      'imageAltText': 'Monument Valley'
+      'imageCaption': 'Monument Valley'
+      'image': 'jcr:32177d86-06f5-43c6-8981-6064e70daff6'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '218619bc-717a-4949-ab8c-fc049fdfe058'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.678+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.298+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.502+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '5': 
+      'text': '<p>Danny was obviously much more interested in practicing flying skills than in the locations we flew over. On the contrary, quite surprisingly, he was not interested in the intricacies of the relatively advanced equipment of our plane. He spent the nights with lighter reading, while I was studying our Bendix/King navigation system. The differences began to show, a little bit more every day. After a heated exchange over breakfast one day, I told Danny that he was the better pilot, but had less experience, and said, “I don’t want to be close when your luck runs out.”</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '768d97a2-d814-4dd2-8db4-4456e2780c94'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.675+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.299+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.503+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '27': 
+      'date': 2017-03-12T22:00:00.000+01:00
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '1cdda3b9-1d5c-419d-a08a-18cd1b34f4af'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-02T11:06:02.512+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.299+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.503+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'date'
+    '32': 
+      'assetautoplay': false
+      'assetcontrols': true
+      'assetloop': false
+      'assetmuted': false
+      'assetpreload': 'auto'
+      'embed': '<iframe src="https://player.vimeo.com/video/228349637?autoplay=1&autoloop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+      'scale': 'true'
+      'type': 'embed'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'a7f2da58-76a9-4561-a94a-b51c4c876d1a'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-08T13:53:20.115+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.299+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.504+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'video'
+    '7': 
+      'text': '<p>Now we stood before the highlight of our flying tour - the scenic majesty of the mile-deep, 400-mile long Grand Canyon. There are only certain corridors you can fly through in the canyons - it’s an area of its own with a special aviation chart. When you plot your flight on the sectional charts, don’t be put off when you see the restrictions around the canyon. There are Special Federal Aviation Regulations (SFAR) in place, but this doesn’t mean that you can’t fly over the Grand Canyon in your own plane. You simply have to make sure that you operate within certain constraints.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '5eb638ca-6070-4e52-9c39-78a316a67386'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.675+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.299+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.504+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '30': 
+      'tour': '820a075a-8c95-4f00-b0ee-5f3bf339f1ff'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'e51260ca-20a1-411e-83c9-30f39636d467'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-02T12:20:56.919+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.299+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.504+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'tour'
+    '20': 
+      'imageAltText': 'Steep-sided canyon carved by river'
+      'imageCaption': 'Grand Canyon from the air'
+      'image': 'jcr:a9394e76-d8fd-48a8-b7fb-fdeb35362948'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '7ce45f8d-eca3-4b7c-b885-453b5be7878f'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.679+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.299+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.505+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '8': 
+      'text': '<p>We had lots of turbulence on the flight to Grand Canyon National Airport. I got in a good landing (actually one of my best under difficult conditions) and we took up separate activities. Danny hiked and I looked at the sights and bought a jacket for my wife. We had dinner together and all was well again.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'b97fba4c-4755-4fb3-b34e-1e2a4c3fb770'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.675+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.299+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.505+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '28': 
+      'date': 2017-03-13T10:00:00.000+01:00
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '22333a6f-5cce-4ca7-aed1-755a10a953bb'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-02T11:06:02.513+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.300+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.505+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'date'
+    '19': 
+      'imageAltText': 'Hoover Dam'
+      'imageCaption': 'Hoover Dam'
+      'image': 'jcr:97d3c020-ac03-4094-91a0-2bb72a448c33'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '55e7dac1-7a63-4c24-ad79-150bc6d2d706'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.679+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.300+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.506+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '18': 
+      'imageAltText': 'Hoover Dam and Lake Mead'
+      'imageCaption': 'Hoover Dam and Lake Mead'
+      'image': 'jcr:390d9ccb-9cd8-4b6e-a7b2-d4439d76729c'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '6a15360c-71f0-47fe-b401-c644eda6b05d'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.678+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.300+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.506+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '9': 
+      'text': '<p>The next day, we flew to Boulder City and over the Hoover Dam.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'ccf06861-3f6b-4954-92a2-77bd2a05b29f'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.676+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.300+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.506+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '10': 
+      'text': '<p>It was very windy, but Danny delivered a brilliant landing. From Boulder City, we were up to heading for Las Vegas class B airspace, with big passenger planes. I asked Danny a couple of times if I, the more experienced pilot, should fly the last leg from the left seat. “Shut up,” he said. And that was the end of our relations.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '9d95e6d2-5cac-4047-8a58-8650bd2e0e5c'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.676+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.300+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.507+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '11': 
+      'text': '<p>We couldn’t get clearance to transition into the class B airspace and had to detour. Danny seemed to black out, unintentionally or not, I’m not sure. So I ended up flying, navigating and communicating from the co-pilot’s seat, negotiating between the boundaries of the class B airspace and a nearby mountain range.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '15a70bdf-b957-4a2d-868e-1dae2db6f618'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.676+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.301+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.507+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '31': 
+      'url': 'https://www.grandcanyonwest.com/skywalk--eagle-point.htm'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '19151ed3-b056-45f8-a8a3-f4e60cff337d'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-02T12:20:56.920+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.301+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.507+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'externalLink'
+    '12': 
+      'text': '<p>Danny didn’t say a word, but shortly before the landing, he offered to take over, as he was on the pilot’s side with all the instruments and a very competent “stick and rudder” guy. I refused, despite the abysmal conditions, and ended up with a not-so-safe landing, suicidal would also be correct. Later, I apologized - I should have let Danny land the plane in the pilot’s seat. I consider this the most severe error of judgment during my entire “flying career”. Pride gets you nowhere. We brought the plane back in one piece, but never flew together again.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'fef0ab4e-c371-4a4e-be13-7f8e487942cc'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.676+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.301+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.508+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '29': 
+      'date': 2017-06-02T22:12:00.000+02:00
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '615af8d5-9bd1-46db-b1f9-607ca8d7bf9a'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-02T11:06:02.514+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.301+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.508+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'date'
+    '13': 
+      'text': '<p>On hindsight, what rankles me is that Danny never apologized for his share of the faults and that he brought out not-so-nice sides of my character. We were both too stubborn, too strong in pushing our viewpoints. Two years later, I was no longer flying actively and was totally focused on building a scientific career. Danny achieved his commercial pilot’s license and continued to practise anesthesia. We haven’t met since then.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '9c3c685a-d37c-4adc-b4bf-1ad9eae7cb16'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.677+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.301+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.509+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '14': 
+      'text': '<p>I regret having parted ways like that, but these are things you have to take in your stride. It was an exhilarating experience to fly over the Grand Canyon and I’m sure either of us would have done it again, minus the petty quibbles naturally.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'd7178217-a638-4053-be07-5bcb09ac3897'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:34:10.677+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:27:49.301+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:27:39.509+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+  'flavors-of-asia': 
+    'authorBio': 'Food and lifestyle critic Enrica Gandolfi loves the finer things in life. She believes that a good way to experience different cultures is through the tastes, smells and senses of the food, and makes it a point to try more exotic cuisine during her regular trips to the Asian region.'
+    'authorImage': 'jcr:0e23eba0-6af7-41b9-b0b0-0cc7e9d65eeb'
+    'author': 'Enrica Gandolfi '
+    'created': 2017-07-24T16:34:00.000+02:00
+    'embedimage': 'jcr:f870b5ce-6cd9-4798-81fe-b9f4fb1cdc8f'
+    'embedsource': '<iframe src="https://player.vimeo.com/video/228198882?background=1" class="responsive-element" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> '
+    'lead': 'Ah, food, glorious food. Who doesn’t have travel tales spun around that favorite pastime - eating - savoring tasty bites that revive you for more adventures the next day, soaking in the colors, aromas and flavors of the spices and ingredients typical of the location you’re touring? You’ve probably heard lots of stories from friends on “the best Caesar salad I had was in Chamonix” or “it was a super-cool to be served grilled octopus after a swim on the beaches in the Cyclades”.'
+    'location': 'Paris, France'
+    'title': 'Experience the aromas and flavors of Asia'
+    'tours': ['a358f3ad-5a03-4f5d-b0ab-cb2219100472','3ba5ba55-ac02-4b37-a429-5fc0bb4b383b','3d676477-eabc-4cbe-88b6-b77aa85a358a']
+    'visualType': 'embed'
+    jcr:mixinTypes: ['mgnl:hasVersion']
+    jcr:primaryType: 'mgnl:composition'
+    jcr:uuid: '8e9cf0ef-e4c4-4f9c-ae97-aaa6427e62ab'
+    mgnl:activationStatus: true
+    mgnl:comment: ''
+    mgnl:created: 2017-07-24T16:46:48.467+02:00
+    mgnl:createdBy: 'superuser'
+    mgnl:lastActivated: 2017-08-21T17:48:44.886+02:00
+    mgnl:lastActivatedBy: 'superuser'
+    mgnl:lastModified: 2017-08-21T17:48:35.460+02:00
+    mgnl:lastModifiedBy: 'superuser'
+    '32': 
+      'date': 2016-11-17T12:02:00.000+01:00
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'b85ede62-b8d3-4ceb-9b10-9a1f36096de7'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-02T12:09:05.434+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.887+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.468+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'date'
+    '23': 
+      'imageAltText': 'Cook preparing noodles in a kitchen'
+      'imageCaption': 'Preparing noodles'
+      'image': 'jcr:208a91ee-e430-4bf2-9cc8-48e4b123b6af'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '523e8511-12c8-417d-9d17-daa4d7e0764c'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.474+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.887+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.477+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '0': 
+      'text': '<p>For someone who’s traveled quite a bit, I can say that there is no place where people are so obsessed with food as in Asia. Instead of greeting you with the typical “Hello” or “Good evening”, they might ask, “Have you had a meal?” or “Have you had your fill?” And they eat all the time - restaurants, snack bars and cafes tend to be open throughout the day and are usually filled, if not packed. They even have warm meals for breakfast, which might include rice or soups. Amazing how their slim physiques stomach all that in the tropical heat!</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'f515bd08-a7aa-4f05-9ebd-bf7d036b9dc1'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.469+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.887+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.477+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '25': 
+      'imageAltText': 'Hands picking up herbs'
+      'imageCaption': 'Flavors of asia'
+      'image': 'jcr:a67c6f78-5154-4628-934a-7ca11363c212'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '1459a48e-2d89-4b29-bc88-7e78e118f3ba'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.475+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.887+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.478+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '26': 
+      'imageAltText': 'Asian food on a cutting board'
+      'imageCaption': 'Spicy or not'
+      'image': 'jcr:e6991087-45dd-4ea0-af9a-ef0062a5ce7e'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'c3903ca1-3345-4e22-9741-f05988c2c121'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.475+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.888+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.478+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '1': 
+      'text': '<p>I braved a visit to the tropics last year and had the chance to sample the cuisine of Malaysia and Singapore. Here are some of my favorites, and tips on what you might want to avoid.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '1c2af5bd-ce44-4f18-9818-a0e36de29b3b'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.469+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.888+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.478+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '31': 
+      'imageAltText': 'View from above of a greens market'
+      'imageCaption': 'Greens for sale'
+      'image': 'jcr:b8772c13-5931-4800-8183-012b5baf087d'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '4c2b33d7-6d7b-4ae8-908f-a0f890edbeaf'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.476+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.888+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.478+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '33': 
+      'date': 2016-11-18T12:00:00.000+01:00
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'b708d2d4-e7f6-479a-9444-78c5a0fcf38e'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-02T12:09:05.435+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.888+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.478+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'date'
+    '2': 
+      'text': '<h3>Chicken rice</h3>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '41cc7731-e862-4e47-8a23-f4a99fd98e12'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.469+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.888+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.478+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '3': 
+      'text': '<p>This classic dish can be found at practically any hawker centre, food court or coffee shop around the corner. You can have your chicken brown and roasted, or white and steamed. Chicken rice stalls also offer roasted pork on the side. Bits of cucumber and sprigs of coriander top up the dish. The rice is steamed in chicken fat and stock, ginger and garlic for fragrance.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '39574b82-ab5d-4866-b0cb-b3dd0341d366'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.470+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.888+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.478+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '4': 
+      'text': '<h3>Laksa</h3>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '2eb77edc-4386-4799-b3fd-4329e0300af3'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.470+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.888+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.478+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '30': 
+      'imageAltText': 'Noodle soup in bowl with sticks and spices'
+      'imageCaption': 'Laksa'
+      'image': 'jcr:d3f94ba6-f853-4c4c-9462-b5a4de06619a'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '95e7c1c4-fe32-4063-bcf7-78a4073a5e5d'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.476+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.889+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.478+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '5': 
+      'text': '<p>Laksa is typical of Peranakan culture, which mixes Chinese and Malay elements. There are two main types of laksa: curry laksa that’s more common in Singapore and assam laksa that’s more common in Malaysian regions like Penang. With lots of variations in between, this is an all-in-one dish with vermicelli, slices of chicken, fish cake, fried tofu, egg and bean sprouts, cooked in a spicy coconut curry.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'c4f4c53f-6148-4a9f-a293-829d509c0767'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.470+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.889+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.478+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '34': 
+      'date': 2016-11-18T12:00:00.000+01:00
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'db021ce7-604d-44da-a0ea-98188736ecf3'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-02T12:09:05.435+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.889+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.479+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'date'
+    '6': 
+      'text': '<h3>Char kway teow</h3>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '33f7e1ec-6dc6-4b29-84aa-9eeaeb97be49'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.470+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.889+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.479+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '7': 
+      'text': '<p>This calorie bomber was intentionally drenched in fats as a quick and cheap way for laborers to top up energy. Flat rice noodles are fried in a dark sweet sauce with pork lard, Chinese sausage, fish cake, cockles, egg and bean sprouts. The Penang variation of char kway teow uses chives and prawns and is less sweet.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '8bc6190a-3a29-4656-b9a1-915585365266'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.471+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.889+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.479+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '40': 
+      'assetautoplay': false
+      'assetcontrols': true
+      'assetloop': false
+      'assetmuted': false
+      'assetpreload': 'auto'
+      'embed': '<iframe src="https://player.vimeo.com/video/228350494?autoplay=1&autoloop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+      'scale': 'true'
+      'type': 'embed'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '514a8791-a0ac-4b55-a7c1-723ccd1c7b53'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-08T13:54:43.970+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.889+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.479+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'video'
+    '8': 
+      'text': '<h3>Fried carrot cake</h3>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'b19a6f80-240e-431f-97ae-c4118ff4cead'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.471+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.889+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.479+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '9': 
+      'text': '<p>This is not a dessert, but a savoury dish made with eggs, preserved radish and white radish flour cake (the “white carrot” that gives the dish its name). There is also a “black” version of the dish, which is fried in a sweet dark sauce.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '0e311d67-41ce-4488-b5a9-583cf4464ea0'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.471+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.889+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.479+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '35': 
+      'date': 2016-11-19T12:00:00.000+01:00
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '4a9ab91f-832f-4591-86dd-6bb149f74f4b'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-02T12:09:05.436+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.890+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.479+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'date'
+    '39': 
+      'tour': 'a358f3ad-5a03-4f5d-b0ab-cb2219100472'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '5f3f4246-3b48-499a-ade8-7f66b8d5f556'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-02T12:15:58.077+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.890+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.479+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'tour'
+    '37': 
+      'url': 'https://twitter.com/visitklofficial/status/865376581996302337'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '9d6c1c23-7c56-48eb-8c28-b86eba42f114'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-02T12:14:40.777+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.890+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.479+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'externalLink'
+    '10': 
+      'text': '<h3>Satay</h3>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'e11c2f99-bb8d-4641-85c0-6873d63b56b4'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.471+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.890+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.480+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '11': 
+      'text': '<p>This dish originates from Indonesia and goes gently on stomachs not used to the spices of the region. Bite-size pieces of turmeric-marinated meat (beef, chicken or mutton) are put on tiny sticks and grilled on an open fire. Best enjoyed at the seaside food stalls and served with slices of onion and cucumber, some peanut sauce and rice cake (ketupat).</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'd25cb5e8-bc18-4151-9c6e-5adbac962b51'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.471+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.890+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.480+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '12': 
+      'text': '<h3>Curry fish head</h3>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'd265d738-48d7-4ab5-897a-733c16a9d4d0'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.472+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.890+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.480+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '13': 
+      'text': '<p>This dish meshes Chinese, Indian and Malay cultures. If you’re used to fish filets, it might be a shock to be served a whole head of a red snapper stewed in a light, spicy tamarind (assam) sauce with tomatoes and eggplant (brinjal). Locals will tell you that the best way to savor fish head curry is to suck the meat from the bones. Diehards swear by the cheek of the fish - the tastiest part - and some actually go for the fish eyes.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'aacf2a4d-a2eb-46ea-b793-16863a620c7b'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.472+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.890+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.480+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '27': 
+      'imageAltText': 'Fish covered with ice'
+      'imageCaption': 'Fresh fish daily'
+      'image': 'jcr:4b90cbb3-cc2d-4471-a314-4dce1f534e8b'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '0172df91-35f4-4905-9330-9420a8fde7d7'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.475+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.890+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.480+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '14': 
+      'text': '<h3>Chilli crab</h3>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '5f28aa82-c435-4c44-a812-d6f78b8704b9'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.472+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.891+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.480+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '15': 
+      'text': '<p>This tends to be overrated. Foodies will drive from the city centre to the seaside restaurants just to have their crab in a sweet, spicy, tomato-based chilli sauce. It’s hard work to claw your way through just to get at those morsels of crab meat. The sauce is what makes the difference. Most restaurants serve this dish with some French baguette that you dunk in the sauce and swipe to clean your plates.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '7824cc39-6b5f-4eab-ac7b-cc85bf1b3f87'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.472+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.891+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.480+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '38': 
+      'url': 'https://www.maykaidee.com/cooking-school'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'b8764730-1d61-498e-b1cf-1248a1a63184'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-02T12:14:40.777+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.891+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.481+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'externalLink'
+    '16': 
+      'text': '<h3>Sea cucumber</h3>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '183c6ff0-e2fb-411c-bda8-b84ef2c2a86f'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.472+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.891+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.481+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '28': 
+      'imageAltText': 'Woman eating a soup'
+      'imageCaption': 'A warming soup'
+      'image': 'jcr:a3319e88-8e5c-49d0-99d0-62de8d5de487'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '38541573-4440-4e37-ae4a-ae72baf2a126'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.475+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.891+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.481+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '29': 
+      'imageAltText': 'Asian farmer harvesting in fields'
+      'imageCaption': 'Harvest time'
+      'image': 'jcr:98f67629-817b-48d3-81ea-7bfc672d701c'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'a882fe37-7a53-4d58-ac6a-51ae2409f99c'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.476+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.891+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.481+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+    '17': 
+      'text': '<p>I found out that this is not a plant, but a marine animal, with a soft, slimy, chewy, rubbery texture. It’s used mainly in Chinese dishes, with meat, seafood or vegetables (kailan, shiitake mushrooms and Chinese cabbage), and usually cooked in a darkish oyster sauce. My friend loved this (it’s supposedly good for your health and complexion), but the “yikes” factor was just too high for me.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '9d480f4f-c606-4da2-bf84-f1b781fc3a02'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.473+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.891+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.481+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '18': 
+      'text': '<h3>Rojak</h3>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'dadd2a8e-42c8-431a-ad68-e66fa84707e2'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.473+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.891+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.481+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '19': 
+      'text': '<p>“Rojak” means “mixed” and this can be a Chinese, Malay or Indian-style salad with fried dough sticks (youtiao), fried beancurd, bean sprouts, radish, cucumber, pineapple and peanuts. It’s actually a healthy dish, but the dark, fermented prawn paste sauce that goes with it is rather pungent.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '6216cc6d-e3c7-4586-979c-4ed6735b6062'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.473+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.892+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.481+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '36': 
+      'date': 2016-11-20T12:00:00.000+01:00
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'ebc791f1-ded2-49dd-9654-6787b2c516d5'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-02T12:09:05.437+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.892+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.481+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'date'
+    '20': 
+      'text': '<h3>Durian</h3>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'f8e0fedb-ce61-41ad-9211-85d0417e14f0'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.473+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.892+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.482+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '21': 
+      'text': '<p>The king of fruits is not for the faint-hearted. When it’s in season, you can smell it from miles away. The fruit is about the size of a football, with a greenish skin covered in spikes. It’s a seeded fruit with soft, yellow flesh. Locals crazy about durian put it everywhere: durian cake, durian ice-cream, durian shakes, durian porridge. The aroma is so strong that there are signs in the buses and trains banning the transport of durians.f</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'bc1ca9bd-0844-4d50-aa2f-1ed0a04c5466'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.474+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.892+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.482+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '42': 
+      'text': '<h3>fin</h3>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: '7bb5652c-fc1f-48e0-ae02-4d1e6b847d95'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-09T10:08:50.263+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.892+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.482+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '22': 
+      'text': '<p>My Asian sojourn sometimes left my stomach in turmoil, but never failed to tantalize my tastebuds with that intoxicating combination of spices. I’d certainly come back for more and try some lesser known dishes that the locals swear by.</p>'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'c59fc6c9-344b-417a-b594-1ea7ea7eaa03'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.474+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.892+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.482+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'text'
+    '24': 
+      'imageAltText': 'Woman carrying vegetables to the market'
+      'imageCaption': 'Petaling street market, Kuala Lumpur'
+      'image': 'jcr:1f4f78f5-cbfb-4ada-8011-0516ba7d6b5c'
+      jcr:primaryType: 'mgnl:block'
+      jcr:uuid: 'd5b8f7c2-3ec1-4b83-b011-2c0ac5708535'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-24T16:46:48.475+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-21T17:48:44.892+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-21T17:48:35.482+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:type: 'image'
+
+

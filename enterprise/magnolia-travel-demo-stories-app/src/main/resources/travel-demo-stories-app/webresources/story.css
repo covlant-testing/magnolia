@@ -1,0 +1,548 @@
+.responsive-wrapper-16x9 {
+    position: relative;
+    padding-bottom: calc(100% * 9 / 16);
+    height: 0;
+}
+
+iframe,
+.responsive-element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* STORY PAGE --------------------------------*/
+
+body {
+    font-family: "Spectral", serif;
+    background-color: #f9f9f9;
+    color: #022347;
+}
+
+.close-button {
+    position: fixed;
+    z-index: 300;
+    top: 20px;
+    right: 20px;
+}
+
+.story-header-videos {
+    width: 100%;
+}
+
+.story-video-base {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.story-header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 150;
+}
+
+.story-circle-line {
+    position: absolute;
+    top: 0;
+}
+
+.story-video-base-2 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.video-background-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 100;
+}
+
+.video-circle {
+    left: -100px;
+    clip-path: circle(12.5% at center);
+    animation: circle-slide-in 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    z-index: 102;
+}
+
+.video-background {
+    left: 100px;
+    animation-timing-function: ease-out;
+    animation: background-slide-in 1.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    z-index: 101;
+}
+
+@keyframes circle-slide-in {
+    0% {
+        left: -100px;
+        opacity: 0.0
+    }
+    100% {
+        left: 0;
+        opacity: 1.0
+    }
+}
+
+@keyframes background-slide-in {
+    0% {
+        left: 100px;
+        opacity: 0.0
+    }
+    100% {
+        left: 0;
+        opacity: 1.0
+    }
+}
+
+/*
+Trick to pad zeros https://github.com/HubSpot/odometer/issues/106
+*/
+.odometer .odometer-inside .odometer-digit:first-child {
+    display: none
+}
+
+h1.story-title {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    margin: 0.5em auto auto;
+    text-align: center;
+
+    width: 60%;
+
+    font-size: 3.5em;
+}
+
+@media (max-width: 768px) {
+    h1.story-title {
+        width: 90%;
+        font-size: 2.5em;
+        margin-top: 0.5em;
+    }
+}
+
+@media (max-width: 360px) {
+    h1.story-title {
+        font-size: 1.5em;
+    }
+}
+
+.story-credits {
+    position: absolute;
+    bottom: 1em;
+    color: white;
+    font-size: 1.6em;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    width: 100%;
+}
+
+.story-credits .story-author {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .story-credits {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 360px) {
+    .story-credits {
+        font-size: 0.8em;
+        bottom: 0.5em;
+    }
+}
+
+.video-spacer {
+    z-index: 100;
+}
+
+.author {
+    margin: 45px auto 60px auto;
+    max-width: 400px;
+    text-align: center;
+
+    font-family: 'Caveat', cursive;
+    font-size: 1.4em;
+    color: #022347;
+}
+
+img.author-image {
+    width: 150px;
+    display: block;
+    margin: 0 auto 25px auto;
+}
+
+.story-content {
+    width: 100%;
+    margin-top: 4em;
+}
+
+.story-content > p,
+.story-lead {
+    font-family: 'Spectral', serif;
+    font-size: 1.2em;
+}
+
+.story-lead {
+    font-weight: bold;
+}
+
+.story-content > p,
+.story-content > .story-lead {
+    max-width: 750px;
+    margin: 2em auto auto;
+    display: block;
+}
+
+.story-content .image-block,
+.story-content .content-image-wrapper {
+    max-width: 750px;
+    display: block;
+    margin: 2em auto auto;
+    position: relative;
+    z-index: 10;
+}
+
+.video-container {
+    position: relative;
+    background-color: transparent;
+}
+
+.video-container video {
+    width: 100%;
+}
+
+.story-content .video-container {
+    margin: 2em auto auto;
+}
+
+/* Target the second of two siblings.*/
+.story-content .image-block + .image-block,
+.story-content .content-image-wrapper + .content-image-wrapper {
+    width: 100%;
+    max-width: 100%;
+    margin-top: -150px;
+    z-index: 1;
+}
+
+.story-content .image-block img,
+.story-content .content-image-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.video-caption,
+.image-block .image-caption,
+.content-image-wrapper .image-caption {
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1em;
+    color: #9b9b9b;
+
+    width: 750px;
+    margin: 25px auto 0;
+    position: relative;
+    background-color: transparent;
+}
+
+.video-credit,
+.image-block .image-credit {
+    display: none;
+}
+
+span.video-caption {
+    display: block;
+}
+
+.story-content > h2,
+.story-content > h3,
+.related-stories > h3,
+.related-stories > h3,
+.story-content > h4 {
+    width: 100%;
+    text-align: center;
+    font-family: "Spectral", serif;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.story-content > h2 {
+    margin-top: 2em;
+    font-size: 2.5em;
+}
+
+.related-stories > h3,
+.related-stories > h3,
+.story-content > h3 {
+    margin-top: 1.5em;
+    font-size: 2em;
+}
+
+.story-content > h4 {
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.story-line {
+    border-left: dashed #EF6155;
+    position: fixed;
+
+    left: 100px;
+    top: 0;
+    bottom: 0;
+    z-index: 50;
+}
+
+@media (max-width: 700px) {
+    .story-line {
+        left: 50px;
+    }
+
+    figure.clock-side {
+        left: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .story-line {
+        display: none;
+    }
+
+    figure.clock-side {
+        display: none;
+    }
+}
+
+.date-block {
+    height: 0;
+    visibility: hidden;
+}
+
+.tour-block {
+    border: 2px dotted #9E9E9E;
+    max-width: 960px;
+    margin: 2em auto auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    background-color: #f4f4f4;
+    background-clip: content-box;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #5a5a5a;
+}
+
+.tour-block .title-badge {
+    width: 260px;
+    background-size: cover;
+    background-position: center;
+    float: left;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+
+.tour-block .tour-meta {
+    margin: 1em 0 1em 2.5em;
+}
+
+.tour-block .tour-meta .prop-label {
+    color: #818181;
+    font-size: 75%;
+}
+
+.tour-block .tour-meta .prop-value {
+    font-weight: bold;
+    margin-top: 0;
+    text-align: left;
+}
+
+.tour-block .tour-meta .summary,
+.tour-block .tour-meta .detail {
+    color: #818181;
+}
+
+.tour-block .tour-meta .summary {
+    font-weight: bold;
+}
+
+.tour-block .call-to-action {
+    /* Button inherits mostly everything from travel-demo */
+    margin: 1.5em;
+}
+
+/* External links */
+.external-link {
+    border: 2px dotted #9E9E9E;
+    max-width: 960px;
+    margin: 2em auto auto;
+    padding: 40px;
+    position: relative;
+}
+
+.external-link p > a {
+    background-image: url(img/icon_external_link.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+
+    display: block;
+    padding-left: 22px;
+}
+
+.external-link p,
+.external-link h3 {
+    font-size: 1em;
+    font-family: "Spectral", serif;
+    text-align: left;
+    margin: 0 60px 10px 60px;
+}
+
+.external-link.has-image p,
+.external-link.has-image h3 {
+    margin: 0 60px 10px 220px;
+}
+
+.external-link h3 {
+    font-weight: bold;
+}
+
+.link-preview > img {
+    max-width: 120px;
+    max-height: 120px;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+}
+
+.float-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.related-stories,
+.related-tours {
+    max-width: 970px;
+    margin: 4em auto auto;
+}
+
+.related-stories h2,
+.related-tours h2 {
+    text-align: center;
+}
+
+.related-story {
+    border: dotted #9b9b9b 2px;
+    max-width: 970px;
+    min-height: 260px;
+    margin: 2em auto 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.related-tour {
+    border: dotted #9b9b9b 2px;
+    max-width: 970px;
+    margin: 2em auto 0 auto;
+    padding: 40px 0;
+}
+
+.related-tour .tour-card {
+    /* override from tour demo */
+    margin-bottom: 0;
+}
+
+.related-tour .tour-card-anchor,
+.related-tour .tour-card-background {
+    /* override from tour demo */
+    left: 40px;
+    right: 40px;
+}
+
+.related-tour .btn {
+    /* override from tour demo */
+    font-family: "DIN Alternate", sans-serif;
+    font-size: 1.2em;
+}
+
+.related-story a {
+    display: block;
+    padding: 1em;
+
+    /* background-url set in template */
+    background-size: cover;
+    background-position: center;
+}
+
+.related-story a:hover {
+    text-decoration: none;
+}
+
+.related-story h2 {
+    max-width: 500px;
+}
+
+.related-story h2 {
+    font-size: 4em;
+    font-family: "Amatic SC", sans-serif;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.related-story .description {
+    font-family: 'Spectral', serif;
+    color: #fff;
+}
+
+.related-story .call-to-action {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 1em;
+    padding: 0.5em;
+    font-family: "DIN Alternate", sans-serif;
+    display: inline-block;
+    background-color: #ef6155;
+    border: 1px solid #EAC2BF;
+    box-shadow: 0px 0px 0px 1px #ef6155;
+    color: #fff;
+}
+
+.related-story:hover .call-to-action {
+    background-color: #000;
+    border-color: #000;
+    box-shadow: 0px 0px 0px 1px #000;
+}
+
+.return-link {
+    font-size: 1.2em;
+    margin: 4em;
+    text-align: center;
+}
+
+footer {
+    margin-top: 4em;
+    height: 80px;
+    width: 100%;
+    background: black;
+    text-align: right;
+    padding: 20px;
+}

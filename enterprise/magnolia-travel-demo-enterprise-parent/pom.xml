@@ -24,6 +24,8 @@
     <personalizationVersion>1.4.3</personalizationVersion>
     <marketingTagsVersion>1.2</marketingTagsVersion>
     <multisiteVersion>1.2.1</multisiteVersion>
+    <storiesAppVersion>1.0.6-SNAPSHOT</storiesAppVersion>
+    <javascriptModelsVersion>1.0-SNAPSHOT</javascriptModelsVersion>
   </properties>
 
   <scm>
@@ -105,6 +107,16 @@
         <groupId>info.magnolia.personalization</groupId>
         <artifactId>magnolia-personalization-components</artifactId>
         <version>${personalizationVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.editor</groupId>
+        <artifactId>stories-app</artifactId>
+        <version>${storiesAppVersion}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.javascript-models</groupId>
+        <artifactId>magnolia-module-javascript-models</artifactId>
+        <version>${javascriptModelsVersion}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

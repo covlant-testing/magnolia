@@ -33,6 +33,7 @@
         <module>enterprise/magnolia-travel-demo-personalization</module>
         <module>enterprise/magnolia-travel-demo-multisite</module>
         <module>enterprise/magnolia-travel-demo-component-personalization</module>
+        <module>enterprise/magnolia-travel-demo-stories-app</module>
       </modules>
     </profile>
     <profile>
@@ -51,6 +52,7 @@
         <module>enterprise/magnolia-travel-demo-personalization</module>
         <module>enterprise/magnolia-travel-demo-multisite</module>
         <module>enterprise/magnolia-travel-demo-component-personalization</module>
+        <module>enterprise/magnolia-travel-demo-stories-app</module>
       </modules>
     </profile>
   </profiles>

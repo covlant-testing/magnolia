@@ -1,0 +1,51 @@
+# We use the basic template from mtk which provides us with reasonable defaults already
+!inherit:travel-demo:pages/standard
+
+areas:
+  navigation:
+    enabled: false # no navigation for the story page
+  main:
+    type: noComponent
+    createAreaNode: false
+    templateScript: /travel-demo-stories-app/templates/pages/areas/storyDisplayArea.ftl
+  footer:
+    enabled: false
+
+cssFiles:
+  story:
+    link: /.resources/travel-demo-stories-app/webresources/story.css
+    addFingerPrint: true
+    media: all
+  clocks:
+    link: /.resources/travel-demo-stories-app/webresources/clocks.css
+    addFingerPrint: true
+    media: all
+  odometer:
+    link: /.resources/travel-demo-stories-app/webresources/libs/odometer-theme-minimal.css
+    addFingerPrint: true
+    media: all
+
+  font-amatic:
+    link: https://fonts.googleapis.com/css?family=Amatic+SC
+    addFingerPrint: true
+    media: all
+  font-caveat:
+    link: https://fonts.googleapis.com/css?family=Caveat
+    addFingerPrint: true
+    media: all
+  font-roboto:
+    link: https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700
+    addFingerPrint: true
+    media: all
+  font-spectral:
+    link: https://fonts.googleapis.com/css?family=Spectral
+    addFingerPrint: true
+    media: all
+
+jsFiles:
+  odometer:
+    link: /.resources/travel-demo-stories-app/webresources/libs/odometer.min.js
+    addFingerPrint: true
+  story:
+    link: /.resources/travel-demo-stories-app/webresources/story.js
+    addFingerPrint: true

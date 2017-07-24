@@ -1,0 +1,12 @@
+/* Hack for additional navigation entry: without it, the menu breaks */
+@media (min-width: 767px) {
+    .navbar-brand img {
+        width: 155px;
+    }
+}
+
+@media (min-width: 991px) {
+    .navbar-brand img {
+        width: auto;
+    }
+}

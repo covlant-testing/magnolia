@@ -1,0 +1,3 @@
+renderType: freemarker
+templateScript: /travel-demo-stories-app/templates/components/storiesLead.ftl
+dialog: travel-demo-stories-app:components/storiesLead

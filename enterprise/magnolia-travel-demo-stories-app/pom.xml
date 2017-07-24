@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>info.magnolia.eedemo</groupId>
+    <artifactId>magnolia-travel-demo-enterprise-parent</artifactId>
+    <version>1.1.5-SNAPSHOT</version>
+    <relativePath>../magnolia-travel-demo-enterprise-parent/pom.xml</relativePath>
+  </parent>
+  <artifactId>magnolia-travel-demo-stories-app</artifactId>
+  <packaging>jar</packaging>
+  <name>Magnolia Travel Demo Stories App Module</name>
+  <description>Showcase about using and customizing the Magnolia stories app</description>
+
+  <dependencies>
+    <dependency>
+      <groupId>info.magnolia</groupId>
+      <artifactId>magnolia-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.demo</groupId>
+      <artifactId>magnolia-travel-demo</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.demo</groupId>
+      <artifactId>magnolia-travel-tours</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>info.magnolia.editor</groupId>
+      <artifactId>stories-app</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>info.magnolia.javascript-models</groupId>
+      <artifactId>magnolia-module-javascript-models</artifactId>
+    </dependency>
+
+    <!-- TEST -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+</project>
