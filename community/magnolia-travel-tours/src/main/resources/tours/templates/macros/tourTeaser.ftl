@@ -5,7 +5,7 @@
     [#assign imageHtml][@responsiveImageTravel tour.image "" "" "tour-card-image" "data-ratio='1.33'" true /][/#assign]
 
     <!-- Tour Teaser -->
-    <div class="col-md-6 tour-card card" >
+    <div class="col-md-6 tour-card card">
         <div class="tour-card-background">
         ${imageHtml}
         </div>
@@ -21,7 +21,7 @@
                     [/#list]
                 </div>
                 <div class="card-button">
-                    <div class="btn btn-primary"}">${i18n['tour.view']}</div>
+                    <div class="btn btn-primary">${i18n['tour.view']}</div>
                 </div>
             </div>
         </a>

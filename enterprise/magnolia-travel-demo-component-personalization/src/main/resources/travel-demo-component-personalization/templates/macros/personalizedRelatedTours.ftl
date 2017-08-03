@@ -40,13 +40,13 @@
                             [/#list]
                         </div>
 
-                        <div class="featured-card-content" >
+                        <div class="featured-card-content">
                             [#if description?has_content]
                                 <p><span class="description">${description!}</span></p>
                             [/#if]
                         </div>
                         <div class="card-button">
-                            <div class="btn btn-primary" >${i18n['tour.view']}</div>
+                            <div class="btn btn-primary">${i18n['tour.view']}</div>
                         </div>
                     </div>
                 </a>
