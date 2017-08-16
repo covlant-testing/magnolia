@@ -34,6 +34,7 @@
 package info.magnolia.demo.travel.tours;
 
 import info.magnolia.demo.travel.tours.service.Category;
+import info.magnolia.demo.travel.tours.service.Tour;
 import info.magnolia.demo.travel.tours.service.TourServices;
 import info.magnolia.jcr.util.ContentMap;
 
@@ -106,4 +107,14 @@ public class TourTemplatingFunctions {
         return tourServices.getTourLink(tourNode);
     }
 
+    /**
+     * Allows marshalling of tour node from templates. Can be useful when accessing {@link Category categories}.
+     */
+    public Tour marshallTourNode(Node tourNode) {
+        return tourServices.marshallTourNode(tourNode);
+    }
+
+    public Tour marshallTourNode(ContentMap tourContentMap) {
+        return marshallTourNode(tourContentMap.getJCRNode());
+    }
 }
