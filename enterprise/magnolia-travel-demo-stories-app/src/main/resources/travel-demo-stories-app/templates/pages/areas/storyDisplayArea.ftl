@@ -154,19 +154,7 @@
         </div>
 
         [#list blocks as block]
-            [#if block["mgnl:type"] == "image"]
-                [#assign rendition = damfn.getRendition(block.image, "original")]
-
-                <div class="image-block">
-                    <img src="${rendition.link}" class="${imgClass!}" alt=""/>
-                    <div class="image-caption">
-                    ${block.imageCaption!}
-                    </div>
-                </div>
-
-            [#else]
-                [@cms.block content=block /]
-            [/#if]
+            [@cms.block content=block /]
         [/#list]
 
     </div>
