@@ -14,7 +14,7 @@
     </dependency>
     <dependency>
       <name>multisite</name>
-      <version>1.2.1/*</version>
+      <version>${multisiteVersion}/*</version>
     </dependency>
   </dependencies>
 </module>
