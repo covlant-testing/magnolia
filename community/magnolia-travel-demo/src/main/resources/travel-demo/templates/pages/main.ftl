@@ -7,7 +7,7 @@
 <head>
     [@cms.page /]
 
-    [@cms.area name="htmlHeader"/]
+    [@cms.area name="htmlHeader" contextAttributes={"pageDef":def} /]
 </head>
 <body>
 <!--[if lt IE 7]>

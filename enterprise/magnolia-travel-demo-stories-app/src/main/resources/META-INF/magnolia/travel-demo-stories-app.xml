@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM "module.dtd" >
+<module>
+  <name>travel-demo-stories-app</name>
+  <displayName>${project.name}</displayName>
+  <description>${project.description}</description>
+  <versionHandler>info.magnolia.demo.travel.stories.setup.TravelDemoStoriesAppModuleVersionHandler</versionHandler>
+  <version>${project.version}</version>
+
+  <dependencies>
+    <!-- Travel demo can be considered a transitive dependency of tours, but we need to specify it anyways in order
+    to make YAML inheritance happy. -->
+    <dependency>
+      <name>travel-demo</name>
+      <version>${project.version}/*</version>
+    </dependency>
+    <dependency>
+      <name>tours</name>
+      <version>${project.version}/*</version>
+    </dependency>
+
+    <dependency>
+      <name>stories-app</name>
+      <version>${storiesAppVersion}/*</version>
+    </dependency>
+    <dependency>
+      <name>javascript-models</name>
+      <version>${javascriptModelsVersion}/*</version>
+    </dependency>
+  </dependencies>
+</module>

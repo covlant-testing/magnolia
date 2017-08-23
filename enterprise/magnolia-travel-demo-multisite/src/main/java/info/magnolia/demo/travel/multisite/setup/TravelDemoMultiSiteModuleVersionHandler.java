@@ -40,7 +40,7 @@ public class TravelDemoMultiSiteModuleVersionHandler extends DefaultModuleVersio
             new BootstrapConditionally("Add mapping configuration to travel site definition in multisite", "/info/magnolia/demo/travel/multisite/setup/config.modules.multisite.config.sites.travel.mappings.xml"));
 
     public TravelDemoMultiSiteModuleVersionHandler() {
-        register(DeltaBuilder.update("1.1.4", "")
+        register(DeltaBuilder.update("1.1.5", "")
                 .addTask(new BootstrapSingleResource("Re bootstrap sportstation site", "", "/mgnl-bootstrap/travel-demo-multisite/config.modules.multisite.config.sites.sportstation.xml", ImportUUIDBehavior.IMPORT_UUID_COLLISION_REPLACE_EXISTING))
                 .addTask(mappingAndDomainConfigurationTask)
                 .addTask(new NodeExistsDelegateTask("Remove sportstation-theme configuration from JCR", "/modules/site/config/themes/sportstation-theme",

@@ -1,0 +1,114 @@
+'stories': 
+  'title': 'Stories'
+  jcr:mixinTypes: ['mgnl:hasVersion']
+  jcr:primaryType: 'mgnl:page'
+  jcr:uuid: 'f8cbedd6-df91-4d7c-a952-2dc414d97704'
+  mgnl:activationStatus: true
+  mgnl:created: 2017-07-24T16:52:22.031+02:00
+  mgnl:createdBy: 'superuser'
+  mgnl:lastActivated: 2017-08-22T08:37:32.714+02:00
+  mgnl:lastActivatedBy: 'superuser'
+  mgnl:lastModified: 2017-08-10T18:31:47.891+02:00
+  mgnl:lastModifiedBy: 'superuser'
+  mgnl:template: 'travel-demo-stories-app:pages/stories'
+  'story': 
+    'hideInNav': true
+    'title': 'Story'
+    jcr:mixinTypes: ['mgnl:hasVersion']
+    jcr:primaryType: 'mgnl:page'
+    jcr:uuid: 'a096ec20-c190-4b2e-91a4-294c99b64049'
+    mgnl:activationStatus: true
+    mgnl:created: 2017-07-27T17:24:47.402+02:00
+    mgnl:createdBy: 'superuser'
+    mgnl:lastActivated: 2017-08-22T08:37:32.738+02:00
+    mgnl:lastActivatedBy: 'superuser'
+    mgnl:lastModified: 2017-08-10T13:25:17.681+02:00
+    mgnl:lastModifiedBy: 'superuser'
+    mgnl:template: 'travel-demo-stories-app:pages/story'
+  'main': 
+    jcr:primaryType: 'mgnl:area'
+    jcr:uuid: '22ba6501-a0fa-4762-bb6c-37cb729166df'
+    mgnl:activationStatus: true
+    mgnl:created: 2017-07-31T12:54:04.366+02:00
+    mgnl:createdBy: 'superuser'
+    mgnl:lastActivated: 2017-08-22T08:37:32.714+02:00
+    mgnl:lastActivatedBy: 'superuser'
+    mgnl:lastModified: 2017-08-10T18:31:47.891+02:00
+    mgnl:lastModifiedBy: 'superuser'
+    '0': 
+      'story1': '07d3a126-2882-4329-802a-357ae2e1aeeb'
+      'story2': '9ffafe31-c443-49e2-94e8-d5e1355e0037'
+      'story3': '8e9cf0ef-e4c4-4f9c-ae97-aaa6427e62ab'
+      jcr:primaryType: 'mgnl:component'
+      jcr:uuid: '8170559e-8f82-4430-bfdb-5c164425dd63'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-07-31T12:56:42.684+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-22T08:37:32.714+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-07-31T15:44:52.677+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:template: 'travel-demo-stories-app:components/storiesLead'
+    '00': 
+      jcr:primaryType: 'mgnl:component'
+      jcr:uuid: 'a19a6d79-e3bb-490b-b63e-630e7d2218b6'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-10T18:31:47.893+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-22T08:37:32.714+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-10T18:31:47.893+02:00
+      mgnl:lastModifiedBy: 'superuser'
+      mgnl:template: 'travel-demo-stories-app:components/storiesImageUniverse'
+  'footer': 
+    jcr:primaryType: 'mgnl:area'
+    jcr:uuid: 'ca3dd2d9-6660-43e5-b580-9063de9ca60e'
+    mgnl:activationStatus: true
+    mgnl:created: 2017-08-10T13:20:31.980+02:00
+    mgnl:createdBy: 'superuser'
+    mgnl:lastActivated: 2017-08-22T08:37:32.716+02:00
+    mgnl:lastActivatedBy: 'superuser'
+    mgnl:lastModified: 2017-08-10T13:20:32.206+02:00
+    mgnl:lastModifiedBy: 'superuser'
+    'footer1': 
+      jcr:primaryType: 'mgnl:area'
+      jcr:uuid: 'df1ad09e-23ec-4535-a4c6-18c97efb9c35'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-10T13:20:32.039+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-22T08:37:32.716+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-10T13:20:32.039+02:00
+      mgnl:lastModifiedBy: 'superuser'
+    'footer2': 
+      jcr:primaryType: 'mgnl:area'
+      jcr:uuid: '5257527c-0ac4-4411-a8e2-a06f551411b0'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-10T13:20:32.112+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-22T08:37:32.716+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-10T13:20:32.112+02:00
+      mgnl:lastModifiedBy: 'superuser'
+    'footer3': 
+      jcr:primaryType: 'mgnl:area'
+      jcr:uuid: 'ab0abf69-7cec-4b34-b9bc-5db64e9ee5b4'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-10T13:20:32.163+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-22T08:37:32.717+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-10T13:20:32.163+02:00
+      mgnl:lastModifiedBy: 'superuser'
+    'footer4': 
+      jcr:primaryType: 'mgnl:area'
+      jcr:uuid: 'a706cb04-fc12-4def-a6c7-91c1d7760258'
+      mgnl:activationStatus: true
+      mgnl:created: 2017-08-10T13:20:32.210+02:00
+      mgnl:createdBy: 'superuser'
+      mgnl:lastActivated: 2017-08-22T08:37:32.717+02:00
+      mgnl:lastActivatedBy: 'superuser'
+      mgnl:lastModified: 2017-08-10T13:20:32.210+02:00
+      mgnl:lastModifiedBy: 'superuser'
+
+

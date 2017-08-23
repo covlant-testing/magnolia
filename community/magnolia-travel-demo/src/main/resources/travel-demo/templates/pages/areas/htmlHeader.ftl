@@ -2,6 +2,8 @@
 [#-- Page's model & definition, based on the rendering hierarchy and not the node hierarchy --]
 [#assign site = sitefn.site()!]
 [#assign theme = sitefn.theme(site)!]
+[#assign pageDef = ctx.pageDef!]
+
 
 [#-------------- RENDERING --------------]
 <title>${content.windowTitle!content.title!}</title>
@@ -24,8 +26,8 @@
     [#if cssFile.conditionalComment?has_content]<![endif]-->[/#if]
 [/#list]
 
-[#if def.cssFiles??]
-    [#list def.cssFiles as cssFile]
+[#if pageDef.cssFiles??]
+    [#list pageDef.cssFiles as cssFile]
 <link rel="stylesheet" type="text/css" href="${cssFile.link}" media="${cssFile.media}" />
     [/#list]
 [/#if]

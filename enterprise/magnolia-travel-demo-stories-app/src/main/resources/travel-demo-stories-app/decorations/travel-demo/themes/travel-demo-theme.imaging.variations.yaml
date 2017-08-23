@@ -1,0 +1,4 @@
+# Variation used for the author image of stories
+author:
+  class: info.magnolia.templating.imaging.variation.SimpleResizeVariation
+  width: 150

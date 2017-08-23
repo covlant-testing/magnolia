@@ -74,7 +74,7 @@ public class ToursModuleVersionHandler extends DefaultModuleVersionHandler {
             new OrderNodeBeforeTask("", "", RepositoryConstants.WEBSITE, "/travel/tour", "about"));
 
     public ToursModuleVersionHandler() {
-        register(DeltaBuilder.update("1.1.4", "")
+        register(DeltaBuilder.update("1.1.5", "")
                 .addTask(new FolderBootstrapTask("/mgnl-bootstrap/tours/travel-demo/"))
                 .addTask(new IsInstallSamplesTask("Re-Bootstrap website content for travel pages", "Re-bootstrap website content to account for all changes",
                         new ArrayDelegateTask("",

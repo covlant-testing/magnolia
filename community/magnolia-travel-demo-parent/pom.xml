@@ -21,7 +21,7 @@
     <magnoliaDamVersion>2.1</magnoliaDamVersion>
     <siteVersion>1.0.8</siteVersion>
     <resourcesVersion>2.4</resourcesVersion>
-    <mteVersion>1.1</mteVersion>
+    <mteVersion>1.1.4-SNAPSHOT</mteVersion>
   </properties>
 
   <scm>

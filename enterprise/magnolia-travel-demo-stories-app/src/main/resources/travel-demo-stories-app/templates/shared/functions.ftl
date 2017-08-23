@@ -1,0 +1,37 @@
+[#function getWorkspace]
+    [#return "stories"]
+[/#function]
+
+[#function getStoryFolder]
+    [#return "/stories-demo/"]
+[/#function]
+
+[#function getStoryTemplateId]
+    [#return "travel-demo-stories-app:pages/story"]
+[/#function]
+
+[#function storyLink currentPage story]
+    [#assign rootPageNode = cmsfn.asJCRNode(cmsfn.root(currentPage))!]
+    [#assign singleArticlePages = cmsfn.contentListByTemplateId(rootPageNode, getStoryTemplateId())!]
+    [#if singleArticlePages?hasContent]
+    [#-- We link to the first page we find --]
+        [#assign link = cmsfn.link(singleArticlePages?first)!""]
+        [#assign link = link?removeEnding(".html")]
+        [#return link + "~" + story.@path?removeBeginning(getStoryFolder()) + "~.html"]
+    [/#if]
+    [#return "#"]
+[/#function]
+
+[#function storyBackLink currentPage]
+    [#return cmsfn.link(cmsfn.parent(currentPage))]
+[/#function]
+
+[#function getAllBlocksOfType blockType]
+    [#assign query = "SELECT * FROM [mgnl:block] AS b WHERE ISDESCENDANTNODE('${getStoryFolder()}') AND b.[mgnl:type]='${blockType}'"]
+    [#return cmsfn.search(getWorkspace(), query, "JCR-SQL2", "mgnl:block")!]
+[/#function]
+
+[#function bookTourLink]
+    [#assign bookNode = cmsfn.contentByPath("/travel/book-tour")!]
+    [#return cmsfn.link(bookNode)!"#"]
+[/#function]

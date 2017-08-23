@@ -1,0 +1,6 @@
+# We decorate the travel-demo theme with a small, additional css file that fixes navigation issues due to an extra
+# navigation entry "stories".
+navigation-fix:
+  addFingerPrint: true
+  link: /.resources/travel-demo-stories-app/webresources/navigation-fix.css
+  media: all

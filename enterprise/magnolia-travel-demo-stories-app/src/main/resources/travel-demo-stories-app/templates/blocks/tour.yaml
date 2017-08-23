@@ -1,0 +1,2 @@
+templateScript: /travel-demo-stories-app/templates/blocks/tour.ftl
+renderType: freemarker

@@ -1,0 +1,272 @@
+.responsive-wrapper-16x9 {
+    position: relative;
+    padding-bottom: calc(100% * 9 / 16);
+    height: 0;
+}
+
+iframe,
+.responsive-element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url(img/pexels-photo-297755.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+.stories-header {
+    text-align: center;
+}
+
+.stories-header h1 {
+    font-size: 12em;
+    font-family: 'Amatic SC', cursive;
+    color: #EF6155;
+    margin-top: 0.3em;
+    margin-bottom: 0.1em;
+}
+
+.stories-header img {
+    width: 6em;
+    height: 6em;
+}
+
+.story {
+    position: relative;
+    background-color: #cccccc;
+    margin-bottom: 40px;
+    display: block;
+}
+
+a.story:active,
+a.story:hover {
+    text-decoration: none;
+}
+
+.story h2 {
+    font-size: 2em;
+    font-family: 'Amatic SC', cursive;
+
+    text-align: center;
+    width: 100%;
+    color: white;
+
+    padding: 1em;
+    margin: 0;
+}
+
+.story.story-main h2 {
+    font-size: 3.8em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.story.story-horizontal h2 {
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+}
+
+.story.story-vertical h2 {
+    padding: 0.8em;
+}
+
+@media (min-width: 992px) {
+    /* nothing */
+}
+
+@media (min-width: 1200px) {
+    /* nothing */
+}
+
+.story-teaser {
+    color: white;
+    background-color: #EF6155;
+    padding: 15px;
+    position: relative;
+}
+
+a.story:hover .story-teaser {
+    background-color: #DD4433;
+}
+
+.story-teaser-text {
+    font-family: 'Spectral', serif;
+    padding-bottom: 5px;
+    margin-top: 18px;
+}
+
+.story-vertical .story-teaser-text {
+    margin-top: 0;
+    margin-left: 18px;
+}
+
+.story-teaser-call-to-action {
+    overflow: hidden;
+}
+
+.story-teaser-call-to-action span {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 0.8em;
+    border: 1px solid #fff;
+    padding: 0.2em 0.4em;
+    float: right;
+}
+
+.story-vertical {
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+}
+
+.story-vertical h2,
+.story-vertical .story-teaser {
+    width: 50%;
+    float: left;
+}
+
+.story-vertical:after {
+    clear: both;
+}
+
+.story-vertical:before,
+.story-vertical:after {
+    display: table;
+    content: "";
+}
+
+.triangle {
+    top: -25px;
+    left: 10px;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid #EF6155;
+}
+
+.triangle img {
+    width: 2.2em;
+    position: absolute;
+    left: -18px;
+    top: 18px;
+}
+
+.story-vertical .triangle img {
+    left: 18px;
+    top: -18px;
+}
+
+.story-vertical .triangle {
+    top: 10px;
+    left: -25px;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-right: 25px solid #EF6155;
+    border-left: none;
+}
+
+a.story:hover .triangle {
+    border-bottom: 25px solid #DD4433;
+}
+
+a.story.story-vertical:hover .triangle {
+    border-right: 25px solid #DD4433;
+    border-bottom: 25px solid transparent;
+}
+
+.image-universe-container {
+    margin-top: 4em;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    margin-bottom: 8em;
+}
+
+.image-universe {
+    margin: auto;
+}
+
+.iu-image-parent img {
+    margin: 0;
+    background-color: grey;
+    position: relative;
+}
+
+.iu-image-overlay {
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    bottom: 0;
+    z-index: 10;
+    color: white;
+    opacity: 0;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.iu-image-overlay .shout-out {
+    font-weight: bold;
+}
+
+.iu-image-parent img {
+    transition: opacity 0.3s ease;
+}
+
+.iu-image-overlay {
+    transition: opacity 0.3s ease, top 0.2s ease;
+}
+
+.iu-image-parent:hover img {
+    opacity: 0.7;
+}
+
+.iu-image-parent:hover .iu-image-overlay {
+    opacity: 0.8;
+    top: 0;
+}
+
+.iu-image-overlay.blue {
+    background-color: #337ec1;
+}
+
+.iu-image-overlay.yellow {
+    background-color: #fcbd4b;
+}
+
+.iu-image-overlay.green {
+    background-color: #75b433;
+}
+
+.iu-image-parent {
+    padding: 0;
+    margin: 5px;
+    position: relative;
+}
+
+.iu-image-parent span.image-credit,
+.iu-image-parent span.image-caption {
+    display: none;
+}
+
+/* The following, funny css classes are pre-determined by the use of the mosaic library:
+See: https://github.com/sapegin/jquery.mosaicflow */
+.mosaicflow__column {
+    float: left;
+}
+
+.mosaicflow__item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

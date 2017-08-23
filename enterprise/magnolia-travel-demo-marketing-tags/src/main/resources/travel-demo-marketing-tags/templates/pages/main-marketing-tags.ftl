@@ -7,7 +7,7 @@
 <head>
     [@cms.page /]
 
-    [@cms.area name="htmlHeader"/]
+    [@cms.area name="htmlHeader" contextAttributes={"pageDef":def} /]
 
     [#-- Scripts to be rendered in the header. --]
     [@cms.area name="headerScripts"/]

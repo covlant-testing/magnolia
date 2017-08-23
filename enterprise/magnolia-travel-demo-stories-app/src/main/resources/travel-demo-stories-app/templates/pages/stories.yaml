@@ -1,0 +1,32 @@
+# We inherit from travel-demo's standard page in order to get the navigation
+!inherit:travel-demo:pages/standard
+
+areas:
+  main:
+    type: list
+    parameters:
+      cssClass: container
+    availableComponents: !override
+      storyLead:
+        id: travel-demo-stories-app:components/storiesLead
+      storiesImageUniverse:
+        id: travel-demo-stories-app:components/storiesImageUniverse
+
+cssFiles:
+  stories:
+    link: /.resources/travel-demo-stories-app/webresources/stories.css
+    addFingerPrint: true
+    media: all
+  font-amatic:
+    link: https://fonts.googleapis.com/css?family=Amatic+SC
+    addFingerPrint: true
+    media: all
+  font-spectral:
+    link: https://fonts.googleapis.com/css?family=Spectral
+    addFingerPrint: true
+    media: all
+
+jsFiles:
+  mosaic:
+    link: /.resources/travel-demo-stories-app/webresources/libs/jquery.mosaicflow.min.js
+    addFingerPrint: true

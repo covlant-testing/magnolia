@@ -1,0 +1,31 @@
+# Decoration of the stories app:
+# * We add two custom blocks (date & tour) to the block availability and
+# * Add another field to the outline to select multiple, related tours.
+subApps:
+  editor:
+    contentDefinition:
+
+      blocks:
+        - text
+        - image
+        - video
+        - externalLink
+        - date
+        - tour
+
+      outlineFields:
+        relatedContent:
+          fields:
+            tours:
+              class: info.magnolia.ui.form.field.definition.MultiValueFieldDefinition
+              field:
+                class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+                targetWorkspace: tours
+                appName: tours
+                placeholder: stories.editor.relatedContent.tours.add.label
+                # FIXME: See (CONTEDIT-148)
+                buttonSelectNewLabel: Browse
+                buttonSelectOtherLabel: Browse
+                fieldEditable: false
+                identifierToPathConverter:
+                  class: info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter
