@@ -30,9 +30,9 @@
     mgnl:comment: ''
     mgnl:created: 2017-07-24T15:31:41.834+02:00
     mgnl:createdBy: 'superuser'
-    mgnl:lastActivated: 2017-08-21T17:22:37.230+02:00
+    mgnl:lastActivated: 2017-08-23T16:39:32.599+02:00
     mgnl:lastActivatedBy: 'superuser'
-    mgnl:lastModified: 2017-08-21T15:36:11.905+02:00
+    mgnl:lastModified: 2017-08-23T16:38:35.055+02:00
     mgnl:lastModifiedBy: 'superuser'
     '28': 
       'date': 2016-09-06T11:08:00.000+02:00
@@ -41,9 +41,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-25T17:32:12.493+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.231+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.600+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.910+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.060+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'date'
     '1': 
@@ -53,9 +53,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.836+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.231+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.600+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.914+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.064+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '0': 
@@ -65,9 +65,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.835+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.232+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.600+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.914+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.064+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '21': 
@@ -79,9 +79,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T16:18:28.767+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.232+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.600+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.914+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.064+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'image'
     '22': 
@@ -93,9 +93,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T16:18:28.768+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.232+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.600+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.914+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.064+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'image'
     '38': 
@@ -105,9 +105,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-27T22:12:22.012+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.232+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.600+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.914+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.064+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'tour'
     '2': 
@@ -117,9 +117,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.836+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.232+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.601+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.914+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.064+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '3': 
@@ -129,9 +129,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.836+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.232+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.601+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.064+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '23': 
@@ -143,9 +143,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T16:18:28.768+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.232+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.601+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.064+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'image'
     '36': 
@@ -155,9 +155,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-27T16:00:23.019+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.233+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.601+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.065+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'externalLink'
     '4': 
@@ -167,9 +167,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.837+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.233+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.601+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.065+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '5': 
@@ -179,9 +179,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.838+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.233+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.601+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.065+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '30': 
@@ -191,9 +191,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-25T17:32:12.496+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.233+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.601+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.065+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'date'
     '6': 
@@ -203,9 +203,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.838+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.233+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.601+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.065+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '7': 
@@ -215,9 +215,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.839+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.233+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.601+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.065+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '29': 
@@ -227,9 +227,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-25T17:32:12.493+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.233+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.601+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.065+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'date'
     '8': 
@@ -239,9 +239,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.839+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.234+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.601+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.065+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '9': 
@@ -251,9 +251,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.839+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.234+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.601+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.065+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '24': 
@@ -265,9 +265,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T16:18:28.768+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.234+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.601+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.065+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'image'
     '27': 
@@ -279,9 +279,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T16:18:28.769+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.234+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.602+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.065+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'image'
     '10': 
@@ -291,9 +291,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.840+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.234+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.602+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.065+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '26': 
@@ -306,9 +306,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T16:18:28.769+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.234+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.602+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.065+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'image'
     '11': 
@@ -318,9 +318,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.840+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.234+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.602+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.065+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '12': 
@@ -330,9 +330,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.841+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.235+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.602+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.915+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.065+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '32': 
@@ -342,9 +342,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-25T17:37:54.324+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.235+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.602+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.065+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'date'
     '13': 
@@ -354,9 +354,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.841+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.235+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.602+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.066+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '14': 
@@ -366,9 +366,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.842+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.235+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.602+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.066+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '35': 
@@ -378,17 +378,18 @@
       'assetmuted': true
       'assetpreload': 'auto'
       'assetsource': 'jcr:62a92d2f-0b1e-47dd-a06c-cae0769b7866'
+      'embed': '<iframe src="https://player.vimeo.com/video/228349508?autoplay=1&loop=1&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
       'scale': 'true'
-      'type': 'asset'
+      'type': 'embed'
       'videoCaption': 'Timelapse over Doldenhorn range'
       jcr:primaryType: 'mgnl:block'
       jcr:uuid: '9e54d978-a227-4ac9-8e20-c66354a7d8ef'
       mgnl:activationStatus: true
       mgnl:created: 2017-08-08T13:51:29.413+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.235+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.603+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.066+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'video'
     '15': 
@@ -398,9 +399,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.842+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.235+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.603+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.066+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '33': 
@@ -410,9 +411,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-25T17:37:54.324+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.235+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.603+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.066+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'date'
     '16': 
@@ -422,9 +423,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.843+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.236+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.603+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.066+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '20': 
@@ -434,9 +435,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T16:10:23.146+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.236+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.603+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.066+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '34': 
@@ -446,9 +447,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-25T17:37:54.324+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.236+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.603+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.066+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'date'
     '25': 
@@ -460,9 +461,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T16:18:28.769+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.236+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.603+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.066+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'image'
     '17': 
@@ -472,9 +473,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.843+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.236+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.603+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.066+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '18': 
@@ -484,9 +485,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.844+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.236+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.603+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.066+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
     '19': 
@@ -496,9 +497,9 @@
       mgnl:activationStatus: true
       mgnl:created: 2017-07-24T15:31:41.844+02:00
       mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-21T17:22:37.237+02:00
+      mgnl:lastActivated: 2017-08-23T16:39:32.603+02:00
       mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-21T15:36:11.916+02:00
+      mgnl:lastModified: 2017-08-23T16:38:35.066+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:type: 'text'
   'flying-grand-canyon-and-southwest': 
