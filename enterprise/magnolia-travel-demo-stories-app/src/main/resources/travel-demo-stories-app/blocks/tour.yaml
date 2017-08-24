@@ -1,4 +1,4 @@
-class: info.magnolia.editor.content.block.stock.FieldSetBlockDefinition
+class: info.magnolia.editor.block.stock.FieldSetBlockDefinition
 templateId: travel-demo-stories-app:blocks/tour
 icon: shape-circle
 fields:
