@@ -64,6 +64,8 @@ function setClockDateTime(parentElement, dateMark) {
     parentElement.find('.clock-day').html(day);
     var hour = dateMark.getHours() + 100;
     parentElement.find('.clock-hour').html(hour);
+    var minutes = dateMark.getMinutes() + 100;
+    parentElement.find('.clock-minutes').html(minutes);
     var month = dateMark.getMonth();
     parentElement.find('.clock-month').html(monthNames[month]);
 }

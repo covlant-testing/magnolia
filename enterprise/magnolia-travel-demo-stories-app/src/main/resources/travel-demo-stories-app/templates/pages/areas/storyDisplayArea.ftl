@@ -95,7 +95,7 @@
                             <span class="clock-month">Jan</span> <span class="clock-day odometer">17</span>
                         </div>
                         <div class="clock-time clock-text">
-                            <div class="clock-hour odometer">17</div>:00
+                            <span class="clock-hour odometer">17</span>:<span class="clock-minutes odometer">00</span>
                         </div>
                         <div class="clock-intro clock-text">
                             <div class="clock-intro-inner">
@@ -128,7 +128,7 @@
                 <span class="clock-month">Jan</span> <span class="clock-day odometer">17</span>
             </div>
             <div class="clock-time clock-text">
-                <div class="clock-hour odometer">17</div>:00
+                <span class="clock-hour odometer">17</span>:<span class="clock-minutes odometer">00</span>
             </div>
         </div>
     </figure>
