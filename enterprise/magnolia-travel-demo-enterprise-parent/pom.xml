@@ -24,8 +24,8 @@
     <personalizationVersion>1.4.3</personalizationVersion>
     <marketingTagsVersion>1.2</marketingTagsVersion>
     <multisiteVersion>1.2.1</multisiteVersion>
-    <storiesAppVersion>1.0.6-SNAPSHOT</storiesAppVersion>
-    <javascriptModelsVersion>1.0-SNAPSHOT</javascriptModelsVersion>
+    <storiesAppVersion>1.0.6</storiesAppVersion>
+    <javascriptModelsVersion>1.0</javascriptModelsVersion>
   </properties>
 
   <scm>
