@@ -9,7 +9,7 @@
   <groupId>info.magnolia.eedemo</groupId>
   <artifactId>magnolia-travel-demo-enterprise-parent</artifactId>
   <packaging>pom</packaging>
-  <version>1.1.5-SNAPSHOT</version>
+  <version>1.1.5</version>
   <name>Magnolia Travel Demo Enterprise (parent pom)</name>
   <inceptionYear>2015</inceptionYear>
   <description>Magnolia Travel is a demo project showing best practices when working with Magnolia Enterprise.</description>
@@ -32,7 +32,7 @@
     <connection>scm:git:ssh://git@git.magnolia-cms.com/MODULES/demo-projects</connection>
     <developerConnection>scm:git:ssh://git@git.magnolia-cms.com/MODULES/demo-projects</developerConnection>
     <url>https://git.magnolia-cms.com/projects/MODULES/repos/demo-projects</url>
-    <tag>HEAD</tag>
+    <tag>magnolia-demo-projects-1.1.5</tag>
   </scm>
 
   <distributionManagement>
