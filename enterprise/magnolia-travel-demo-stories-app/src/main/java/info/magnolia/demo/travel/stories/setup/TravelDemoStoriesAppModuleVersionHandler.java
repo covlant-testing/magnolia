@@ -14,9 +14,11 @@
  */
 package info.magnolia.demo.travel.stories.setup;
 
+import info.magnolia.cms.security.Permission;
 import info.magnolia.demo.travel.setup.FolderBootstrapTask;
 import info.magnolia.module.DefaultModuleVersionHandler;
 import info.magnolia.module.InstallContext;
+import info.magnolia.module.delta.AddPermissionTask;
 import info.magnolia.module.delta.ArrayDelegateTask;
 import info.magnolia.module.delta.DeltaBuilder;
 import info.magnolia.module.delta.OrderNodeBeforeTask;
@@ -33,11 +35,19 @@ public class TravelDemoStoriesAppModuleVersionHandler extends DefaultModuleVersi
 
     private final Task orderPageNodes = new ArrayDelegateTask("Move the stories page before the 'about' page", "",
             new OrderNodeBeforeTask("", "", RepositoryConstants.WEBSITE, "/travel/stories", "about"));
+    private final Task permissionsForTravelDemoPublisherToStoriesWorkspace = new AddPermissionTask("Add permissions to stories workspace for 'travel-demo-publisher' role", "travel-demo-publisher", "stories", "/", Permission.ALL, true);
+    private final Task permissionsForTravelDemoEditorToStoriesWorkspace = new AddPermissionTask("Add permissions to stories workspace for 'travel-demo-editor' role", "travel-demo-editor", "stories", "/", Permission.ALL, true);
+    private final Task denyAccessToStoriesWorkspaceForTravelDemoBase = new AddPermissionTask("Deny access to stories workspace for 'travel-demo-base' role", "travel-demo-base", "stories", "/", Permission.NONE, true);
 
     public TravelDemoStoriesAppModuleVersionHandler() {
         register(DeltaBuilder.update("1.1.5", "")
                 .addTask(new FolderBootstrapTask("/mgnl-bootstrap-samples/travel-demo-stories-app/"))
                 .addTask(orderPageNodes)
+        );
+        register(DeltaBuilder.update("1.1.6", "")
+                .addTask(permissionsForTravelDemoPublisherToStoriesWorkspace)
+                .addTask(permissionsForTravelDemoEditorToStoriesWorkspace)
+                .addTask(denyAccessToStoriesWorkspaceForTravelDemoBase)
         );
     }
 
@@ -46,6 +56,9 @@ public class TravelDemoStoriesAppModuleVersionHandler extends DefaultModuleVersi
         final List<Task> installTasks = new ArrayList<>();
 
         installTasks.add(orderPageNodes);
+        installTasks.add(permissionsForTravelDemoPublisherToStoriesWorkspace);
+        installTasks.add(permissionsForTravelDemoEditorToStoriesWorkspace);
+        installTasks.add(denyAccessToStoriesWorkspaceForTravelDemoBase);
 
         return installTasks;
     }
