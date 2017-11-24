@@ -29,3 +29,7 @@ subApps:
                 fieldEditable: false
                 identifierToPathConverter:
                   class: info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter
+permissions:
+  roles:
+    travel-demo-publisher: travel-demo-publisher
+    travel-demo-editor: travel-demo-editor
