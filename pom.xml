@@ -4,7 +4,7 @@
   <parent>
     <groupId>info.magnolia.maven.poms</groupId>
     <artifactId>magnolia-parent-pom-community</artifactId>
-    <version>33</version>
+    <version>34</version>
   </parent>
   <groupId>info.magnolia.demo</groupId>
   <artifactId>magnolia-demo-projects-reactor</artifactId>

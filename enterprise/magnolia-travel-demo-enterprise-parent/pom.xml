@@ -4,7 +4,7 @@
   <parent>
     <groupId>info.magnolia.maven.poms-enterprise</groupId>
     <artifactId>magnolia-parent-pom-enterprise</artifactId>
-    <version>33</version>
+    <version>34</version>
   </parent>
   <groupId>info.magnolia.eedemo</groupId>
   <artifactId>magnolia-travel-demo-enterprise-parent</artifactId>
