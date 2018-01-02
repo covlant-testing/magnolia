@@ -57,11 +57,8 @@
         [/#if]
     [/#list]
 
-    [#if firstTextBlock?hasContent]
-        [#assign firstText = firstTextBlock.text]
-        [#if firstText?hasContent]
-            [#assign firstTextTruncated = firstText[0..*75]!]
-        [/#if]
+    [#if firstTextBlock?hasContent && firstTextBlock.text?hasContent]
+        [#assign firstTextTruncated = firstTextBlock.text[0..*75]!]
     [/#if]
 
 
@@ -97,11 +94,13 @@
                         <div class="clock-time clock-text">
                             <span class="clock-hour odometer">17</span>:<span class="clock-minutes odometer">00</span>
                         </div>
-                        <div class="clock-intro clock-text">
-                            <div class="clock-intro-inner">
-                            ${firstTextTruncated!}...
+                        [#if firstTextTruncated?hasContent]
+                            <div class="clock-intro clock-text">
+                                <div class="clock-intro-inner">
+                                ${firstTextTruncated}...
+                                </div>
                             </div>
-                        </div>
+                        [/#if]
                     </div>
                 </figure>
             </div>
