@@ -18,12 +18,15 @@
             [/#if]
 
             <a href="${storyLink(content, story)!"#"}" class="story ${cssClass}" style="${background}">
-                <h2>${story.title}</h2>
+                <h2>${story.title!}</h2>
 
                 <div class="story-teaser">
                     <span class="triangle"><img src="${ctx.contextPath}/.resources/travel-demo-stories-app/webresources/img/icon_flight.svg" alt="${i18n['stories.page.discover']}"></span>
                     <div class="story-teaser-text">
-                        ${story.lead[0..100]}...
+                        [#assign lead = story.lead]
+                        [#if lead?hasContent]
+                            ${(lead?length>100)?then(lead[0..100]+"...",lead)}
+                        [/#if]
                     </div>
                     <div class="story-teaser-call-to-action"><span>${i18n['stories.page.read.story']}</span></div>
                 </div>
