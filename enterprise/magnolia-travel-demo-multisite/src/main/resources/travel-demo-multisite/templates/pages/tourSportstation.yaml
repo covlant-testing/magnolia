@@ -16,7 +16,7 @@ areas:
     type: list
     availableComponents:
         tourDetailSportstation:
-          id: sportstation:components/tourDetailSportstation
+          id: travel-demo-multisite:components/tourDetailSportstation
         tourDetailRelatedTours:
           id: tours:components/tourDetailRelatedTours
   footer:
