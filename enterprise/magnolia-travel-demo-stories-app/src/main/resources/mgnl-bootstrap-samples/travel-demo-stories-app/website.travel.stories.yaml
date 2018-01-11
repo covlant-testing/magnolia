@@ -35,10 +35,8 @@
     mgnl:lastActivatedBy: 'superuser'
     mgnl:lastModified: 2017-08-10T18:31:47.891+02:00
     mgnl:lastModifiedBy: 'superuser'
-    '0': 
-      'story1': '07d3a126-2882-4329-802a-357ae2e1aeeb'
-      'story2': '9ffafe31-c443-49e2-94e8-d5e1355e0037'
-      'story3': '8e9cf0ef-e4c4-4f9c-ae97-aaa6427e62ab'
+    '0':
+      storiesFolder: '2e44b1fa-44c8-4026-aa8b-15413590d826'
       jcr:primaryType: 'mgnl:component'
       jcr:uuid: '8170559e-8f82-4430-bfdb-5c164425dd63'
       mgnl:activationStatus: true

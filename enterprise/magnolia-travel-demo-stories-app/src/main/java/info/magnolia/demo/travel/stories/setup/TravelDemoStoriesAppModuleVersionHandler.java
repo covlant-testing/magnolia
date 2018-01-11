@@ -20,6 +20,7 @@ import info.magnolia.module.DefaultModuleVersionHandler;
 import info.magnolia.module.InstallContext;
 import info.magnolia.module.delta.AddPermissionTask;
 import info.magnolia.module.delta.ArrayDelegateTask;
+import info.magnolia.module.delta.BootstrapSingleResource;
 import info.magnolia.module.delta.DeltaBuilder;
 import info.magnolia.module.delta.OrderNodeBeforeTask;
 import info.magnolia.module.delta.Task;
@@ -27,6 +28,8 @@ import info.magnolia.repository.RepositoryConstants;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import javax.jcr.ImportUUIDBehavior;
 
 /**
  * Version handler for the Magnolia travel demo stories app module.
@@ -48,6 +51,9 @@ public class TravelDemoStoriesAppModuleVersionHandler extends DefaultModuleVersi
                 .addTask(permissionsForTravelDemoPublisherToStoriesWorkspace)
                 .addTask(permissionsForTravelDemoEditorToStoriesWorkspace)
                 .addTask(denyAccessToStoriesWorkspaceForTravelDemoBase)
+        );
+        register(DeltaBuilder.update("1.1.7", "")
+                .addTask(new BootstrapSingleResource("Configure storiesFolder property in storiesLead component", "", "/mgnl-bootstrap-samples/travel-demo-stories-app/website.travel.stories.yaml", "stories/main/0", ImportUUIDBehavior.IMPORT_UUID_COLLISION_REPLACE_EXISTING))
         );
     }
 

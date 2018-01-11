@@ -1,26 +1,13 @@
 form:
   tabs:
-    tabMain:
+    storiesFolderTab:
       fields:
-        story1:
+        storiesFolder:
           class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
           targetWorkspace: stories
           appName: stories
           identifierToPathConverter:
             class: info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter
-        story2:
-          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
-          targetWorkspace: stories
-          appName: stories
-          identifierToPathConverter:
-            class: info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter
-        story3:
-          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
-          targetWorkspace: stories
-          appName: stories
-          identifierToPathConverter:
-            class: info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter
-
 actions:
   commit:
     class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition

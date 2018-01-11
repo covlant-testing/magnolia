@@ -26,13 +26,16 @@
 
 [#-- Single story view (when selector is provided) --]
 [#if selector?hasContent]
-    [#assign story = cmsfn.contentByPath(getStoryFolder() + selector, getWorkspace())]
+    [#assign story = cmsfn.contentByPath(getStoriesFolder(cmsfn.parent(content, "mgnl:page")) + "/" + selector, getWorkspace())!]
 [/#if]
 
 [#-- Fall back to first story in workspace if none was selected --]
 [#if !(story?hasContent)]
-    [#assign folder = cmsfn.contentByPath(getStoryFolder(), getWorkspace())]
-    [#assign story = cmsfn.children(folder, "mgnl:composition")[0]!]
+    [#assign folder = cmsfn.contentByPath(getStoriesFolder(cmsfn.parent(content, "mgnl:page")), getWorkspace())!]
+    [#assign stories = cmsfn.children(folder, "mgnl:composition")]
+    [#if stories?hasContent]
+        [#assign story = stories[0]]
+    [/#if]
 [/#if]
 
 [#assign storiesLink = storyBackLink(content)!"#"]

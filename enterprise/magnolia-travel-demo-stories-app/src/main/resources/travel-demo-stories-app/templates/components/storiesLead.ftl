@@ -5,18 +5,13 @@
 [#include "/travel-demo-stories-app/templates/shared/functions.ftl"]
 
 
-[#macro storyLead storyId cssClass]
-    [#if storyId?hasContent]
-        [#assign story = cmsfn.contentById(storyId, getWorkspace())]
-
-        [#if story?hasContent]
-
-            [#assign background = "background-color: #efefef;"]
-            [#if story.embedimage?hasContent]
-                [#assign rendition = damfn.getRendition(story.embedimage, "original")]
-                [#assign background = "background-image: url(${rendition.link}); background-size: cover; background-position: center;"]
-            [/#if]
-
+[#macro storyLead story cssClass]
+    [#if story?hasContent]
+        [#assign background = "background-color: #efefef;"]
+        [#if story.embedimage?hasContent]
+            [#assign rendition = damfn.getRendition(story.embedimage, "original")]
+            [#assign background = "background-image: url(${rendition.link}); background-size: cover; background-position: center;"]
+        [/#if]
             <a href="${storyLink(content, story)!"#"}" class="story ${cssClass}" style="${background}">
                 <h2>${story.title!}</h2>
 
@@ -31,24 +26,56 @@
                     <div class="story-teaser-call-to-action"><span>${i18n['stories.page.read.story']}</span></div>
                 </div>
             </a>
-        [/#if]
     [#else]
         [@editorAlert i18n['stories.page.no.story.given'] /]
     [/#if]
 [/#macro]
 
+[#macro mainStory story]
+<div class="col-md-7">
+    [@storyLead story "story-main" /]
+</div>
+[/#macro]
+
+[#macro stories stories]
+    [#list stories]
+    <div class="col-md-5">
+        [#items as story]
+            [#if story?index == 0]
+            [#assign horizontal = true]
+        [#else]
+            [#assign horizontal = false]
+        [/#if]
+            [@storyLead story horizontal?then("story-horizontal", "story-vertical") /]
+        [/#items]
+    </div>
+    [/#list]
+[/#macro]
 
 [#-------------- RENDERING --------------]
 <div class="stories-header">
     <h1>${cmsfn.page(content).title!i18n['stories.page.stories']}</h1>
 </div>
 
-<div class="row">
-    <div class="col-md-7">
-        [@storyLead content.story1 "story-main" /]
+[#if content.storiesFolder?hasContent]
+    [#assign storiesInFolder = cmsfn.children(cmsfn.contentById(content.storiesFolder, getWorkspace()) , "mgnl:composition")]
+[/#if]
+
+[#assign position = "left"]
+[#if storiesInFolder?hasContent]
+    [#list storiesInFolder?chunk(3) as row]
+    <div class="row">
+        [#if position == "left"]
+            [@mainStory row[0] /]
+            [@stories row[1..*2] /]
+            [#assign position = "right"]
+        [#else]
+            [@stories row[0..*2] /]
+            [#if row[2]?hasContent]
+                [@mainStory row[2] /]
+            [/#if]
+            [#assign position = "left"]
+        [/#if]
     </div>
-    <div class="col-md-5">
-        [@storyLead content.story2 "story-horizontal" /]
-        [@storyLead content.story3 "story-vertical" /]
-    </div>
-</div>
+    [/#list]
+[/#if]
