@@ -6,30 +6,70 @@
 
 
 [#macro storyLead story cssClass]
+
     [#if story?hasContent]
         [#assign background = "background-color: #efefef;"]
-        [#if story.embedimage?hasContent]
-            [#assign rendition = damfn.getRendition(story.embedimage, "original")]
-            [#assign background = "background-image: url(${rendition.link}); background-size: cover; background-position: center;"]
-        [/#if]
-            <a href="${storyLink(content, story)!"#"}" class="story ${cssClass}" style="${background}">
-                <h2>${story.title!}</h2>
+        [#assign cssVideoOrEmbed = ""]
 
+        [#assign visualType = story.visualType!]
+        [#if visualType?hasContent]
+            [#assign embed = false]
+            [#assign video = false]
+
+            [#if visualType == "image" && story.imagesource?hasContent]
+                [#assign background = cssBackground(story.imagesource)]
+
+            [#elseIf visualType == "video" && story.videosource?hasContent]
+                [#assign video = true]
+                [#assign cssVideoOrEmbed = " video-or-embed"]
+                [#assign videoRendition = damfn.getRendition(story.videosource, "original")!]
+
+            [#elseIf visualType == "embed"]
+                [#if story.embedsource?hasContent]
+                    [#assign embed = true]
+                    [#assign cssVideoOrEmbed = " video-or-embed"]
+                [#elseIf story.embedimage?hasContent]
+                    [#assign background = cssBackground(story.embedimage)]
+                [/#if]
+            [/#if]
+            <a href="${storyLink(content, story)!"#"}" class="story ${cssClass}${cssVideoOrEmbed}" style="${background}">
+                [#if embed == true]
+                    <div class="story-video-base">
+                        <div class="responsive-wrapper-16x9 video-background">
+                            ${story.embedsource!}
+                        </div>
+                    </div>
+                [#elseIf video == true]
+                    <video autoplay loop>
+                        <source src="${videoRendition?hasContent?then(videoRendition.link!, "")}">
+                        ${i18n['stories.page.browser.not.support.video.tag']}
+                    </video>
+                [/#if]
+
+            <div class="title-wrapper">
+                <h2>${story.title!}</h2>
+            </div>
                 <div class="story-teaser">
                     <span class="triangle"><img src="${ctx.contextPath}/.resources/travel-demo-stories-app/webresources/img/icon_flight.svg" alt="${i18n['stories.page.discover']}"></span>
                     <div class="story-teaser-text">
-                        [#assign lead = story.lead]
+                        [#assign lead = story.lead!]
                         [#if lead?hasContent]
                             ${(lead?length>100)?then(lead[0..100]+"...",lead)}
                         [/#if]
+                        <div class="story-teaser-call-to-action"><span>${i18n['stories.page.read.story']}</span></div>
                     </div>
-                    <div class="story-teaser-call-to-action"><span>${i18n['stories.page.read.story']}</span></div>
                 </div>
             </a>
+            [/#if]
     [#else]
         [@editorAlert i18n['stories.page.no.story.given'] /]
     [/#if]
 [/#macro]
+
+[#function cssBackground image]
+    [#assign rendition = damfn.getRendition(image, "original")!]
+    [#return rendition?hasContent?then("background-image: url(${rendition.link!}); background-size: cover; background-position: center;", "")]
+[/#function]
 
 [#macro mainStory story]
 <div class="col-md-7">
@@ -41,12 +81,7 @@
     [#list stories]
     <div class="col-md-5">
         [#items as story]
-            [#if story?index == 0]
-            [#assign horizontal = true]
-        [#else]
-            [#assign horizontal = false]
-        [/#if]
-            [@storyLead story horizontal?then("story-horizontal", "story-vertical") /]
+            [@storyLead story "story-horizontal"/]
         [/#items]
     </div>
     [/#list]

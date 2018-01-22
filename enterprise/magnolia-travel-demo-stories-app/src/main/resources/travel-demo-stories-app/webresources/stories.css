@@ -78,8 +78,78 @@ a.story:hover {
     padding: 0.8em;
 }
 
-@media (min-width: 992px) {
-    /* nothing */
+@media only screen and (min-width: 992px) {
+
+    .story video {
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        display: block;
+    }
+
+    .story-main .title-wrapper {
+        height: 351px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .story-main.video-or-embed .title-wrapper {
+        height: 290px;
+        position: absolute;
+        top: 0;
+    }
+
+    .story-main .title-wrapper h2 {
+        padding: 0 57px;
+    }
+
+    .story-main.video-or-embed .story-teaser {
+        height: 180px;
+    }
+
+    .story-main.video-or-embed .story-teaser-call-to-action {
+        position: relative;
+        top: 65px;
+    }
+
+    .story-horizontal {
+        height: 215px;
+    }
+
+    .story-horizontal .title-wrapper {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .story-horizontal.video-or-embed .title-wrapper {
+        position: absolute;
+        top: 0;
+    }
+
+    .story-horizontal .title-wrapper h2 {
+        padding: 0px 30px;
+    }
+
+    .story-horizontal .story-teaser {
+        height: 115px;
+    }
+
+    .story-horizontal.video-or-embed .story-teaser {
+        position: relative;
+        top: -99px;
+    }
+
+    .story-horizontal .story-teaser-text {
+        font-size: 12px;
+    }
+
+    .story-horizontal .story-teaser-call-to-action {
+        position: relative;
+        top: 13px;
+    }
 }
 
 @media (min-width: 1200px) {
