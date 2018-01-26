@@ -80,6 +80,10 @@ a.story:hover {
 
 @media only screen and (min-width: 992px) {
 
+    .story-wrapper {
+        padding-top: 0;
+    }
+
     .story video {
         width: 100%;
         height: auto;
@@ -131,6 +135,7 @@ a.story:hover {
 
     .story-horizontal .title-wrapper h2 {
         padding: 0px 30px;
+        font-size: 2em;
     }
 
     .story-horizontal .story-teaser {
@@ -149,6 +154,170 @@ a.story:hover {
     .story-horizontal .story-teaser-call-to-action {
         position: relative;
         top: 13px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .stories-header h1 {
+        font-size: 9em;
+    }
+
+    .story-wrapper {
+        width:100%;
+        padding-top:80%;
+        position:relative;
+    }
+
+    .story-wrapper a.story.story-main.video-or-embed,
+    .story-wrapper a.story.story-horizontal.video-or-embed {
+        position:  absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    .story.story-main.video-or-embed .title-wrapper,
+    .story.story-horizontal.video-or-embed .title-wrapper {
+        position: absolute;
+        top: 0;
+        width:100%;
+        height:70%;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .story.story-main.video-or-embed .title-wrapper h2,
+    .story.story-horizontal.video-or-embed .title-wrapper h2{
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: 3.8em;
+    }
+
+    .story.story-main.video-or-embed .story-teaser,
+    .story.story-horizontal.video-or-embed .story-teaser {
+        width:100%;
+        height:30%;
+        position:absolute;
+        top:70%;
+    }
+
+    .story.story-main.video-or-embed .story-teaser span.triangle,
+    .story.story-horizontal.video-or-embed .story-teaser span.triangle {
+        top:-24px;
+    }
+
+    .story.story-main.video-or-embed .story-teaser .story-teaser-text,
+    .story.story-horizontal.video-or-embed .story-teaser .story-teaser-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80%;
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 564px) {
+
+    .story.story-main.video-or-embed .title-wrapper,
+    .story.story-horizontal.video-or-embed .title-wrapper {
+        height:65%;
+    }
+
+    .story.story-main.video-or-embed .title-wrapper h2,
+    .story.story-horizontal.video-or-embed .title-wrapper h2{
+        font-size: 3.4em;
+    }
+
+    .story.story-main.video-or-embed .story-teaser,
+    .story.story-horizontal.video-or-embed .story-teaser {
+        height: 35%;
+        top: 65%;
+        padding-bottom: 13px;
+    }
+
+    .story.story-main.video-or-embed .story-teaser .story-teaser-text,
+    .story.story-horizontal.video-or-embed .story-teaser .story-teaser-text {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .stories-header h1 {
+        font-size: 10em;
+    }
+
+    .story-wrapper {
+        padding-top:100%;
+    }
+
+    .story.story-main.video-or-embed .title-wrapper,
+    .story.story-horizontal.video-or-embed .title-wrapper {
+        height:60%;
+    }
+
+    .story.story-main.video-or-embed .title-wrapper h2,
+    .story.story-horizontal.video-or-embed .title-wrapper h2{
+        font-size: 3.3em;
+    }
+
+    .story.story-main.video-or-embed .story-teaser,
+    .story.story-horizontal.video-or-embed .story-teaser {
+        height: 40%;
+        top: 60%;
+        padding-bottom: 8px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .story.story-main.video-or-embed .title-wrapper,
+    .story.story-horizontal.video-or-embed .title-wrapper {
+        height:58%;
+    }
+
+    .story.story-main.video-or-embed .title-wrapper h2,
+    .story.story-horizontal.video-or-embed .title-wrapper h2{
+        font-size: 2.8em;
+    }
+
+    .story.story-main.video-or-embed .story-teaser,
+    .story.story-horizontal.video-or-embed .story-teaser {
+        height:42%;
+        top:58%;
+        padding-bottom: 10px;
+    }
+
+    .story.story-main.video-or-embed .story-teaser .story-teaser-text,
+    .story.story-horizontal.video-or-embed .story-teaser .story-teaser-text {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    .stories-header h1 {
+        font-size: 7em;
+    }
+
+    .story.story-main.video-or-embed .title-wrapper,
+    .story.story-horizontal.video-or-embed .title-wrapper {
+        height:50%;
+    }
+
+    .story.story-main.video-or-embed .title-wrapper h2,
+    .story.story-horizontal.video-or-embed .title-wrapper h2{
+        font-size: 2.2em;
+    }
+
+    .story.story-main.video-or-embed .story-teaser,
+    .story.story-horizontal.video-or-embed .story-teaser {
+        height:50%;
+        top:50%;
     }
 }
 
@@ -339,4 +508,11 @@ See: https://github.com/sapegin/jquery.mosaicflow */
     display: block;
     width: 100%;
     height: auto;
+}
+
+.story video {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: block;
 }
