@@ -135,10 +135,74 @@ h1.story-title {
     }
 }
 
-@media (max-width: 360px) {
-    h1.story-title {
-        font-size: 1.5em;
+@media (max-width: 991px) {
+
+    .peek {
+        margin-top: 20px;
     }
+
+    .external-link.has-image.row {
+        padding: 30px;
+    }
+
+    .title-badge {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .row .title-badge-wrapper .title-badge {
+        float: none;
+    }
+
+    .story-content .row-wrapper {
+        margin: 0 20px;
+        padding: 0;
+    }
+
+    .title-badge-wrapper {
+        padding: 0px;
+    }
+
+    .story-content .image-block .image-caption {
+        width: 100%;
+    }
+
+    .block .row .tour-meta {
+        padding: 0 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .tour-block.block {
+        display: block;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .btn.btn-primary.btn-lg.book-button.call-to-action {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .link-preview .peek-image {
+        padding-left: 0px;
+    }
+
+    .btn.btn-primary.btn-lg.book-button.call-to-action {
+        margin: 27px 27px 27px 13px;
+    }
+}
+
+.external-link.has-image .link-preview img {
+    max-height: 120px;
+    max-width: 120px;
 }
 
 .story-credits {
@@ -174,7 +238,8 @@ h1.story-title {
 
 .author {
     margin: 45px auto 60px auto;
-    max-width: 400px;
+    padding: 0 40px;
+    max-width: 750px;
     text-align: center;
 
     font-family: 'Caveat', cursive;
@@ -197,6 +262,7 @@ img.author-image {
 .story-lead {
     font-family: 'Spectral', serif;
     font-size: 1.2em;
+    padding: 0 20px;
 }
 
 .story-lead {
@@ -259,6 +325,7 @@ img.author-image {
     margin: 25px auto 0;
     position: relative;
     background-color: transparent;
+    padding: 0 20px;
 }
 
 .video-credit,
@@ -348,12 +415,17 @@ span.video-caption {
     color: #5a5a5a;
 }
 
+.tour-block.block .row {
+    margin: 0;
+}
+
 .tour-block .title-badge {
     width: 260px;
+    height: 260px;
     background-size: cover;
     background-position: center;
     float: left;
-    padding: 2em;
+    padding: 2em 2em 2em 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -362,7 +434,8 @@ span.video-caption {
 }
 
 .tour-block .tour-meta {
-    margin: 1em 0 1em 2.5em;
+    margin: 1em 0;
+    padding-right: 0px;
 }
 
 .tour-block .tour-meta .prop-label {
@@ -418,7 +491,7 @@ span.video-caption {
 
 .external-link.has-image p,
 .external-link.has-image h3 {
-    margin: 0 60px 10px 220px;
+    margin: 0 60px 10px 0;
 }
 
 .external-link h3 {
@@ -545,4 +618,38 @@ footer {
     background: black;
     text-align: right;
     padding: 20px;
+}
+
+.row-wrapper {
+    padding: 0 20px;
+}
+
+.peek-image {
+    margin: 0;
+}
+
+.peek-image img {
+    display: block;
+    max-width: 120px;
+    max-height: 120px;
+    margin: auto;
+}
+
+.peek {
+    padding: 0;
+}
+
+.link-preview .peek p {
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.peek.col-sm-12 h3,
+.peek.col-xs-12 h3 {
+    margin: 20px auto 15px auto;
+}
+
+.row .col-xs-12.col-sm-12.col-md-2.col-lg-2 {
+    padding: 0px;
 }

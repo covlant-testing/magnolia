@@ -32,6 +32,9 @@
                     [#assign background = cssBackground(story.embedimage)]
                 [/#if]
             [/#if]
+            [#if video || embed]
+                <div class="story-wrapper">
+            [/#if]
             <a href="${storyLink(content, story)!"#"}" class="story ${cssClass}${cssVideoOrEmbed}" style="${background}">
                 [#if embed == true]
                     <div class="story-video-base">
@@ -40,10 +43,12 @@
                         </div>
                     </div>
                 [#elseIf video == true]
+                <div class="story-video-base">
                     <video autoplay loop>
                         <source src="${videoRendition?hasContent?then(videoRendition.link!, "")}">
                         ${i18n['stories.page.browser.not.support.video.tag']}
                     </video>
+                </div>
                 [/#if]
 
             <div class="title-wrapper">
@@ -54,12 +59,17 @@
                     <div class="story-teaser-text">
                         [#assign lead = story.lead!]
                         [#if lead?hasContent]
+                        <div>
                             ${(lead?length>100)?then(lead[0..100]+"...",lead)}
+                        </div>
                         [/#if]
                         <div class="story-teaser-call-to-action"><span>${i18n['stories.page.read.story']}</span></div>
                     </div>
                 </div>
             </a>
+            [#if video || embed]
+            </div>
+            [/#if]
             [/#if]
     [#else]
         [@editorAlert i18n['stories.page.no.story.given'] /]
