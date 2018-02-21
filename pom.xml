@@ -59,6 +59,10 @@
 
   <properties>
     <scmTagPrefix>magnolia-demo-projects</scmTagPrefix>
+
+    <!-- This project is in "maintenance mode". See https://www.magnolia-cms.com/support/maintenance-policy.html for details -->
+    <distribRepoPrefix>magnolia.public.maintenance</distribRepoPrefix>
+    <nexusStagingProfileId>6617f277f4ee2</nexusStagingProfileId>
   </properties>
 
   <scm>
