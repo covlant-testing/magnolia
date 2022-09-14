@@ -1,0 +1,31 @@
+'West-Coast---Highway-101':
+  'author': 'Magnolia Travels'
+  'body_de': '<p>Stellen Sie sich vor, dass Sie auf den Spuren der Forscher, Missionare und Soldaten unterwegs sind, die Amerika zu dem gemacht haben, was es heute ist. Entdecken Sie den ber&uuml;hmten Camino Real (Die k&ouml;nigliche Stra&szlig;e), der auf dem alten Weg beruht, der die spanischen Missionen, Pueblos und Milit&auml;rposten miteinander verband.</p>
+
+<p>Wir starten in Seattle und gehen s&uuml;dw&auml;rts nach Oregon und schlie&szlig;lich nach Kalifornien, wo wir auf die Str&auml;nde des Highway 1 treffen. Die Reise wird von Geschichte und traumhafter durchdrungen sein, aber es wird auch jede Menge Zeit f&uuml;r Spa&szlig; geben, mit einigen tollen Strandaktivit&auml;ten am Ende der Reise.</p>
+
+<p>&nbsp;</p>
+'
+  'body': '<p>Imagine walking in the footsteps of the explorers, missionaries, and soldiers who made America what it is today. Discover the famous El Camino Real (The Royal Road) based on the old trail which linked the Spanish Missions, Pueblos and Presidios.</p>
+
+<p>We&#39;ll kick off in Seattle and head south into Oregon and finally to California where we&#39;ll hit the beaches on California Highway 1. The trip will be infused with history and fabulous scenery, but there&rsquo;ll be lots of time for fun, with some great beach activities at the end of the trip.</p>
+'
+  'description_de': 'Familienreisen in den USA'
+  'description': 'Family travels in USA'
+  'destination': ['ed3dcd18-78af-46df-a9e1-bc732479f2e7']
+  'duration': 7
+  'image': 'jcr:d44f783c-91ca-4b48-9533-ea4e147e13e9'
+  'location': 'Seattle, USA'
+  'name_de': 'Westküste - Highway 101'
+  'name': 'West Coast - Highway 101'
+  'tourTypes': ['17da160b-da66-4e09-9e31-5fd040880f4a']
+  jcr:primaryType: 'mgnl:content'
+  jcr:uuid: '730c8850-d638-4e91-b3fb-4041a0c59ffe'
+  mgnl:activationStatus: true
+  mgnl:comment: ''
+  mgnl:created: 2015-01-29T08:51:38.319+01:00
+  mgnl:createdBy: 'superuser'
+  mgnl:lastActivated: 2015-07-01T10:48:56.517+02:00
+  mgnl:lastActivatedBy: 'superuser'
+  mgnl:lastModified: 2015-06-18T13:40:45.700+02:00
+  mgnl:lastModifiedBy: 'superuser'

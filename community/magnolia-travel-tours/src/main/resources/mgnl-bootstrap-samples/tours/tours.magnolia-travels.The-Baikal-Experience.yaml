@@ -1,0 +1,32 @@
+'The-Baikal-Experience':
+  'author': 'Magnolia Travels'
+  'body_de': '<p>Der Baikalsee ist einer der gr&ouml;&szlig;ten und tiefsten Seen der Welt und das gr&ouml;&szlig;te S&uuml;&szlig;wasserreservoir der Welt. Der See und eine Reihe von Naturschutzgebieten bieten eine Vielzahl gro&szlig;artiger Outdoor-Aktivit&auml;ten, die vom Wandern und Trekking im zerkl&uuml;fteten Tal von Barguzin bis zu Kajakfahrten, Tauchen und Segelsport reichen. Wir probieren all diese Aktivit&auml;ten, bevor wir uns in der Bucht von Tschivirkuiskij mit ihrer hei&szlig;en Heilquelle entspannen und sibirische Kultur in Ust-Barguzin kennenlernen.</p>
+
+<p>Aber der Baikal bietet denjenigen mehr, die etwas tiefer schauen wollen. Unsere Tour f&uuml;hrt uns zur Insel Olchon, einem Zentrum f&uuml;r die in Sibirien weitverbreitete schamanische Kultur. Unsere Reise endet schlie&szlig;lich mit einem Wochenende der Meditation in Ivolginsky Datsan, dem ersten buddhistischen spirituellen Zentrum in Russland und in der Residenz des Oberhaupts der russischen Lamas. Als kulturelles und religi&ouml;ses Denkmal werden das Zentrum und seine Sch&auml;tze jetzt durch den Staat gesch&uuml;tzt.</p>
+
+<p>&nbsp;</p>
+'
+  'body': '<p>Lake Baikal is one of the biggest and deepest lakes of the world, and the largest reservoir of sweet water in the world. The lake and a collection of nature reserves offer a variety of great outdoor activities from hiking and trekking in the rugged Barguzin valley to kayaking, diving and boat trips. We&rsquo;ll sample all of these activities before relaxing in Tschivirkuiskij Bay with its healing hot spring, and getting to know Siberian culture in Ust-Barguzin.</p>
+
+<p>But the Baikal offers more to those willing to look a little deeper. Our tour will take us to Olkhon island, a center for shamanistic culture - which is widespread in Siberia. Finally our voyage concludes with a meditative weekend at Ivolginsky Datsan, the first Buddhist spiritual center in Russia, and the residence of the leader of the Russian Lamas. The center and its treasures is now protected by the state as a cultural and religious monument.</p>
+'
+  'description_de': 'Entscheiden Sie sich für die spirituellen Zentren, die staunenswerten Naturschutzgebiete - und den Omul'
+  'description': 'Go for the spiritual centers, the amazing nature reserves - and the Omul'
+  'destination': ['6cc50e28-fb0e-4e49-b3b6-728690a2e861']
+  'duration': 14
+  'image': 'jcr:951fa74b-9309-400e-8959-e86b0c46321b'
+  'isFeatured': true
+  'location': 'Irkutsk, Russia'
+  'name_de': 'Die Baikal Erfahrung'
+  'name': 'The Baikal Experience'
+  'tourTypes': ['415025c6-e4b5-4506-9384-34f428a52104','e007e401-1bf8-4658-8293-b9c743784264']
+  jcr:primaryType: 'mgnl:content'
+  jcr:uuid: '04aa6c5d-783f-4efb-b3f2-26446a741bc1'
+  mgnl:activationStatus: true
+  mgnl:comment: ''
+  mgnl:created: 2015-06-02T16:47:25.117+02:00
+  mgnl:createdBy: 'superuser'
+  mgnl:lastActivated: 2015-07-01T10:50:12.399+02:00
+  mgnl:lastActivatedBy: 'superuser'
+  mgnl:lastModified: 2015-06-18T13:49:08.143+02:00
+  mgnl:lastModifiedBy: 'superuser'

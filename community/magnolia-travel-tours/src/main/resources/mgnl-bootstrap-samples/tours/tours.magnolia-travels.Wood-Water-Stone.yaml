@@ -1,0 +1,37 @@
+'Wood-Water-Stone':
+  'author': 'Magnolia Travels'
+  'body_de': '<p>Wir f&uuml;hren Sie in die weite Welt der urspr&uuml;nglichen Elemente f&uuml;hren, weitab vom Trubel der modernen Welt und den Sorgen Ihres t&auml;glichen Lebens. Seien sie darauf vorbereitet: die Perspektive, die Sie aus dieser Reise gewinnen, kann f&uuml;r immer Ihre Sicht der Welt ver&auml;ndern.<br />
+&nbsp;<br />
+Wir verbringen 5 Tage mit Wandern auf dem Juan de Fuca Marine-Trail, der direkt an der Pazifikk&uuml;ste der Inseln liegt. Auf dieser Route wechseln sich mit Treibholz &uuml;bers&auml;te Kieselstr&auml;nde mit Ausfl&uuml;gen in den K&uuml;stenregenwald epischen Alters ab. Sehr gro&szlig;e, sehr alte B&auml;ume sind der Fixpunkt f&uuml;r ein Wald-&Ouml;kosystem riesiger Farne und Moosarten. Ein Meer von Gr&uuml;n - und alles lebt. Fr&uuml;here Teilnehmer haben &uuml;ber das Gef&uuml;hl berichtet, sich in einem anderen Lebewesen zu bewegen; die Forschung hat nachgewiesen, dass diese Regenw&auml;lder tats&auml;chlich ihre eigene Umwelt einschlie&szlig;lich der Temperatur regulieren. Sie w&auml;ren nicht der Erste, der an die Werke von Tolkien oder andere Fantasiewelten erinnert wird. Wir tragen unsere Behausung auf dem R&uuml;cken geschnallt mit uns zelten nachts an den Str&auml;nden mit einem atemberaubenden Blick auf den Ozean und die zerkl&uuml;fteten Olympischen Berge jenseits der Meerenge.</p>
+
+<p>Am sechsten Tag macht Billy seine &uuml;bliche dramatische Wasserung mit seinem De Havilland DHC-6 Twin Otter Wasserflugzeug. Auf dem Flug nach Ha&#39;thayim auf der Insel Cortes, wo unsere Kajaks auf uns warten, bekommen Sie einen &Uuml;berblick &uuml;ber die Inselgruppe. Wir brechen dann f&uuml;r 6 Tage Paddeln im Meer und Camping auf und schl&auml;ngeln uns durch die wilden Inseln zur Stadt Campbell River durch. Wir k&ouml;nnen dasvon ausgehen, einige neugierige Robben als Ruderbegleiter zu haben; auf einigen Touren wurden wir sogar von Besuchen der einheimischen Killerwalherden beehrt.</p>
+
+<p>Wir werden Ihren Kulturschock nach der R&uuml;ckkehr in die Zivilisation mit einem letzten gemeinsamem Wochenende in Victoria, der Hauptstadt von British Columbia, mildern. M&ouml;chte jemand Tee und Kuchen?</p>
+'
+  'body': '<p>We&rsquo;ll take you to an expansive world of the raw elements - far from the bustle of the modern world and cares of your daily life. Be prepared, the perspective you gain from this trip may change the way you see the world forever.</p>
+
+<p>We&rsquo;ll spend five days hiking the Juan de Fuca Marine Trail situated directly on the islands pacific coast. This trail alternates between pebble beaches strewn with driftwood and excursions into the epic old-growth coastal rainforest. Very big, very old trees are the anchor for a forest ecosystem of giant ferns and moss. It&#39;s a sea of green - and everything is alive. Previous participants have reported the sensation of actually walking inside another living being - and research has shown that these rainforests do indeed regulate their own environment - including temperature. You wouldn&#39;t be the first to be reminded of the the works of Tolkien or other <a href="https://www.google.de/search?tbm=isch&amp;q=dagobah" target="_blank">fantasy worlds</a>. We&rsquo;ll carry our accommodation strapped to our backs and camp nightly on the beaches with a breathtaking view of the ocean and the rugged Olympic mountains across the straights.</p>
+
+<p>On day 6 Billy will make his usual dramatic splashdown in his de Havilland DHC-6 Twin Otter seaplane. &nbsp;You&rsquo;ll have an overview of the archipelago on the flight over to Ha&#39;thayim on Cortes island where our kayaks will be waiting. We&rsquo;ll embark for 6 days of sea paddling and camping, threading through the wild islands to the town of Campbell River. We can expect to have some curious seals as paddling companions - and on a few trips we&rsquo;ve been blessed with visits by the local Orca whale pods.</p>
+
+<p>We&rsquo;ll cushion your culture shock upon returning to civilization with a last weekend together in Victoria, capital of British Columbia. High tea and crumpets anyone?</p>
+'
+  'description_de': 'Tauchen Sie in die raue Wildnis der gemäßigten Regenwälder und Inselgruppen des Pazifischen Nordwestens ein'
+  'description': 'Immerse yourself in the rugged wilderness of the Pacific Northwest temperate rainforest and island archipelagos'
+  'destination': ['ed3dcd18-78af-46df-a9e1-bc732479f2e7']
+  'duration': 14
+  'image': 'jcr:b0a55c58-e258-4783-bc81-2613cdfd65be'
+  'location': 'Vancouver, Canada'
+  'name_de': 'Wald Wasser Stein'
+  'name': 'Wood Water Stone'
+  'tourTypes': ['eaf9a648-fae1-48ae-a293-69bed874f159','d2245867-ecaa-4b4e-8743-e0c939be68b7']
+  jcr:primaryType: 'mgnl:content'
+  jcr:uuid: '4d48dd38-208c-4db3-a033-981735d968fa'
+  mgnl:activationStatus: true
+  mgnl:comment: ''
+  mgnl:created: 2015-06-02T22:13:46.223+02:00
+  mgnl:createdBy: 'superuser'
+  mgnl:lastActivated: 2015-07-01T10:49:17.049+02:00
+  mgnl:lastActivatedBy: 'superuser'
+  mgnl:lastModified: 2015-06-18T14:03:58.966+02:00
+  mgnl:lastModifiedBy: 'superuser'

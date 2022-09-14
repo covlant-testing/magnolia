@@ -1,0 +1,33 @@
+'Antarctic-Active-Adventure':
+  'author': 'Magnolia Travels'
+  'body_de': '<p>&Uuml;bernachten Sie im Zelt, unternehmen Sie Kajaktouren und Wanderungen mit Schneeschuhen (mit einem erfahrenen F&uuml;hrer!) durch die abgelegene Wildnis der Antarktis. Sie k&ouml;nnen Robben und Pinguine ganz aus der N&auml;he sehen und majest&auml;tische Eisberge direkt neben Ihnen. Wir benutzen die kleinsten Expeditionsboote, damit wir Sie sogar zu den entlegensten Orten bringen k&ouml;nnen.</p>
+
+<p>Wir treffen dabei auf die Vulkanberge von Ross Island und lassen unsere Tour auf der McMurdo-Station, der gr&ouml;&szlig;ten Forschungsbasis der Antarktis, ausklingen.</p>
+
+<p>Warten Sie ab, bis Sie Ihren Freunden aus Ihrem Sommerurlaub berichten.</p>
+'
+  'body': '<p>Try out overnight camping, kayak trips, and hiking with snowshoes (with an experienced guide!) through the remote wilderness of the Antarctic. You&rsquo;ll see seals and penguins at a close distance, and majestic icebergs right beside you. We use the smallest expedition boats so we can get you to even the most remote places.</p>
+
+<p>We&rsquo;ll hit the volcanic mountains of Ross Island and wind up our tour at McMurdo station, Antarctica&rsquo;s largest research base.</p>
+
+<p>Just wait till you you tell your friends about your summer holiday.</p>
+'
+  'description_de': 'Antarktika: Nicht mehr nur für Wissenschaftler'
+  'description': 'Antarctica: It’s not just for scientists anymore'
+  'destination': ['ee483660-15cd-490d-b709-884b3f130286']
+  'duration': 14
+  'image': 'jcr:00235c15-98bb-43b8-8e96-f4d8e0b622d6'
+  'location': 'Ushuia, Argentina'
+  'name_de': 'Aktiv Abenteuer in der Antarktis'
+  'name': 'Antarctic Active Adventure'
+  'tourTypes': ['eaf9a648-fae1-48ae-a293-69bed874f159','d2245867-ecaa-4b4e-8743-e0c939be68b7']
+  jcr:primaryType: 'mgnl:content'
+  jcr:uuid: 'd1010f83-fe84-4880-bfa7-3892cc839359'
+  mgnl:activationStatus: true
+  mgnl:comment: ''
+  mgnl:created: 2015-06-02T17:08:58.458+02:00
+  mgnl:createdBy: 'superuser'
+  mgnl:lastActivated: 2015-07-01T10:49:59.929+02:00
+  mgnl:lastActivatedBy: 'superuser'
+  mgnl:lastModified: 2015-06-18T13:52:38.710+02:00
+  mgnl:lastModifiedBy: 'superuser'

@@ -1,0 +1,29 @@
+'The-other-side-of-Iran':
+  'author': 'Magnolia Travels'
+  'body_de': '<p>Diese faszinierende zehnt&auml;gige Tour beginnt im antiken Shiraz, in der N&auml;he des Persischen Golfs. W&auml;hrend Sie die lokalen M&auml;rkte, Moscheen und G&auml;rten besuchen, stellen Sie fest, dass Sie ganz von Geschichte umgeben sind. Der Besucher ist bezaubert von der warmherzigen Begr&uuml;&szlig;ung durch die Iraner, die den Anblick von Touristen noch nicht gewohnt sind. Shiraz ist ein gro&szlig;artiger Ort f&uuml;r den Kauf von Perserteppichen oder handgefertigten Bettdecken und Tischdecken. Etwas au&szlig;erhalb von Shiraz haben Sie Gelegenheit, die gro&szlig;artigen Ruinen von Persepolis zu besuchen, ein erstaunliches Testament f&uuml;r Darius I, der die Stadt in 518 v. Chr.errichtet hat. Ihr erfahrener Fremdenf&uuml;hrer wird Ihnen ein wirkliches Verst&auml;ndnis dieses architektonisches Wunders vermitteln.</p>
+
+<p>Zu Ihrer Reise geh&ouml;ren auch ein paar Tage sind in der faszinierenden Stadt Isfahan, einer der gr&ouml;&szlig;ten St&auml;dte der Welt. Der <a href="http://en.wikipedia.org/wiki/Naghsh-e_Jahan_Square" target="_blank">Naghsh-e Jahan Platz</a> in Isfahan ist einer der <a href="http://en.wikipedia.org/wiki/List_of_city_squares_by_size" target="_blank">gr&ouml;&szlig;ten Stadt- Pl&auml;tze der Welt </a>und ein hervorragendes Beispiel iranischer und islamischer Architektur. Er wurde von der UNESCO zum <a href="http://en.wikipedia.org/wiki/World_Heritage_Site" target="_blank">Weltkulturerbe</a> erkl&auml;rt.</p>
+'
+  'body': '<p>This fascinating 10 day tour starts in ancient Shiraz, close to the Persian Gulf. You&rsquo;ll find that history is all around you as you visit local markets, mosques and gardens. Visitors are charmed by the warm welcome they receive from Iranians, who are still not used to seeing tourists. It&rsquo;s a great place to pick up Persian rugs or hand-made bedspreads and tablecloths. Just outside Shiraz, you&rsquo;ll have the chance to visit magnificent ruins of Persepolis, an amazing testament to Darius I, who built the city in 518 BC. Your experienced tour guide will give you a real understanding of this architectural wonder.</p>
+
+<p>Your trip will also include some days in the fascinating city of Isfahan, one of the largest cities in the world. The <a href="http://en.wikipedia.org/wiki/Naghsh-e_Jahan_Square" style="text-decoration:none;" target="_blank">Naghsh-e Jahan Square</a> in Isfahan is one of the <a href="http://en.wikipedia.org/wiki/List_of_city_squares_by_size" style="text-decoration:none;" target="_blank">largest city squares</a> in the world and is an outstanding example of Iranian and Islamic architecture. It has been designated by UNESCO as a <a href="http://en.wikipedia.org/wiki/World_Heritage_Site" style="text-decoration:none;" target="_blank">World Heritage Site</a>.</p>
+'
+  'description_de': 'Das persische Reich damals und heute'
+  'description': 'The Persian empire then and now'
+  'destination': ['79da73f7-900b-4c91-b58b-3b1355485519']
+  'duration': 21
+  'image': 'jcr:f6b154d7-731d-4de9-83be-a526dab5815f'
+  'location': 'Tehran, Iran'
+  'name_de': 'Iran einmal anders'
+  'name': 'The other side of Iran'
+  'tourTypes': ['e007e401-1bf8-4658-8293-b9c743784264']
+  jcr:primaryType: 'mgnl:content'
+  jcr:uuid: '2f46b23c-b8d6-40ff-8660-b0f10821911e'
+  mgnl:activationStatus: true
+  mgnl:comment: ''
+  mgnl:created: 2015-06-02T16:59:32.725+02:00
+  mgnl:createdBy: 'superuser'
+  mgnl:lastActivated: 2015-07-01T10:50:02.470+02:00
+  mgnl:lastActivatedBy: 'superuser'
+  mgnl:lastModified: 2015-06-18T13:52:06.539+02:00
+  mgnl:lastModifiedBy: 'superuser'

@@ -1,0 +1,29 @@
+'Kyoto':
+  'author': 'Magnolia Travels'
+  'body_de': '<p>Erleben Sie die Sch&ouml;nheit, die Kyoto durchdringt und umgibt. Kyoto ist ber&uuml;hmt f&uuml;r viele Dinge, darunter unz&auml;hlige <a href="http://www.japan-guide.com/e/e2058.html" target="_blank">Tempel</a>, <a href="http://www.japan-guide.com/e/e2059.html" target="_blank">Schreine</a> und andere faszinierende historische Bauwerke.</p>
+
+<p>Kommen Sie mit uns auf einen Besuch der Stadt der zehntausend Schreine. Wir besuchen To-ji, Ginkaku-ji, Kōzan-ji und ihre bemerkenswerten G&auml;rten, bevor wir einen Abstecher zu den Bergen in der Umgebung der Stadt machen. Sie werden es genie&szlig;en, einen Tag im gr&uuml;nen Miyama und einen Tag mit Wandern in Shizuhara zu verbringen. Sie werden nie wieder wie bisher &uuml;ber Japan denken.</p>
+'
+  'body': '<p>Experience the still beauty that permeates and surrounds Kyoto. Kyoto is famous for many things, including countless <a href="http://www.japan-guide.com/e/e2058.html" style="text-decoration:none;" target="_blank"><u>temples</u></a>, <a href="http://www.japan-guide.com/e/e2059.html" style="text-decoration:none;" target="_blank"><u>shrines</u></a> and other fascinating historical buildings.</p>
+
+<p>Join us on a visit to the City of Ten Thousand Shrines. We&#39;ll visit Tō-ji, Ginkaku-ji, Kōzan-ji and their remarkable gardens before venturing into the mountains that surround the city. You&rsquo;ll enjoy a day spent in green Miyama and a day hiking in Shizuhara. You&rsquo;ll never think about Japan in the same way again.</p>
+'
+  'description_de': 'Die natürliche Seite Japans'
+  'description': 'The natural side of Japan'
+  'destination': ['7ec72c48-c33f-418e-b2ff-44cfb4bbb1f2']
+  'duration': 7
+  'image': 'jcr:44689d29-5966-4d41-8fd4-2dc7da783528'
+  'location': 'Kyoto, Japan'
+  'name_de': 'Kyoto'
+  'name': 'Kyoto'
+  'tourTypes': ['d2245867-ecaa-4b4e-8743-e0c939be68b7','415025c6-e4b5-4506-9384-34f428a52104']
+  jcr:primaryType: 'mgnl:content'
+  jcr:uuid: 'b475f27e-2929-427b-9517-815118a3b36e'
+  mgnl:activationStatus: true
+  mgnl:comment: ''
+  mgnl:created: 2015-01-29T08:46:15.575+01:00
+  mgnl:createdBy: 'superuser'
+  mgnl:lastActivated: 2015-07-01T10:50:17.131+02:00
+  mgnl:lastActivatedBy: 'superuser'
+  mgnl:lastModified: 2015-06-18T13:43:00.574+02:00
+  mgnl:lastModifiedBy: 'superuser'

@@ -1,0 +1,29 @@
+'France-for-Families':
+  'author': 'Magnolia Travels'
+  'body_de': '<p>Frankreich ist das beliebteste Touristenziel der Welt, und das ist keine &Uuml;berraschung. Paris gelingt es immer wieder, die Besucher mit seiner magischen Atmosph&auml;re, romantischen Schiffsreisen und atemberaubenden Architektur zu begeistern. Magnolia Travels bringt Ihnen die Magie Frankreichs, f&uuml;hrt Sie aber auch abseits der &uuml;blichen touristischen Pl&auml;tze, um echtes franz&ouml;sisches Leben kennenzulernen. Ihre Tour beginnt mit einem Ausflug hinauf zum Eiffelturm - Sie m&uuml;ssen das einfach machen! Aber dann bringen wir Sie zu einem Aufenthalt nach Provins, einer sch&ouml;nen mittelalterlichen Stadt, nur eine Stunde von Paris entfernt. Wir f&uuml;hren Sie fernab des Trubels in einige authentische franz&ouml;sische Caf&eacute;s und Restaurants. Es besteht auch die M&ouml;glichkeit eines Tagesausflugs zum Disneyland Paris f&uuml;r kleine (und gro&szlig;e) Kinder, die nicht widerstehen k&ouml;nnen.</p>
+
+<p>Frankreich f&uuml;r Familien bietet viele wundervolle Optionen, die hinzugef&uuml;gt werden k&ouml;nnen, unter anderem eine Woche Kreuzfahrt auf der Dordogne, Reiten in der Normandie, Burgen und Str&auml;nde der Vend&eacute;e.</p>
+'
+  'body': '<p>France is the most popular tourist destination in the world, and it&rsquo;s no surprise. Paris never fails to delight visitors with its magical atmosphere, romantic cruises and breathtaking architecture. Magnolia Travels brings you the magic of France, but takes you away from the usual touristic places to experience real French life too. You&rsquo;ll start your tour with a trip up the Eiffel Tower - you simply have to do it! But then we take you to stay in Provins, a beautiful medieval town only one hour from Paris. We&rsquo;ll take you to some authentic French caf&eacute;s and restaurants, away from the hustle and bustle. There&rsquo;s also an optional day trip to Disneyland Paris for little (and big) kids who can&rsquo;t resist.</p>
+
+<p>France for families offers many wonderful add on options, including: a week cruising on the Dordogne, horseriding in Normandy, castles and beaches of La Vend&eacute;e.</p>
+'
+  'description_de': 'Entdecken Sie das meistbesuchte Land der Welt'
+  'description': 'Discover why its world’s most visited country'
+  'destination': ['6cc50e28-fb0e-4e49-b3b6-728690a2e861']
+  'duration': 14
+  'image': 'jcr:090eb9c4-b35b-4869-a12f-6ea80292cba4'
+  'location': 'Paris, France'
+  'name_de': 'Frankreich für Familien'
+  'name': 'France for Families'
+  'tourTypes': ['17da160b-da66-4e09-9e31-5fd040880f4a']
+  jcr:primaryType: 'mgnl:content'
+  jcr:uuid: '3f4e050b-17bc-4ae2-ae50-a114d536168f'
+  mgnl:activationStatus: true
+  mgnl:comment: ''
+  mgnl:created: 2015-06-02T22:06:34.488+02:00
+  mgnl:createdBy: 'superuser'
+  mgnl:lastActivated: 2015-07-01T10:49:19.716+02:00
+  mgnl:lastActivatedBy: 'superuser'
+  mgnl:lastModified: 2015-06-18T14:03:07.922+02:00
+  mgnl:lastModifiedBy: 'superuser'

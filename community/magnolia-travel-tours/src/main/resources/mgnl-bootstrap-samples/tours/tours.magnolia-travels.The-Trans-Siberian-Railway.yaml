@@ -1,0 +1,25 @@
+'The-Trans-Siberian-Railway':
+  'author': 'Magnolia Travels'
+  'body_de': '<p>Gehen Sie auf eine epische Zugfahrt, die &uuml;ber ein Drittel der Welt verl&auml;uft, in Vladivostok, Russlands gr&ouml;&szlig;ter Hafenstadt, beginnt und im majest&auml;tischen Moskau endet. Die legend&auml;re Transsibirische Eisenbahn verl&auml;uft von der mongolischen Steppe zu den fernen Ufern des Baikalsees und zu den schneebedeckten Bergen des Urals; sie gibt Ihnen einen seltenen Einblick in die so unterschiedlichen Landschaften Russlands. Im Komfort Ihres Luxus-Zuges erfahren Sie mehr &uuml;ber die russische Geschichte von den Mongolen bis zu den Zaren und Kommunisten.</p>
+'
+  'body': '<p>Set out on an epic train journey that goes across one-third of the world, starting in Vladivostok, Russia&rsquo;s biggest port city, &nbsp;and ending in majestic Moscow. The legendary Trans-Siberian Railway goes from the Mongolian steppe to Lake Baikal&rsquo;s remote shores to the snow-capped Ural Mountains, giving you a rare view on Russia&rsquo;s vastly differing landscapes. You&rsquo;ll be able to find out more about Russian history, from the Mongols right through to Tsars and communists, all from the comfort of your luxury train.</p>
+'
+  'description_de': 'Faszinierende Reise durch Russland'
+  'description': 'A fascinating tour through Russia.'
+  'destination': ['6cc50e28-fb0e-4e49-b3b6-728690a2e861']
+  'duration': 21
+  'image': 'jcr:5d3a5a2c-dec2-4ac6-915f-0a487aaecf7f'
+  'location': 'Vladivostok, Russia'
+  'name_de': 'Die Trans-Sibirische Eisenbahn'
+  'name': 'The Trans-Siberian Railway'
+  'tourTypes': ['e007e401-1bf8-4658-8293-b9c743784264']
+  jcr:primaryType: 'mgnl:content'
+  jcr:uuid: '56df12f0-e463-4467-9956-cebc7522b3a0'
+  mgnl:activationStatus: true
+  mgnl:comment: ''
+  mgnl:created: 2015-06-02T16:37:54.135+02:00
+  mgnl:createdBy: 'superuser'
+  mgnl:lastActivated: 2015-07-01T10:50:43.390+02:00
+  mgnl:lastActivatedBy: 'superuser'
+  mgnl:lastModified: 2015-06-18T13:48:14.837+02:00
+  mgnl:lastModifiedBy: 'superuser'

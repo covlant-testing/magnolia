@@ -1,0 +1,31 @@
+'Jordan-s-Pearls':
+  'author': 'Magnolia Travels'
+  'body_de': '<p>Diese Reise gibt Ihnen einen tiefen Einblick in den Nahen Osten und l&auml;sst Sie nicht nur sein reiches und antikes Erbe erleben, sondern gibt Ihnen auch einen Einblick in das allt&auml;gliche Leben. Die Reise beginnt mit dem Flug nach Amman, der Hauptstadt Jordaniens. Wir bringen Sie etwas au&szlig;erhalb der Stadt zu der zum UNESCO-Weltkulturerbe geh&ouml;renden St&auml;tte von Petra, einer antiken Stadt, die von Nabat&auml;ern in den roten Fels gemei&szlig;elt wurde. Sie ist eine der wichtigsten arch&auml;ologischen St&auml;tten der Welt.</p>
+
+<p>Von dort aus fahren wir auf der Stra&szlig;e nach Jerash, das oft das &quot;Pompeii des Ostens&quot; genannt wurde. Die antiken r&ouml;mischen Ruinen in Jerash sind ber&uuml;hmt f&uuml;r ihren bemerkenswerten Erhaltungszustand.</p>
+'
+  'body': '<p>This trip will give you a deep insight into the Middle East, allowing you to not only experience its rich and ancient heritage, but also to get a glimpse into daily life. The trip starts by flying into Amman, capital of Jordan. Shortly outside the city, we&rsquo;ll take you to visit the breath-taking UNESCO world heritage site of Petra, an ancient city carved into the red rock by Nabateans. It is one of the world&rsquo;s most important archaeological sites.</p>
+
+<p>From there, we&rsquo;ll go by road to Jerash, often called the &lsquo;Pompeii of the East&rsquo;. The ancient Roman ruins at Jerash are famous for their remarkable state of preservation.</p>
+'
+  'description_de': 'Die Suche nach den Kreuzwegen der Zivilisationen'
+  'description': 'Seeking the crossroads of civilisations
+'
+  'destination': ['79da73f7-900b-4c91-b58b-3b1355485519']
+  'duration': 7
+  'image': 'jcr:2b51aaf3-dc5a-4012-89e5-d3b3dd6c08cb'
+  'isFeatured': false
+  'location': 'Amman, Jordan'
+  'name_de': 'Die Perlen Jordaniens'
+  'name': 'Jordan’s Pearls'
+  'tourTypes': ['e007e401-1bf8-4658-8293-b9c743784264']
+  jcr:primaryType: 'mgnl:content'
+  jcr:uuid: '3351f7b2-e67b-4dbd-a6c6-7394eaf86d36'
+  mgnl:activationStatus: true
+  mgnl:comment: ''
+  mgnl:created: 2015-06-02T17:40:02.004+02:00
+  mgnl:createdBy: 'superuser'
+  mgnl:lastActivated: 2015-07-01T10:49:45.951+02:00
+  mgnl:lastActivatedBy: 'superuser'
+  mgnl:lastModified: 2015-06-18T13:55:23.431+02:00
+  mgnl:lastModifiedBy: 'superuser'

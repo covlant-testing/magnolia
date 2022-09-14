@@ -1,0 +1,29 @@
+'Dubai-and-Oman':
+  'author': 'Magnolia Travels'
+  'body_de': '<p>Diese einzigartige Reise bringt Ihnen einige wirkliche Einblicke in das Leben auf der arabischen Halbinsel, gibt Ihnen aber auch genug Zeit, die Sonne zu genie&szlig;en. Sie beginnen Ihre Reise im altert&uuml;mlichen Oman, wo das Leben fast genauso seinen Gang geht wie schon viele Jahrhunderte zuvor. Sie besuchen den faszinierenden Souk von Maskat, um dort um handgefertigtes Silberzeug und T&ouml;pfe zu feilschen. Danach k&ouml;nnen Sie einen Spaziergang entlang des belebten Hafens unternehmen und einige der verwinkelten Gassen der Stadt besuchen. Runden Sie den Tag ab und entspannen Sie sich in einem Liegestuhl im Grand Hyatt, von dem aus Sie Blick auf den Strand von Oman haben.</p>
+
+<p>In Dubai besuchen wir einige der Wunder der Stadt wie Burj al Khalifa, das h&ouml;chste Geb&auml;ude der Welt, und den Dubai Mall, das gr&ouml;&szlig;te Einkaufszentrum Welt mit seinem herrlichen Aquarium. Aber nach all dem Sightseeing gibt es nichts Besseres als Entspannung am Strand des luxuri&ouml;sen Atlantis Hotel auf der Palm Jumeirah, eine vom Menschenhand geschaffene Insel in Form einer Palme. Magnolia Travels wird daf&uuml;r sorgen, das dies ein Urlaub ist, den Sie nie vergessen werden!</p>
+'
+  'body': '<p>This unique trip will give you some real insights into life in the Arabian Peninsula, while also allowing you plenty of time to soak up the sun. You&rsquo;ll start your trip in ancient Oman, where life still goes on much the way it did centuries ago. You&rsquo;ll be able to visit Muscat&rsquo;s fascinating souk to haggle for some handmade silver and pots. Then you can take a stroll along the lively harbour and visit some of the city&rsquo;s winding lanes. Round out the day relaxing on a beach chair at the Grand Hyatt, overlooking the Beach of Oman.</p>
+
+<p>In Dubai, we&rsquo;ll visit some of the city&rsquo;s wonders, like Burj al Khalifa, the tallest building in the world, and Dubai Mall, the biggest shopping mall in the world, with its magnificent aquarium. But after all the sightseeing, there&rsquo;s nothing better than relaxing at the beach at the luxury Atlantis Hotel, located on the Palm Jumeirah, a man-made palm shaped island. Magnolia Travels will make sure this is a holiday you never forget!</p>
+'
+  'description_de': 'Ein unvergessliches Erlebnis im Arabischen Golf'
+  'description': 'An unforgettable experience in the Arabian Gulf'
+  'destination': ['79da73f7-900b-4c91-b58b-3b1355485519']
+  'duration': 7
+  'image': 'jcr:7eeb9a4f-72ef-43f4-a392-5c1916b31e3a'
+  'location': 'Muscat, Oman'
+  'name_de': 'Dubai und Oman'
+  'name': 'Dubai and Oman'
+  'tourTypes': ['e007e401-1bf8-4658-8293-b9c743784264']
+  jcr:primaryType: 'mgnl:content'
+  jcr:uuid: '5007ccb4-0332-4a20-aef7-bf8155ab9340'
+  mgnl:activationStatus: true
+  mgnl:comment: ''
+  mgnl:created: 2015-06-02T17:37:18.504+02:00
+  mgnl:createdBy: 'superuser'
+  mgnl:lastActivated: 2015-07-01T10:49:49.071+02:00
+  mgnl:lastActivatedBy: 'superuser'
+  mgnl:lastModified: 2015-06-18T13:54:35.396+02:00
+  mgnl:lastModifiedBy: 'superuser'

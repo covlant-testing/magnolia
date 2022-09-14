@@ -1,0 +1,31 @@
+'Lapland-for-Families':
+  'author': 'Magnolia Travels'
+  'body_de': '<p>Genie&szlig;en Sie ein Winterabenteuer f&uuml;r Familien in Lappland. Schlittenfahren, Husky-Schlittenfahren und Eislaufen, all dies ist im Angebot. Wir leihen Ihnen Schlitten zum Rodeln f&uuml;r die sanften H&uuml;gel direkt vor Ihrer H&uuml;tte. Wenn sie etwas Wagemutigeres suchen, sollten Sie bei unseren &bdquo;crazy slope&ldquo; Tagen mitmachen. Kinder werden die Gelegenheit lieben, ihre eigenen Schlitten zu fahren; Schneeb&auml;lle und Schneem&auml;nner sind zu jeder Tageszeit m&ouml;glich. Au&szlig;erdem haben Sie die M&ouml;glichkeit, die spektakul&auml;ren Nordlichter zu erleben.</p>
+
+<p>Zur Weihnachtszeit k&ouml;nnen die Kinder an Besuchen beim Weihnachtsmann in seiner ber&uuml;hmten H&ouml;hle teilnehmen; nach einer einmaligen Fahrt mit einem Snowmobil werden sie sehen, wo der Weihnachtsmann all sein Gesch&auml;fte mit dem Spielzeug betreibt.</p>
+'
+  'body': '<p>Enjoy a family winter adventure in Lapland, Sweden where sledding, husky sledding and ice skating are all on the menu. We lend you toboggans for sledding, and there are gentle hills right outside your cabin. For something more adventurous, join our &lsquo;crazy slope&rsquo; days out. Children will love the chance to drive their own sled, and snowballs and snowmen are possible any time of the day. You&rsquo;ll also get the chance to experience the spectacular Northern Lights.</p>
+
+<p><br />
+At Christmas time, children can also join visits to Santa and his famous grotto, going on a unique snowmobile journey to see where Santa manages all his toy operations.</p>
+'
+  'description_de': 'Ihr eigenes Polarkreis-Abenteuer'
+  'description': 'Your own Arctic Circle adventure'
+  'destination': ['ee483660-15cd-490d-b709-884b3f130286']
+  'duration': 7
+  'image': 'jcr:71b9a58b-3c78-41bd-9fe4-17ce0f3b5dd4'
+  'isFeatured': true
+  'location': 'Kittilä, Finland'
+  'name_de': 'Lappland für Familien'
+  'name': 'Lapland for Families'
+  'tourTypes': ['415025c6-e4b5-4506-9384-34f428a52104','17da160b-da66-4e09-9e31-5fd040880f4a']
+  jcr:primaryType: 'mgnl:content'
+  jcr:uuid: '705051cb-c0c3-43b2-b5fa-c571b5d5d2d4'
+  mgnl:activationStatus: true
+  mgnl:comment: ''
+  mgnl:created: 2015-06-02T22:02:48.285+02:00
+  mgnl:createdBy: 'superuser'
+  mgnl:lastActivated: 2015-07-01T10:49:22.357+02:00
+  mgnl:lastActivatedBy: 'superuser'
+  mgnl:lastModified: 2015-06-18T14:02:30.650+02:00
+  mgnl:lastModifiedBy: 'superuser'

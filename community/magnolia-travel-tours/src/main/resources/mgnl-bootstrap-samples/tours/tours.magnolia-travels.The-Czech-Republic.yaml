@@ -1,0 +1,36 @@
+'The-Czech-Republic':
+  'author': 'Magnolia Travels'
+  'body_de': '<p>Trotz der Tatsache, dass die Hauptstadt den meisten europ&auml;ischen Konflikten ausgesetzt war, hat sie noch die beeindruckende Architektur bewahrt, die jedes Jahr Millionen von Besuchern anzieht. Prag ist mit seinen romanischen Kirchen, gotischen Kathedralen und Barockpal&auml;sten. die unbestrittene K&ouml;nigin der Region. Die Sch&ouml;nheit der Stadt wird durch die pittoreske Moldau weiter akzentuiert; der Flu&szlig; wird von drei&szlig;ig Br&uuml;cken &uuml;berspannt; Dutzende Dampfer, Ruderboote und Tretboote verkehren t&auml;glich auf ihm.</p>
+
+<p>Wir befassen uns auch mit der j&uuml;ngeren Geschichte; Sie k&ouml;nnen die erhebende Geschichte der gewaltlosen Samtenen Revolution (tschechisch: Sametov&aacute; revoluce) von 1989 an den tats&auml;chlichen Schaupl&auml;tzen der historischen Ereignisse nachvollziehen.</p>
+
+<p>Aber Prag ist nicht das einzige Schmuckst&uuml;ck in der Tschechischen Republik. Es gibt eine Anzahl atemberaubender mittelalterlicher St&auml;dte in S&uuml;db&ouml;hmen; Reisende, die eine authentischere Erfahrung machen wollen, werden an unserem Besuch im &ouml;stlich gelegenen M&auml;hren Gefallen finden, das genauso sch&ouml;n, aber noch nicht so bekannt ist. Wir schlie&szlig;en unsere Tour mit einem Besuch in den zum&nbsp; Weltkulturerbe geh&ouml;renden G&auml;rten und dem Schloss in der Stadt Kroměř&iacute;ž ab. Wenn wir schon einmal dort sind, sollten Software-Entwickler und CMS-Fans nicht die Gelegenheit verpassen, die tschechische Tochtergesellschaft von Magnolia International zu besuchen.</p>
+'
+  'body': '<p>Despite the fact that the capital city has been caught in the middle of most of Europe&rsquo;s conflicts, it still has the stunning architecture that attracts millions of visitors every year. Prague is the undisputed queen of the region, with its romanesque churches, gothic cathedrals and baroque palaces. The city&rsquo;s beauty is accentuated by the picturesque Vltava river, criss-crossed by thirty bridges, and sees a daily traffic of dozens of steamers, rowboats and pedal boats.</p>
+
+<p>We&rsquo;ll cover some more recent history too, you will experience the uplifting story of the nonviolent Velvet Revolution (Czech: sametov&aacute; revoluce) of 1989 at the actual sites where the historical events transpired.</p>
+
+<p>But Prague isn&rsquo;t the only jewel in the Czech Republic.There are a number of stunning</p>
+
+<p>medieval towns in southern Bohemia while travelers looking for a more authentic experience will relish our visit to Moravia in the east, just as beautiful but not yet as well known. We&rsquo;ll conclude our tour with a visit to the world heritage site Gardens and Castle in the city of Kroměř&iacute;ž. While there, software developers and CMS aficionados won&rsquo;t want to miss the opportunity to visit the Czech subsidiary of Magnolia International.</p>
+'
+  'description_de': 'Ein von Geschichte und Kultur durchdrungenes Land'
+  'description': 'A country deep in history and culture'
+  'destination': ['6cc50e28-fb0e-4e49-b3b6-728690a2e861']
+  'duration': 7
+  'image': 'jcr:c51f88cd-0f4f-4fab-8dd2-84d243450d2c'
+  'isFeatured': false
+  'location': 'Prague, Czech Republic'
+  'name_de': 'Tschechien'
+  'name': 'The Czech Republic'
+  'tourTypes': ['e007e401-1bf8-4658-8293-b9c743784264']
+  jcr:primaryType: 'mgnl:content'
+  jcr:uuid: '7545550d-a720-4c25-9d02-ea9228a7aa93'
+  mgnl:activationStatus: true
+  mgnl:comment: ''
+  mgnl:created: 2015-06-02T17:47:29.241+02:00
+  mgnl:createdBy: 'superuser'
+  mgnl:lastActivated: 2015-07-01T10:49:40.230+02:00
+  mgnl:lastActivatedBy: 'superuser'
+  mgnl:lastModified: 2015-06-18T13:56:36.121+02:00
+  mgnl:lastModifiedBy: 'superuser'

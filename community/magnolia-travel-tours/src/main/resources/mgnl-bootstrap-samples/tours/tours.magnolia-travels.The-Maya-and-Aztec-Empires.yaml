@@ -1,0 +1,25 @@
+'The-Maya-and-Aztec-Empires':
+  'author': 'Magnolia Travels'
+  'body_de': '<p>Diese fabelhafte Reise von 14 Tagen f&uuml;hrt Sie durch zwei der faszinierendsten Reiche der Welt in Mexiko und Mittelamerika. Die Reise beginnt mit einem Besuch im UNESCO-Weltkulturerbe Chich&eacute;n Itz&aacute;, das vor kurzem zu einem der sieben neuen Weltwunder erkl&auml;rt wurde. Die alte Hauptstadt der Maya ist eine der am meisten besuchten Ruinen in Mexiko, hat aber immer noch ihren spektakul&auml;ren Charme bewahrt. Ihre Reise umfasst auch Besuche in Palenque, Teotihuacan und in den Ruinen von Uxmal. Sie werden von sachkundigen einheimischen F&uuml;hrern begleitet, die Ihnen einzigartige Einblicke in diese erstaunlichen Kulturen vermitteln.</p>
+'
+  'body': '<p>This fabulous 14 day trip will take you through two of the world&rsquo;s most fascinating empires in Mexico and Central America. The trip starts with a visit to UNESCO heritage site Chich&eacute;n Itz&aacute;, recently declared one of the seven new wonders of the world. The ancient Mayan capital is one of the most visited ruins in Mexico, yet still retains a spectacular charm. Your trip will also include visits to Palenque, Teotihuacan and the ruins of Uxmal. You&rsquo;ll be accompanied by expert local guides who will give you unique insights into these amazing civilisations.</p>
+'
+  'description_de': 'Ein einzigartiger Einblick in alte Zivilisationen'
+  'description': 'A unique glimpse into ancient civilisations'
+  'destination': ['bed2e297-199c-4dc8-90cd-54ad3cb4221b']
+  'duration': 14
+  'image': 'jcr:cf9a4aa6-2129-4c14-b69c-48f28f976bef'
+  'location': 'Mexico City, Mexico'
+  'name_de': 'Die Reiche der Maya und Azteken'
+  'name': 'The Maya and Aztec Empires'
+  'tourTypes': ['e007e401-1bf8-4658-8293-b9c743784264','d2245867-ecaa-4b4e-8743-e0c939be68b7']
+  jcr:primaryType: 'mgnl:content'
+  jcr:uuid: '27f38aeb-f70e-416b-a8f0-5023433315c6'
+  mgnl:activationStatus: true
+  mgnl:comment: ''
+  mgnl:created: 2015-06-02T17:44:40.653+02:00
+  mgnl:createdBy: 'superuser'
+  mgnl:lastActivated: 2015-07-01T10:49:42.991+02:00
+  mgnl:lastActivatedBy: 'superuser'
+  mgnl:lastModified: 2015-06-18T13:55:59.055+02:00
+  mgnl:lastModifiedBy: 'superuser'
