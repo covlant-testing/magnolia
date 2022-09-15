@@ -141,7 +141,7 @@
 
       <!-- This brings PUR to demo webapps -->
       <dependency>
-        <groupId>info.magnolia</groupId>
+        <groupId>info.magnolia.pur</groupId>
         <artifactId>magnolia-module-public-user-registration</artifactId>
         <version>${magnolia.pur.version}</version>
       </dependency>

@@ -59,7 +59,7 @@
       <artifactId>magnolia-form</artifactId>
     </dependency>
     <dependency>
-      <groupId>info.magnolia</groupId>
+      <groupId>info.magnolia.pur</groupId>
       <artifactId>magnolia-module-public-user-registration</artifactId>
     </dependency>
 
