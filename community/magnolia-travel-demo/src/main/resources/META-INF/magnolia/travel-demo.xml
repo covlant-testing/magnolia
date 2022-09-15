@@ -52,7 +52,7 @@
     </dependency>
     <dependency>
       <name>public-user-registration</name>
-      <version>2.5.1/*</version>
+      <version>${magnolia.pur.version}/*</version>
     </dependency>
 
     <!-- travel-demo-pur group contains roles from these modules:  -->
