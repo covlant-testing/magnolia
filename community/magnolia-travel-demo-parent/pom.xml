@@ -20,7 +20,7 @@
     <magnoliaUiVersion>6.2.4</magnoliaUiVersion>
     <magnoliaDamVersion>3.0</magnoliaDamVersion>
     <magnoliaPagesVersion>6.2</magnoliaPagesVersion>
-    <magnolia.pur.version>2.7.6-SNAPSHOT</magnolia.pur.version>
+    <magnolia.pur.version>2.7.6</magnolia.pur.version>
     <siteVersion>1.4</siteVersion>
     <resourcesVersion>3.0</resourcesVersion>
     <mteVersion>2.0</mteVersion>
