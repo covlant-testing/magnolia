@@ -20,6 +20,7 @@
     <magnoliaUiVersion>6.2.4</magnoliaUiVersion>
     <magnoliaDamVersion>3.0</magnoliaDamVersion>
     <magnoliaPagesVersion>6.2</magnoliaPagesVersion>
+    <magnolia.pur.version>2.7.6-SNAPSHOT</magnolia.pur.version>
     <siteVersion>1.4</siteVersion>
     <resourcesVersion>3.0</resourcesVersion>
     <mteVersion>2.0</mteVersion>
@@ -140,9 +141,9 @@
 
       <!-- This brings PUR to demo webapps -->
       <dependency>
-        <groupId>info.magnolia</groupId>
+        <groupId>info.magnolia.pur</groupId>
         <artifactId>magnolia-module-public-user-registration</artifactId>
-        <version>2.5.1</version>
+        <version>${magnolia.pur.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
