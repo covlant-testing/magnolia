@@ -132,7 +132,7 @@
         <artifactId>magnolia-templating-kit-2</artifactId>
         <type>test-jar</type>
         <scope>test</scope>
-        <version>2.0</version>
+        <version>${mteVersion}</version>
       </dependency>
       <dependency>
         <groupId>info.magnolia.dam</groupId>
