@@ -21,6 +21,8 @@
     <magnoliaDamVersion>3.0</magnoliaDamVersion>
     <magnoliaPagesVersion>6.2</magnoliaPagesVersion>
     <magnolia.pur.version>2.7.6</magnolia.pur.version>
+    <magnolia.categorization.version>2.4</magnolia.categorization.version>
+    <magnolia.form.version>2.4</magnolia.form.version>
     <siteVersion>1.4</siteVersion>
     <resourcesVersion>3.0</resourcesVersion>
     <mteVersion>2.0</mteVersion>
@@ -107,7 +109,7 @@
       <dependency>
         <groupId>info.magnolia.categorization</groupId>
         <artifactId>magnolia-categorization</artifactId>
-        <version>2.4</version>
+        <version>${magnolia.categorization.version}</version>
       </dependency>
       <dependency>
         <groupId>info.magnolia.templating</groupId>
@@ -123,14 +125,14 @@
       <dependency>
         <groupId>info.magnolia.form</groupId>
         <artifactId>magnolia-form</artifactId>
-        <version>2.4</version>
+        <version>${magnolia.form.version}</version>
       </dependency>
       <dependency>
         <groupId>info.magnolia.templating</groupId>
         <artifactId>magnolia-templating-kit-2</artifactId>
         <type>test-jar</type>
         <scope>test</scope>
-        <version>2.0</version>
+        <version>${mteVersion}</version>
       </dependency>
       <dependency>
         <groupId>info.magnolia.dam</groupId>
