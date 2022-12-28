@@ -27,7 +27,6 @@
     <contentTagsVersion>1.0</contentTagsVersion>
     <multisiteVersion>1.2.1</multisiteVersion>
     <storiesAppVersion>2.1-beta2</storiesAppVersion>
-    <javascriptModelsVersion>1.0</javascriptModelsVersion>
     <magnoliaDamVersion>3.0</magnoliaDamVersion>
     <magnoliaVersion>6.2.8</magnoliaVersion>
     <magnoliaUiVersion>6.2.8</magnoliaUiVersion>
@@ -149,11 +148,6 @@
         <groupId>info.magnolia.editor</groupId>
         <artifactId>stories-app</artifactId>
         <version>${storiesAppVersion}</version>
-      </dependency>
-      <dependency>
-        <groupId>info.magnolia.javascript-models</groupId>
-        <artifactId>magnolia-module-javascript-models</artifactId>
-        <version>${javascriptModelsVersion}</version>
       </dependency>
 
       <!-- Other dependencies -->

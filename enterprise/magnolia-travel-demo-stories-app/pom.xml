@@ -37,11 +37,6 @@
     </dependency>
 
     <dependency>
-      <groupId>info.magnolia.javascript-models</groupId>
-      <artifactId>magnolia-module-javascript-models</artifactId>
-    </dependency>
-
-    <dependency>
       <groupId>info.magnolia.dam</groupId>
       <artifactId>magnolia-dam-jcr</artifactId>
     </dependency>

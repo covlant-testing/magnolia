@@ -9,8 +9,6 @@ areas:
     availableComponents: !override
       storyLead:
         id: travel-demo-stories-app:components/storiesLead
-      storiesImageUniverse:
-        id: travel-demo-stories-app:components/storiesImageUniverse
 
 cssFiles:
   stories:

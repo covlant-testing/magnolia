@@ -57,7 +57,7 @@ public class TemplatesTest extends AbstractRenderingTest {
                 return story;
             }
         };
-        when(webContext.getJCRSession("stories")).thenReturn(stories); // storiesImageUniverse.ftl
+        when(webContext.getJCRSession("stories")).thenReturn(stories);
         when(webContext.getContextPath()).thenReturn("/magnoliaAuthor");
 
         final AggregationState aggregationState = MgnlContext.getAggregationState();
@@ -70,7 +70,6 @@ public class TemplatesTest extends AbstractRenderingTest {
     @ValueSource(strings = {
             "/travel-demo-stories-app/templates/pages/areas/storyDisplayArea.ftl",
             "/travel-demo-stories-app/templates/components/externalLink.ftl",
-            "/travel-demo-stories-app/templates/components/storiesImageUniverse.ftl",
             "/travel-demo-stories-app/templates/components/storiesLead.ftl",
             "/travel-demo-stories-app/templates/blocks/date.ftl",
             "/travel-demo-stories-app/templates/blocks/tour.ftl",
