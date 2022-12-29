@@ -23,9 +23,5 @@
       <name>stories-app</name>
       <version>${storiesAppVersion}/*</version>
     </dependency>
-    <dependency>
-      <name>javascript-models</name>
-      <version>${javascriptModelsVersion}/*</version>
-    </dependency>
   </dependencies>
 </module>
