@@ -47,17 +47,6 @@
       mgnl:lastModified: 2017-07-31T15:44:52.677+02:00
       mgnl:lastModifiedBy: 'superuser'
       mgnl:template: 'travel-demo-stories-app:components/storiesLead'
-    '00': 
-      jcr:primaryType: 'mgnl:component'
-      jcr:uuid: 'a19a6d79-e3bb-490b-b63e-630e7d2218b6'
-      mgnl:activationStatus: true
-      mgnl:created: 2017-08-10T18:31:47.893+02:00
-      mgnl:createdBy: 'superuser'
-      mgnl:lastActivated: 2017-08-22T08:37:32.714+02:00
-      mgnl:lastActivatedBy: 'superuser'
-      mgnl:lastModified: 2017-08-10T18:31:47.893+02:00
-      mgnl:lastModifiedBy: 'superuser'
-      mgnl:template: 'travel-demo-stories-app:components/storiesImageUniverse'
   'footer': 
     jcr:primaryType: 'mgnl:area'
     jcr:uuid: 'ca3dd2d9-6660-43e5-b580-9063de9ca60e'
