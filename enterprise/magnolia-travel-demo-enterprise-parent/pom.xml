@@ -8,7 +8,7 @@
   </parent>
   <groupId>info.magnolia.eedemo</groupId>
   <artifactId>magnolia-travel-demo-enterprise-parent</artifactId>
-  <version>1.6.8-SNAPSHOT</version>
+  <version>1.6.8</version>
   <packaging>pom</packaging>
 
   <name>Magnolia Travel Demo Enterprise (parent pom)</name>
@@ -36,7 +36,7 @@
     <connection>scm:git:ssh://git@git.magnolia-cms.com/MODULES/demo-projects</connection>
     <developerConnection>scm:git:ssh://git@git.magnolia-cms.com/MODULES/demo-projects</developerConnection>
     <url>https://git.magnolia-cms.com/projects/MODULES/repos/demo-projects</url>
-    <tag>magnolia-demo-projects-1.5.2</tag>
+    <tag>magnolia-demo-projects-1.6.8</tag>
   </scm>
 
   <distributionManagement>
