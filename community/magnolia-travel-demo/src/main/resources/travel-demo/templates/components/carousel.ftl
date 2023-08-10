@@ -16,12 +16,12 @@
             [#if content.slickConfig?has_content]
             ${content.slickConfig?replace("<br/>", " ")}
             [#else]
-                dots: ${content.dots!"true"},
-                arrows: ${content.arrows!"true"},
-                fade: ${content.fade!"false"},
-                variableWidth: ${content.variableWidth!"false"},
+                dots: ${(content.dots!true)?c},
+                arrows: ${(content.arrows!true)?c},
+                fade: ${(content.fade!false)?c},
+                variableWidth: ${(content.variableWidth!false)?c},
                 slidesToShow: ${content.slidesToShow!"2"},
-                autoplay: ${content.autoplay!"false"},
+                autoplay: ${(content.autoplay!false)?c},
                 autoplaySeconds: ${content.autoplaySeconds!"5"},
                 nextArrow: '<button type="button" class="slick-next"><span class="glyphicon glyphicon-chevron-right"></span></button>',
                 prevArrow: '<button type="button" class="slick-prev"><span class="glyphicon glyphicon-chevron-left"></span></button>'
