@@ -4,7 +4,7 @@
   <parent>
     <groupId>info.magnolia.demo</groupId>
     <artifactId>magnolia-travel-demo-parent</artifactId>
-    <version>1.6.9</version>
+    <version>1.6.10-SNAPSHOT</version>
     <relativePath>../magnolia-travel-demo-parent/pom.xml</relativePath>
   </parent>
   <artifactId>magnolia-travel-tours</artifactId>
