@@ -57,6 +57,7 @@ import info.magnolia.context.MgnlContext;
 import info.magnolia.dam.jcr.DamConstants;
 import info.magnolia.jcr.util.NodeTypes;
 import info.magnolia.jcr.util.NodeUtil;
+import info.magnolia.jcr.util.PropertyUtil;
 import info.magnolia.module.InstallContext;
 import info.magnolia.module.ModuleVersionHandler;
 import info.magnolia.module.ModuleVersionHandlerTestCase;
@@ -75,6 +76,8 @@ import javax.jcr.Session;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import com.google.common.collect.Lists;
 
 public class TravelDemoModuleVersionHandlerTest extends ModuleVersionHandlerTestCase {
 
@@ -308,6 +311,23 @@ public class TravelDemoModuleVersionHandlerTest extends ModuleVersionHandlerTest
         // THEN
         String i18nFilterPath = "/server/filters/i18n";
         assertThat(session.getNode(i18nFilterPath), not(hasNode("bypasses")));
+    }
+
+    @Test
+    public void upgradeFrom169() throws Exception {
+        // GIVEN
+        NodeUtil.createPath(website.getRootNode(), "travel/members/registration/main/0/fieldsets/0/fields/0", NodeTypes.ContentNode.NAME);
+        PropertyUtil.setProperty(NodeUtil.createPath(website.getRootNode(), "travel/members/registration/main/0/fieldsets/0/fields/02", NodeTypes.ContentNode.NAME), "email", Lists.newArrayList("email"));
+
+        // WHEN
+        executeUpdatesAsIfTheCurrentlyInstalledVersionWas(Version.parseVersion("1.6.9"));
+
+        // THEN
+        assertTrue(website.getNode("/travel/members/registration/main/0/fieldsets/0/fields/0").getProperty("validation").isMultiple());
+        assertThat(website.getNode("/travel/members/registration/main/0/fieldsets/0/fields/0").getProperty("validation").getValues()[0].getString(), is("username"));
+        assertTrue(website.getNode("/travel/members/registration/main/0/fieldsets/0/fields/02").getProperty("validation").isMultiple());
+        assertThat(website.getNode("/travel/members/registration/main/0/fieldsets/0/fields/02").getProperty("validation").getValues()[0].getString(), is("email"));
+        assertThat(website.getNode("/travel/members/registration/main/0/fieldsets/0/fields/02").getProperty("validation").getValues()[1].getString(), is("uniqueEmail"));
     }
 
     @Test

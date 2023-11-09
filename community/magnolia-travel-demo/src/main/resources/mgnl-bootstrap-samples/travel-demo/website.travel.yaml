@@ -4259,6 +4259,7 @@ Members get access to exclusive Magnolia Travels content, tips and discounts.'
                   'rows': 1
                   'title_de': 'Benutzername'
                   'title': 'Username'
+                  'validation': ['username']
                   jcr:primaryType: 'mgnl:component'
                   jcr:uuid: 'a44fbab5-43a1-4efe-9e93-a9f7ea15238f'
                   mgnl:activationStatus: true
@@ -4343,7 +4344,7 @@ Members get access to exclusive Magnolia Travels content, tips and discounts.'
                   'readonly': false
                   'rows': 1
                   'title': 'Email'
-                  'validation': ['email']
+                  'validation': ['uniqueEmail', 'email']
                   jcr:primaryType: 'mgnl:component'
                   jcr:uuid: '9bcb4931-c800-47a7-91cc-4f4e3ac61700'
                   mgnl:activationStatus: true
