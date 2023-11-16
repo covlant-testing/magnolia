@@ -36,6 +36,7 @@ package info.magnolia.demo.travel.setup;
 import info.magnolia.jcr.util.NodeTypes;
 import info.magnolia.module.DefaultModuleVersionHandler;
 import info.magnolia.module.InstallContext;
+import info.magnolia.module.delta.AbstractRepositoryTask;
 import info.magnolia.module.delta.ArrayDelegateTask;
 import info.magnolia.module.delta.BootstrapSingleModuleResource;
 import info.magnolia.module.delta.BootstrapSingleResource;
@@ -63,6 +64,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.jcr.ImportUUIDBehavior;
+import javax.jcr.Node;
+import javax.jcr.RepositoryException;
+import javax.jcr.Session;
 
 import com.google.common.collect.Lists;
 
@@ -97,6 +101,30 @@ public class TravelDemoModuleVersionHandler extends DefaultModuleVersionHandler 
 
     private final Task setupTargetAppGroupAccessPermissions = new SetupRoleBasedAccessPermissionsTask("Allow access to Target app group", "Allow access to Target app group only to travel-demo-editor and travel-demo-publisher roles",
             Lists.newArrayList("travel-demo-editor", "travel-demo-publisher"), true, "/modules/ui-admincentral/config/appLauncherLayout/groups/target");
+
+    private final Task addUsernameValidation = new AbstractRepositoryTask("Add username validation", "") {
+        @Override
+        protected void doExecute(InstallContext ctx) throws RepositoryException {
+            final Session session = ctx.getJCRSession(RepositoryConstants.WEBSITE);
+            final Node node = session.getNode("/travel/members/registration/main/0/fieldsets/0/fields/0");
+            if (node.hasProperty("validation")) {
+                node.getProperty("validation").remove();
+            }
+            node.setProperty("validation", new String[] { "username" });
+        }
+    };
+
+    private final Task addEmailValidation = new AbstractRepositoryTask("Add unique email validation", "") {
+        @Override
+        protected void doExecute(InstallContext ctx) throws RepositoryException {
+            final Session session = ctx.getJCRSession(RepositoryConstants.WEBSITE);
+            final Node node = session.getNode("/travel/members/registration/main/0/fieldsets/0/fields/02");
+            if (node.hasProperty("validation")) {
+                node.getProperty("validation").remove();
+            }
+            node.setProperty("validation", new String[] { "email", "uniqueEmail" });
+        }
+    };
 
     private final InstallPurSamplesTask installPurSamples = new InstallPurSamplesTask();
 
@@ -162,6 +190,10 @@ public class TravelDemoModuleVersionHandler extends DefaultModuleVersionHandler 
         );
         register(DeltaBuilder.update("1.6.4", "")
                 .addTask(new RemoveNodeTask("Remove i18n filter bypass", "/server/filters/i18n/bypasses"))
+        );
+        register(DeltaBuilder.update("1.6.10", "")
+                .addTask(new NodeExistsDelegateTask("Add unique username validation to the username field", "", RepositoryConstants.WEBSITE, "/travel/members/registration/main/0/fieldsets/0/fields/0", addUsernameValidation))
+                .addTask(new NodeExistsDelegateTask("Add unique email validation to the email field", "", RepositoryConstants.WEBSITE, "/travel/members/registration/main/0/fieldsets/0/fields/02", addEmailValidation))
         );
     }
 
