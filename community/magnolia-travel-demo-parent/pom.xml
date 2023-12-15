@@ -9,7 +9,7 @@
   <groupId>info.magnolia.demo</groupId>
   <artifactId>magnolia-travel-demo-parent</artifactId>
   <packaging>pom</packaging>
-  <version>1.6.10-SNAPSHOT</version>
+  <version>1.6.10</version>
   <name>Magnolia Travel Demo (parent pom)</name>
   <inceptionYear>2015</inceptionYear>
   <description>Magnolia Travel is a demo project showing best practices when working with Magnolia.</description>
