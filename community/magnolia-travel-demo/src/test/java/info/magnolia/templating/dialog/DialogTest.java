@@ -1,5 +1,5 @@
 /**
- * This file Copyright (c) 2021-2023 Magnolia International
+ * This file Copyright (c) 2021-2024 Magnolia International
  * Ltd.  (http://www.magnolia-cms.com). All rights reserved.
  *
  *
