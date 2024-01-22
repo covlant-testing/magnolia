@@ -142,29 +142,4 @@ public class SetupDemoRolesAndGroupsTaskTest {
         assertThat(session.nodeExists(PAGES_ACTIVATE_ACCESS_ROLES), is(true));
         assertThat(session.nodeExists(DAM_ACTIVATE_ACCESS_ROLES), is(true));
     }
-
-    @Test
-    public void demoPublisherCanAccessWorkflowItems() throws Exception {
-        // GIVEN
-        NodeUtil.createPath(session.getRootNode(), WORKFLOW_JBPM_PUBLISH_GROUPS, NodeTypes.ContentNode.NAME);
-        when(ctx.isModuleRegistered(eq(WORKFLOW_JBPM_MODULE))).thenReturn(true);
-
-        // WHEN
-        new SetupDemoRolesAndGroupsTask().execute(ctx);
-
-        // THEN
-        assertThat(session.getNode(WORKFLOW_JBPM_PUBLISH_GROUPS), hasProperty(TRAVEL_DEMO_PUBLISHERS_GROUP, TRAVEL_DEMO_PUBLISHERS_GROUP));
-    }
-
-    @Test
-    public void doNotAddDemoPublishersGroupToWorkflowIfWorkflowJbpmIsNotInstalled() throws Exception {
-        // GIVEN
-        when(ctx.isModuleRegistered(eq(WORKFLOW_JBPM_MODULE))).thenReturn(false);
-
-        // WHEN
-        new SetupDemoRolesAndGroupsTask().execute(ctx);
-
-        // THEN
-        assertThat(session.propertyExists(WORKFLOW_JBPM_PUBLISH_GROUPS + "/" + TRAVEL_DEMO_PUBLISHERS_GROUP), is(false));
-    }
 }

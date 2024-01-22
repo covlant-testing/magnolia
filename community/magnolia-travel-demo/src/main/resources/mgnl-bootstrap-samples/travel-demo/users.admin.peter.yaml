@@ -1,0 +1,116 @@
+'peter':
+  'email': 'peter@example.com'
+  'enabled': true
+  'jcr:primaryType': 'mgnl:user'
+  'jcr:uuid': '0b721fba-5fd4-4da2-ab59-7ee81718b80f'
+  'jcrName': 'peter'
+  'language': 'en'
+  'lastaccess': 2015-06-25T11:57:31.970+02:00
+  'mgnl:activationStatus': true
+  'mgnl:created': 2015-05-29T14:47:20.447+02:00
+  'mgnl:createdBy': 'superuser'
+  'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+  'mgnl:lastActivatedBy': 'superuser'
+  'mgnl:lastModified': 2024-01-11T10:06:55.958+07:00
+  'mgnl:lastModifiedBy': 'superuser'
+  'name': 'peter'
+  'pswd': '$2a$12$HzQBF.Umcqg89qzRB.7.YOA3G/dqUFPelL5bI07d.QV.XMXWbghke'
+  'title': 'Peter (Publisher, travel-demo)'
+  'acl_users':
+    'jcr:uuid': '9769e725-9ff2-4e63-a3a1-43bfe473894c'
+    'mgnl:activationStatus': true
+    'mgnl:created': 2015-05-29T14:47:20.789+02:00
+    'mgnl:createdBy': 'superuser'
+    'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+    'mgnl:lastActivatedBy': 'superuser'
+    'mgnl:lastModified': 2016-05-18T08:44:04.928+02:00
+    'mgnl:lastModifiedBy': 'superuser'
+    '0':
+      'jcr:uuid': '7f9faa83-c1b0-4fbc-893e-7037bbcec7e4'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-29T14:47:20.790+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2015-05-29T14:47:20.790+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/peter'
+      'permissions': 8
+    '00':
+      'jcr:uuid': 'd9fc188f-7fc0-46ff-a13d-73fdf7e08c66'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-29T14:47:20.791+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2015-05-29T14:47:20.791+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/peter/email'
+      'permissions': 63
+    '01':
+      'jcr:uuid': 'a1616719-2566-469b-8ec3-0165d6b6bba1'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-29T14:47:20.793+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2015-05-29T14:47:20.793+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/peter/language'
+      'permissions': 63
+    '02':
+      'jcr:uuid': '611df18e-c087-4475-9aee-e20689ec33ae'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-29T14:47:20.794+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2015-05-29T14:47:20.794+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/peter/lastaccess'
+      'permissions': 63
+    '03':
+      'jcr:uuid': 'db4b4345-1c09-4671-865f-8dfb8d74dfc8'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-29T14:47:20.795+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2015-05-29T14:47:20.795+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/peter/pswd'
+      'permissions': 63
+    '04':
+      'jcr:uuid': 'b5402ef4-1416-42ae-93ee-96a0c727be34'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-29T14:47:20.797+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2015-05-29T14:47:20.797+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/peter/title'
+      'permissions': 63
+    '05':
+      'jcr:uuid': 'd10cd045-8d53-408d-adf9-0dbba068628b'
+      'mgnl:created': 2016-05-18T08:44:04.931+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2016-05-18T08:44:04.931+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/peter/timezone'
+      'permissions': 63
+    '06':
+      'jcr:uuid': '9f00da4d-c880-4c1b-a831-d31659c138df'
+      'mgnl:created': 2021-07-12T12:37:17.483+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2021-07-12T12:37:17.483+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/peter/homeScreen'
+      'permissions': 63
+  'groups':
+    # Assign to 'publishers' group
+    '00': '51160414-805f-4418-8a74-34d77f84b894'
+    'jcr:uuid': '4e200846-d636-4791-8c30-685e74264182'
+    'mgnl:activationStatus': true
+    'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+    'mgnl:lastActivatedBy': 'superuser'

@@ -1,0 +1,103 @@
+'eric-de':
+  'email': 'eric-de@example.com'
+  'enabled': true
+  'jcr:primaryType': 'mgnl:user'
+  'jcr:uuid': '13322336-9b23-4077-8ad0-aa685f1ac56d'
+  'jcrName': 'eric-de'
+  'language': 'de'
+  'mgnl:activationStatus': true
+  'mgnl:created': 2015-05-29T14:51:16.948+02:00
+  'mgnl:createdBy': 'superuser'
+  'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+  'mgnl:lastActivatedBy': 'superuser'
+  'mgnl:lastModified': 2024-01-11T10:08:18.881+07:00
+  'mgnl:lastModifiedBy': 'superuser'
+  'name': 'eric-de'
+  'pswd': '$2a$12$7NwQ1qgrsAHJIwwHW9r.r.1qEg4P3KNVbVF3DRM4TX9NSxK3cNRc2'
+  'title': 'Eric-DE (German editor, travel-demo)'
+  'acl_users':
+    'jcr:uuid': '044ed26d-cfca-4679-aace-acd3809f1301'
+    'mgnl:activationStatus': true
+    'mgnl:created': 2015-05-29T14:51:17.292+02:00
+    'mgnl:createdBy': 'superuser'
+    'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+    'mgnl:lastActivatedBy': 'superuser'
+    'mgnl:lastModified': 2016-05-18T08:44:04.935+02:00
+    'mgnl:lastModifiedBy': 'superuser'
+    '0':
+      'jcr:uuid': '30825619-091b-4f5e-8eae-ce423fb8464c'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-29T14:51:17.293+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'path': '/admin/eric-de'
+      'permissions': 8
+    '00':
+      'jcr:uuid': '8edd6f0f-52eb-4e73-a55a-0648712be598'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-29T14:51:17.294+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'path': '/admin/eric-de/email'
+      'permissions': 63
+    '01':
+      'jcr:uuid': '23b50c30-d38e-4c9f-a019-30ba4f8e1116'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-29T14:51:17.295+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'path': '/admin/eric-de/language'
+      'permissions': 63
+    '02':
+      'jcr:uuid': '10ffd1af-eec1-4e27-844a-a1a53f4dc3ae'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-29T14:51:17.297+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'path': '/admin/eric-de/lastaccess'
+      'permissions': 63
+    '03':
+      'jcr:uuid': 'a1c44728-cc50-4846-8285-f6bcc1ed2eea'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-29T14:51:17.299+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'path': '/admin/eric-de/pswd'
+      'permissions': 63
+    '04':
+      'jcr:uuid': '5785a5f1-40c4-4608-95a2-ce426a8a100a'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-29T14:51:17.300+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'path': '/admin/eric-de/title'
+      'permissions': 63
+    '05':
+      'jcr:uuid': 'afe7cd0f-8ab4-4ad2-a3de-d5569555ea12'
+      'mgnl:created': 2016-05-18T08:44:04.938+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2016-05-18T08:44:04.938+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/eric-de/timezone'
+      'permissions': 63
+    '06':
+      'jcr:uuid': '50d5a5e1-b013-4b24-8588-9869c0b6cebf'
+      'mgnl:created': 2021-07-12T12:37:32.885+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2021-07-12T12:37:32.885+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/eric-de/homeScreen'
+      'permissions': 63
+  'groups':
+    # Assign to 'editors' group
+    '00': 'f7beb039-573c-4f45-a08f-e7df0e119d10'
+    'jcr:uuid': '4158f3af-529b-49f3-a4ff-2e08e9ba5e35'
+    'mgnl:activationStatus': true
+    'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+    'mgnl:lastActivatedBy': 'superuser'

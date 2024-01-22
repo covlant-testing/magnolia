@@ -1,0 +1,123 @@
+'tina':
+  'email': 'tina@example.com'
+  'enabled': true
+  'jcr:primaryType': 'mgnl:user'
+  'jcr:uuid': 'f8648bfe-e2e0-4882-9e58-34b760599965'
+  'jcrName': 'tina'
+  'language': 'en'
+  'lastaccess': 2015-06-29T11:24:42.687+02:00
+  'mgnl:activationStatus': true
+  'mgnl:created': 2015-05-29T14:53:17.746+02:00
+  'mgnl:createdBy': 'superuser'
+  'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+  'mgnl:lastActivatedBy': 'superuser'
+  'mgnl:lastModified': 2024-01-11T10:07:08.866+07:00
+  'mgnl:lastModifiedBy': 'superuser'
+  'name': 'tina'
+  'pswd': '$2a$12$7vns/khhZ4/BT2y4WVLZVuWrGFLX1o6KYOewD/h.jA8U8ypwC20g.'
+  'title': 'Tina (Tour editor, travel-demo)'
+  'acl_users':
+    'jcr:uuid': '625d8b3e-e536-490c-a710-86337f161191'
+    'mgnl:activationStatus': true
+    'mgnl:created': 2015-05-29T14:53:18.098+02:00
+    'mgnl:createdBy': 'superuser'
+    'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+    'mgnl:lastActivatedBy': 'superuser'
+    'mgnl:lastModified': 2016-05-18T08:44:04.844+02:00
+    'mgnl:lastModifiedBy': 'superuser'
+    '0':
+      'jcr:uuid': '5133ec37-a97f-44ad-a75b-705338e00b05'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-29T14:53:18.099+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2015-06-25T11:57:04.262+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/tina'
+      'permissions': 8
+    '00':
+      'jcr:uuid': '9d5314ca-ad72-49ba-9acc-9ea6cf2ea7b9'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-29T14:53:18.100+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2015-06-25T11:57:04.262+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/tina/email'
+      'permissions': 63
+    '01':
+      'jcr:uuid': 'da062fa6-7129-4669-b7d4-8c2094930a4a'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-29T14:53:18.101+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2016-05-17T14:57:00.678+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/tina/language'
+      'permissions': 63
+    '02':
+      'jcr:uuid': '11e7ddf3-580c-4a3d-b363-1920396b71bb'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-29T14:53:18.102+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2015-06-25T11:57:04.262+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/tina/lastaccess'
+      'permissions': 63
+    '03':
+      'jcr:uuid': '47a1048b-ed0e-4cb1-bd10-5bfe37ff7c1f'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-29T14:53:18.103+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2015-06-25T11:57:04.262+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/tina/pswd'
+      'permissions': 63
+    '04':
+      'jcr:uuid': 'c5e97d0d-9d4e-4076-b32e-cf7c25c9c7cb'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-29T14:53:18.104+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2015-06-25T11:57:04.262+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/tina/title'
+      'permissions': 63
+    '05':
+      'jcr:uuid': '3c337afb-3e1d-4cdb-85af-1d5ded280b27'
+      'mgnl:created': 2016-05-18T08:44:04.879+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2016-05-18T08:44:04.879+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/tina/timezone'
+      'permissions': 63
+    '06':
+      'jcr:uuid': 'bc5dd7b8-4293-4e4c-8866-4d9c42f57473'
+      'mgnl:created': 2021-07-12T12:34:55.631+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2021-07-12T12:34:55.631+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/tina/homeScreen'
+      'permissions': 63
+  'roles':
+    'jcr:uuid': '89ebc8a0-71db-47cd-8430-96be401605b6'
+    'mgnl:activationStatus': true
+    'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+    'mgnl:lastActivatedBy': 'superuser'
+    'mgnl:lastModified': 2015-06-25T11:57:04.262+02:00
+    'mgnl:lastModifiedBy': 'superuser'
+  'groups':
+    # Assign to 'editors' group
+    '00': 'f7beb039-573c-4f45-a08f-e7df0e119d10'
+    'jcr:uuid': '086abbce-05c7-4cd0-8f2f-71601e3c1f2d'
+    'mgnl:activationStatus': true
+    'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+    'mgnl:lastActivatedBy': 'superuser'
