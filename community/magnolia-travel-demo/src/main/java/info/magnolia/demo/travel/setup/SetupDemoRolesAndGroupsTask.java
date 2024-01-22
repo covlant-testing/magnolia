@@ -35,7 +35,6 @@ package info.magnolia.demo.travel.setup;
 
 import info.magnolia.module.delta.ArrayDelegateTask;
 import info.magnolia.module.delta.IsModuleInstalledOrRegistered;
-import info.magnolia.module.delta.NewPropertyTask;
 
 /**
  * Gives basic permissions to the roles and groups defined by this project.
@@ -46,7 +45,6 @@ public class SetupDemoRolesAndGroupsTask extends ArrayDelegateTask {
     public static final String TRAVEL_DEMO_EDITOR_ROLE = "travel-demo-editor";
     public static final String TRAVEL_DEMO_ADMINCENTRAL_ROLE = "travel-demo-admincentral";
 
-    public static final String TRAVEL_DEMO_PUBLISHERS_GROUP = "travel-demo-publishers";
     public static final String PAGES_ACTIVATE_ACCESS_ROLES = "/modules/pages/apps/pages/subApps/browser/actions/activate/availability/access/roles";
     public static final String DAM_ACTIVATE_ACCESS_ROLES = "/modules/dam-app/apps/assets/subApps/browser/actions/activate/availability/access/roles";
     public static final String PAGES_PERMISSIONS_ROLES = "/modules/pages/apps/pages/permissions/roles";
@@ -76,7 +74,5 @@ public class SetupDemoRolesAndGroupsTask extends ArrayDelegateTask {
         );
 
         addTask(new IsModuleInstalledOrRegistered("If on EE, give editors publishing rights on website", ENTERPRISE_MODULE, new AddDemoTravelPermissionTask(PAGES_ACTIVATE_ACCESS_ROLES, TRAVEL_DEMO_EDITOR_ROLE)));
-
-        addTask(new IsModuleInstalledOrRegistered("If workflow-jbpm module is installed, add workflow permissions for " + TRAVEL_DEMO_PUBLISHERS_GROUP, WORKFLOW_JBPM_MODULE, new NewPropertyTask("", WORKFLOW_JBPM_PUBLISH_GROUPS, TRAVEL_DEMO_PUBLISHERS_GROUP, TRAVEL_DEMO_PUBLISHERS_GROUP)));
     }
 }

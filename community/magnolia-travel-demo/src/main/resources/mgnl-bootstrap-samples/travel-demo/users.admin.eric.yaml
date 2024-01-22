@@ -1,0 +1,122 @@
+'eric':
+  'email': 'eric@example.com'
+  'enabled': true
+  'failedLoginAttempts': 0
+  'jcr:primaryType': 'mgnl:user'
+  'jcr:uuid': '0756e9a3-fee4-420c-981e-0b3f69e85810'
+  'jcrName': 'eric'
+  'language': 'en'
+  'lastaccess': 2024-01-10T19:45:24.841+07:00
+  'mgnl:activationStatus': true
+  'mgnl:created': 2015-05-28T15:51:23.134+02:00
+  'mgnl:createdBy': 'superuser'
+  'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+  'mgnl:lastActivatedBy': 'superuser'
+  'mgnl:lastModified': 2024-01-11T10:08:09.997+07:00
+  'mgnl:lastModifiedBy': 'superuser'
+  'name': 'eric'
+  'previousAccess': 2024-01-10T19:42:41.869+07:00
+  'pswd': '$2a$12$ys4mJeCKwX5CmWO7yhc17uKLD1owDVxAbDvA0L9bYwStpvXjcjUCe'
+  'title': 'Eric (Editor, travel-demo)'
+  'acl_users':
+    'jcr:uuid': '431adb77-e015-4b71-a4f8-685ef29beca3'
+    'mgnl:activationStatus': true
+    'mgnl:created': 2015-05-28T15:51:23.495+02:00
+    'mgnl:createdBy': 'superuser'
+    'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+    'mgnl:lastActivatedBy': 'superuser'
+    'mgnl:lastModified': 2016-05-18T08:44:04.921+02:00
+    'mgnl:lastModifiedBy': 'superuser'
+    '0':
+      'jcr:uuid': 'eed8ccac-d1c3-45b4-9e6b-20f2dce1e883'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-28T15:51:23.496+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2015-05-28T15:51:23.496+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/eric'
+      'permissions': 8
+    '00':
+      'jcr:uuid': '4a0fb005-b201-41dc-820b-93916a0f6e5e'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-28T15:51:23.497+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2015-05-28T15:51:23.497+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/eric/email'
+      'permissions': 63
+    '01':
+      'jcr:uuid': '74e9e529-0619-438e-baac-463a4d3ee220'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-28T15:51:23.498+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2015-05-28T15:51:23.498+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/eric/language'
+      'permissions': 63
+    '02':
+      'jcr:uuid': '7bbd3f93-80ed-43f0-a2c7-870e074eddeb'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-28T15:51:23.500+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2015-05-28T15:51:23.500+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/eric/lastaccess'
+      'permissions': 63
+    '03':
+      'jcr:uuid': 'c5401f08-dc63-4bdb-b0e0-d96b8ee02bbc'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-28T15:51:23.501+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2015-05-28T15:51:23.501+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/eric/pswd'
+      'permissions': 63
+    '04':
+      'jcr:uuid': '9bdff668-fc80-4d1d-ad03-2df1055f9a4b'
+      'mgnl:activationStatus': true
+      'mgnl:created': 2015-05-28T15:51:23.502+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+      'mgnl:lastActivatedBy': 'superuser'
+      'mgnl:lastModified': 2015-05-28T15:51:23.502+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/eric/title'
+      'permissions': 63
+    '05':
+      'jcr:uuid': '1f409c7d-2ef3-423b-8941-17670a08c120'
+      'mgnl:created': 2016-05-18T08:44:04.923+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2016-05-18T08:44:04.923+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/eric/timezone'
+      'permissions': 63
+    '06':
+      'jcr:uuid': 'a0c0acd3-c2b1-4b1c-b06e-f6ba729a2434'
+      'mgnl:created': 2021-07-12T12:36:59.138+02:00
+      'mgnl:createdBy': 'superuser'
+      'mgnl:lastModified': 2021-07-12T12:36:59.138+02:00
+      'mgnl:lastModifiedBy': 'superuser'
+      'path': '/admin/eric/homeScreen'
+      'permissions': 63
+  'roles':
+    'jcr:uuid': '070dc95d-392a-4425-a8fe-0feeaf20741b'
+    'mgnl:activationStatus': true
+    'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+    'mgnl:lastActivatedBy': 'superuser'
+  'groups':
+    '00': 'cc24d5c1-1708-41af-b7c0-8e1edac4a31c'
+    'jcr:uuid': '01446d39-e0c8-45f8-870c-34009e78587f'
+    'mgnl:activationStatus': true
+    'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
+    'mgnl:lastActivatedBy': 'superuser'
