@@ -108,7 +108,8 @@
       'path': '/admin/peter/homeScreen'
       'permissions': 63
   'groups':
-    '00': 'ebcfa496-5d16-4bbe-b8b8-3ca852474f08'
+    # Assign to 'publishers' group
+    '00': '51160414-805f-4418-8a74-34d77f84b894'
     'jcr:uuid': '4e200846-d636-4791-8c30-685e74264182'
     'mgnl:activationStatus': true
     'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00

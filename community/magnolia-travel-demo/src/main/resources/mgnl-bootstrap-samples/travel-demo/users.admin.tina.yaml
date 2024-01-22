@@ -115,7 +115,8 @@
     'mgnl:lastModified': 2015-06-25T11:57:04.262+02:00
     'mgnl:lastModifiedBy': 'superuser'
   'groups':
-    '00': 'cc24d5c1-1708-41af-b7c0-8e1edac4a31c'
+    # Assign to 'editors' group
+    '00': 'f7beb039-573c-4f45-a08f-e7df0e119d10'
     'jcr:uuid': '086abbce-05c7-4cd0-8f2f-71601e3c1f2d'
     'mgnl:activationStatus': true
     'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00

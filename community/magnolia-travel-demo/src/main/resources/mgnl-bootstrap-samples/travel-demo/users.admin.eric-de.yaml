@@ -95,7 +95,8 @@
       'path': '/admin/eric-de/homeScreen'
       'permissions': 63
   'groups':
-    '00': 'cc24d5c1-1708-41af-b7c0-8e1edac4a31c'
+    # Assign to 'editors' group
+    '00': 'f7beb039-573c-4f45-a08f-e7df0e119d10'
     'jcr:uuid': '4158f3af-529b-49f3-a4ff-2e08e9ba5e35'
     'mgnl:activationStatus': true
     'mgnl:lastActivated': 2015-08-06T10:04:07.551+02:00
