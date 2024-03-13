@@ -14,7 +14,6 @@
     jcr:primaryType: 'mgnl:page'
     jcr:uuid: 'aed8afe9-d6f1-4422-960a-03491238f92a'
     mgnl:activationStatus: true
-    mgnl:assignedSegments: ['segments:7c178722-5347-418f-af81-e95e40ca95d3']
     mgnl:created: 2015-02-02T21:04:23.355+01:00
     mgnl:createdBy: 'superuser'
     mgnl:lastActivated: 2016-08-23T17:04:15.943+02:00
@@ -346,7 +345,6 @@
     jcr:primaryType: 'mgnl:page'
     jcr:uuid: 'bf4ef942-acbf-4b36-8d0b-47a6079df2ff'
     mgnl:activationStatus: true
-    mgnl:assignedSegments: ['segments:f2df3cc8-86f2-4338-879f-27f0cf4c46db']
     mgnl:created: 2015-02-02T21:04:23.355+01:00
     mgnl:createdBy: 'superuser'
     mgnl:lastActivated: 2016-08-23T17:04:15.943+02:00
@@ -683,7 +681,6 @@
     jcr:primaryType: 'mgnl:page'
     jcr:uuid: 'ece4f4fb-2306-4ad2-ae66-e40a8fdeb9c9'
     mgnl:activationStatus: true
-    mgnl:assignedSegments: ['segments:6896dff6-1584-4a26-be96-2ca5f5a04ac8']
     mgnl:created: 2015-02-02T21:04:23.355+01:00
     mgnl:createdBy: 'superuser'
     mgnl:lastActivated: 2016-08-23T17:04:15.943+02:00
