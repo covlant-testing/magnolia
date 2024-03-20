@@ -27,9 +27,9 @@
     <marketingTagsVersion>3.0-SNAPSHOT</marketingTagsVersion>
     <contentTagsVersion>3.0-SNAPSHOT</contentTagsVersion>
     <multisiteVersion>3.0-SNAPSHOT</multisiteVersion>
-    <storiesAppVersion>2.2.0-SNAPSHOT</storiesAppVersion>
+    <storiesAppVersion>3.0-SNAPSHOT</storiesAppVersion>
     <javascriptModelsVersion>3.0-SNAPSHOT</javascriptModelsVersion>
-    <magnoliaDamVersion>3.1-SNAPSHOT</magnoliaDamVersion>
+    <magnoliaDamVersion>4.0-SNAPSHOT</magnoliaDamVersion>
     <magnoliaVersion>6.3-SNAPSHOT</magnoliaVersion>
     <magnoliaUiVersion>6.3-SNAPSHOT</magnoliaUiVersion>
     <mteVersion>3.0-SNAPSHOT</mteVersion>
