@@ -83,16 +83,6 @@
       <groupId>info.magnolia.webhooks</groupId>
       <artifactId>magnolia-webhooks-events-jcr</artifactId>
     </dependency>
-    <dependency>
-      <groupId>info.magnolia.webhooks</groupId>
-        <artifactId>magnolia-webhooks-events-ui-api</artifactId>
-      <exclusions>
-        <exclusion>
-          <groupId>org.ehcache</groupId>
-          <artifactId>ehcache</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
 
     <!-- Addon modules -->
     <dependency>

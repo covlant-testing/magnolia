@@ -208,11 +208,6 @@
         <artifactId>magnolia-webhooks-events-jcr</artifactId>
         <version>${webhooksVersion}</version>
       </dependency>
-      <dependency>
-        <groupId>info.magnolia.webhooks</groupId>
-        <artifactId>magnolia-webhooks-events-ui-api</artifactId>
-        <version>${webhooksVersion}</version>
-      </dependency>
 
       <!-- Addon modules -->
       <dependency>
