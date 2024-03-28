@@ -5,44 +5,132 @@
     <groupId>info.magnolia.maven.poms</groupId>
     <artifactId>magnolia-parent-pom-community</artifactId>
     <version>61</version>
-    <!-- do not forget to also update it in community/magnolia-travel-demo-parent/pom.xml & enterprise/magnolia-travel-demo-enterprise-parent/pom.xml -->
   </parent>
+
   <groupId>info.magnolia.demo</groupId>
-  <artifactId>magnolia-demo-projects-reactor</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>travel-demo-parent</artifactId>
   <version>2.0-SNAPSHOT</version>
-  <name>Magnolia Demo Projects Reactor</name>
+  <packaging>pom</packaging>
+
+  <name>Magnolia Travel Demo (parent pom)</name>
+  <description>Magnolia Travel is a demo project showing best practices when working with Magnolia.</description>
   <inceptionYear>2015</inceptionYear>
-  <description>
-    This is a REACTOR project used to build Magnolia demo project artifacts.
-    Do NOT use as a PARENT pom.
-  </description>
+
   <properties>
+    <javaVersion>17</javaVersion>
     <scmTagPrefix>magnolia-demo-projects</scmTagPrefix>
+    <magnolia.version>6.3-SNAPSHOT</magnolia.version>
+    <mte.version>3.0-SNAPSHOT</mte.version>
   </properties>
+
   <scm>
     <connection>scm:git:ssh://git@git.magnolia-cms.com/MODULES/demo-projects</connection>
     <developerConnection>scm:git:ssh://git@git.magnolia-cms.com/MODULES/demo-projects</developerConnection>
     <url>https://git.magnolia-cms.com/projects/MODULES/repos/demo-projects</url>
-    <tag>magnolia-demo-projects-1.5.2</tag>
+    <tag>HEAD</tag>
   </scm>
+
   <issueManagement>
     <system>Jira</system>
     <url>https://jira.magnolia-cms.com/browse/MGNLDEMO</url>
   </issueManagement>
+
+  <distributionManagement>
+    <site>
+      <id>${distribSiteId}</id>
+      <url>${distribSiteRoot}/modules/travel-demo/${project.version}</url>
+    </site>
+  </distributionManagement>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>info.magnolia.dx</groupId>
+        <artifactId>magnolia-dx-core-parent</artifactId>
+        <version>${magnolia.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.bundle</groupId>
+        <artifactId>magnolia-bundle-parent</artifactId>
+        <version>${magnolia.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
+      <!-- Reactor dependencies -->
+      <dependency>
+        <groupId>info.magnolia.demo</groupId>
+        <artifactId>magnolia-travel-demo</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.demo</groupId>
+        <artifactId>magnolia-travel-tours</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>info.magnolia.eedemo</groupId>
+        <artifactId>magnolia-travel-demo-component-personalization</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.eedemo</groupId>
+        <artifactId>magnolia-travel-demo-content-tags</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.eedemo</groupId>
+        <artifactId>magnolia-travel-demo-marketing-tags</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.eedemo</groupId>
+        <artifactId>magnolia-travel-demo-multisite</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.eedemo</groupId>
+        <artifactId>magnolia-travel-demo-personalization</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.eedemo</groupId>
+        <artifactId>magnolia-travel-demo-stories-app</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.eedemo</groupId>
+        <artifactId>magnolia-travel-tours-enterprise</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>info.magnolia.templating</groupId>
+        <artifactId>magnolia-templating-kit-2</artifactId>
+        <type>test-jar</type>
+        <scope>test</scope>
+        <version>${mte.version}</version>
+      </dependency>
+
+    </dependencies>
+  </dependencyManagement>
+
   <modules>
-    <module>community/magnolia-travel-demo-parent</module>
-    <module>community/magnolia-travel-demo</module>
-    <module>community/magnolia-travel-tours</module>
-    <module>community/travel-demo-community-webapp</module>
-    <module>enterprise/magnolia-travel-tours-enterprise</module>
-    <module>enterprise/magnolia-travel-demo-enterprise-parent</module>
-    <module>enterprise/magnolia-travel-demo-marketing-tags</module>
-    <module>enterprise/magnolia-travel-demo-personalization</module>
-    <module>enterprise/magnolia-travel-demo-multisite</module>
-    <module>enterprise/magnolia-travel-demo-component-personalization</module>
-    <module>enterprise/magnolia-travel-demo-content-tags</module>
-    <module>enterprise/magnolia-travel-demo-stories-app</module>
-    <module>enterprise/travel-demo-webapp</module>
+    <!-- Community Edition demo -->
+    <module>travel-demo-module</module>
+    <module>travel-demo-tours</module>
+    <module>travel-demo-community-webapp</module>
+    <!-- DX Core demo -->
+    <module>travel-demo-component-personalization</module>
+    <module>travel-demo-content-tags</module>
+    <module>travel-demo-graphql</module>
+    <module>travel-demo-marketing-tags</module>
+    <module>travel-demo-personalization</module>
+    <module>travel-demo-multisite</module>
+    <module>travel-demo-stories-app</module>
+    <module>travel-demo-webapp</module>
   </modules>
 </project>

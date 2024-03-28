@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>info.magnolia.demo</groupId>
+    <artifactId>travel-demo-parent</artifactId>
+    <version>2.0-SNAPSHOT</version>
+  </parent>
+
+  <groupId>info.magnolia.eedemo</groupId>
+  <artifactId>magnolia-travel-demo-content-tags</artifactId>
+  <packaging>jar</packaging>
+
+  <name>Magnolia Travel Demo Content Tags Module</name>
+  <description>Augments the Travel Demo with an example of the content tags feature.</description>
+
+  <properties>
+    <codeCoverageThreshold>80</codeCoverageThreshold>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>info.magnolia</groupId>
+      <artifactId>magnolia-core</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>info.magnolia.contenttags</groupId>
+      <artifactId>magnolia-content-tags-core</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>jakarta.inject</groupId>
+      <artifactId>jakarta.inject-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>javax.jcr</groupId>
+      <artifactId>jcr</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>info.magnolia.dam</groupId>
+      <artifactId>magnolia-dam-jcr</artifactId>
+    </dependency>
+
+    <!-- For tests -->
+    <dependency>
+      <groupId>info.magnolia.core</groupId>
+      <artifactId>magnolia-configuration</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia</groupId>
+      <artifactId>magnolia-core</artifactId>
+      <type>test-jar</type>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.core</groupId>
+      <artifactId>magnolia-resource-loader</artifactId>
+      <type>test-jar</type>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.ui</groupId>
+      <artifactId>magnolia-ui-framework</artifactId>
+      <type>test-jar</type>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.ui</groupId>
+      <artifactId>magnolia-ui-framework</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.ui</groupId>
+      <artifactId>magnolia-ui-framework-jcr</artifactId>
+      <type>test-jar</type>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.ui</groupId>
+      <artifactId>magnolia-ui-framework-jcr</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.templating</groupId>
+      <artifactId>magnolia-templating-kit-2</artifactId>
+      <type>test-jar</type>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.vaadin</groupId>
+      <artifactId>vaadin-server</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
+      <scope>test</scope>
+    </dependency>
+
+  </dependencies>
+</project>

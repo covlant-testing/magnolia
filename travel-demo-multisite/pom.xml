@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>info.magnolia.demo</groupId>
+    <artifactId>travel-demo-parent</artifactId>
+    <version>2.0-SNAPSHOT</version>
+  </parent>
+
+  <groupId>info.magnolia.eedemo</groupId>
+  <artifactId>magnolia-travel-demo-multisite</artifactId>
+  <packaging>jar</packaging>
+
+  <name>Magnolia Travel Demo Multisite Module</name>
+  <description>Augments the Travel Demo with an example of the Multisite feature.</description>
+
+  <properties>
+    <codeCoverageThreshold>98</codeCoverageThreshold>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>info.magnolia</groupId>
+      <artifactId>magnolia-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.demo</groupId>
+      <artifactId>magnolia-travel-demo</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.multisite</groupId>
+      <artifactId>magnolia-module-multisite</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.jcr</groupId>
+      <artifactId>jcr</artifactId>
+    </dependency>
+
+    <!-- Tests -->
+    <dependency>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia</groupId>
+      <artifactId>magnolia-core</artifactId>
+      <type>test-jar</type>
+    </dependency>
+  </dependencies>
+</project>
