@@ -34,7 +34,7 @@
     <module>community/magnolia-travel-demo-parent</module>
     <module>community/magnolia-travel-demo</module>
     <module>community/magnolia-travel-tours</module>
-    <module>community/magnolia-community-demo-webapp</module>
+    <module>community/travel-demo-community-webapp</module>
     <module>enterprise/magnolia-travel-tours-enterprise</module>
     <module>enterprise/magnolia-travel-demo-enterprise-parent</module>
     <module>enterprise/magnolia-travel-demo-marketing-tags</module>
@@ -43,6 +43,6 @@
     <module>enterprise/magnolia-travel-demo-component-personalization</module>
     <module>enterprise/magnolia-travel-demo-content-tags</module>
     <module>enterprise/magnolia-travel-demo-stories-app</module>
-    <module>enterprise/magnolia-dx-core-demo-webapp</module>
+    <module>enterprise/travel-demo-webapp</module>
   </modules>
 </project>

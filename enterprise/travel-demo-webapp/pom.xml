@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd ">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>info.magnolia.demo</groupId>
-    <artifactId>magnolia-travel-demo-parent</artifactId>
-    <version>6.3-SNAPSHOT</version>
-    <relativePath>../magnolia-travel-demo-parent/pom.xml</relativePath>
+    <groupId>info.magnolia.eedemo</groupId>
+    <artifactId>magnolia-travel-demo-enterprise-parent</artifactId>
+    <version>2.0-SNAPSHOT</version>
+    <relativePath>../magnolia-travel-demo-enterprise-parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>info.magnolia.bundle</groupId>
-  <artifactId>magnolia-community-demo-webapp</artifactId>
+  <artifactId>travel-demo-webapp</artifactId>
   <packaging>war</packaging>
 
-  <name>Magnolia Community demo webapp</name>
-  <description>Magnolia Community webapp with the travel demo.</description>
+  <name>Magnolia DX Core demo webapp</name>
+  <description>Magnolia DX Core pre-installed with several modules and with MTE travel demo.</description>
 
   <dependencies>
     <dependency>
-      <groupId>info.magnolia.bundle</groupId>
-      <artifactId>magnolia-community-webapp</artifactId>
+      <groupId>info.magnolia.dx</groupId>
+      <artifactId>magnolia-dx-core-webapp</artifactId>
       <type>war</type>
     </dependency>
     <dependency>
-      <groupId>info.magnolia.bundle</groupId>
-      <artifactId>magnolia-community-webapp</artifactId>
+      <groupId>info.magnolia.dx</groupId>
+      <artifactId>magnolia-dx-core-webapp</artifactId>
       <type>pom</type>
     </dependency>
 
@@ -34,6 +33,7 @@
       <artifactId>magnolia-sample-app</artifactId>
     </dependency>
 
+    <!-- MTE travel demo modules -->
     <dependency>
       <groupId>info.magnolia.demo</groupId>
       <artifactId>magnolia-travel-demo</artifactId>
@@ -41,6 +41,92 @@
     <dependency>
       <groupId>info.magnolia.demo</groupId>
       <artifactId>magnolia-travel-tours</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.eedemo</groupId>
+      <artifactId>magnolia-travel-demo-personalization</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.eedemo</groupId>
+      <artifactId>magnolia-travel-demo-component-personalization</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.eedemo</groupId>
+      <artifactId>magnolia-travel-demo-marketing-tags</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.eedemo</groupId>
+      <artifactId>magnolia-travel-demo-multisite</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.eedemo</groupId>
+      <artifactId>magnolia-travel-demo-content-tags</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.personalization</groupId>
+      <artifactId>magnolia-personalization-samples</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.eedemo</groupId>
+      <artifactId>magnolia-travel-demo-stories-app</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.eedemo</groupId>
+      <artifactId>magnolia-travel-tours-enterprise</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>info.magnolia.webhooks</groupId>
+      <artifactId>magnolia-webhooks-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.webhooks</groupId>
+      <artifactId>magnolia-webhooks-events-jcr</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.webhooks</groupId>
+        <artifactId>magnolia-webhooks-events-ui-api</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>org.ehcache</groupId>
+          <artifactId>ehcache</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <!-- Addon modules -->
+    <dependency>
+      <groupId>info.magnolia.ai.image</groupId>
+      <artifactId>magnolia-image-recognition</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.ai.image</groupId>
+      <artifactId>magnolia-image-recognition-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.ai.image</groupId>
+      <artifactId>magnolia-content-tags-integration</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.ai.image</groupId>
+      <artifactId>magnolia-amazon-image-recognition</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>info.magnolia.ai.text</groupId>
+      <artifactId>magnolia-text-classification-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.ai.text</groupId>
+      <artifactId>magnolia-text-classification</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.ai.text</groupId>
+      <artifactId>magnolia-amazon-text-classification</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.ai.text</groupId>
+      <artifactId>magnolia-pages-content-tags-integration</artifactId>
     </dependency>
   </dependencies>
 
@@ -88,7 +174,7 @@
             </goals>
             <configuration>
               <skipAssembly>false</skipAssembly>
-              <finalName>magnolia-${project.version}</finalName>
+              <finalName>magnolia-dx-core-demo-${project.version}</finalName>
               <descriptors>
                 <descriptor>src/release/tomcat-bundle.xml</descriptor>
               </descriptors>
