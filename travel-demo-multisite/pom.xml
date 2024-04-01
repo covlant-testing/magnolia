@@ -16,6 +16,8 @@
   <description>Augments the Travel Demo with an example of the Multisite feature.</description>
 
   <properties>
+    <magnoliaLicenseStyle>mna</magnoliaLicenseStyle>
+    <distribRepoPrefix>magnolia.enterprise</distribRepoPrefix>
     <codeCoverageThreshold>98</codeCoverageThreshold>
   </properties>
 

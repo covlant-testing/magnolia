@@ -15,6 +15,11 @@
   <name>Magnolia Travel Demo Stories App Module</name>
   <description>Showcase about using and customizing the Magnolia stories app</description>
 
+  <properties>
+    <magnoliaLicenseStyle>mna</magnoliaLicenseStyle>
+    <distribRepoPrefix>magnolia.enterprise</distribRepoPrefix>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>info.magnolia</groupId>

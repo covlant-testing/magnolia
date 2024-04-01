@@ -14,6 +14,11 @@
   <name>Magnolia DX Core demo webapp</name>
   <description>Magnolia DX Core pre-installed with several modules and with MTE travel demo.</description>
 
+  <properties>
+    <magnoliaLicenseStyle>mna</magnoliaLicenseStyle>
+    <distribRepoPrefix>magnolia.enterprise</distribRepoPrefix>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>info.magnolia.dx</groupId>

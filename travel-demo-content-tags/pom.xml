@@ -15,6 +15,8 @@
   <description>Augments the Travel Demo with an example of the content tags feature.</description>
 
   <properties>
+    <magnoliaLicenseStyle>mna</magnoliaLicenseStyle>
+    <distribRepoPrefix>magnolia.enterprise</distribRepoPrefix>
     <codeCoverageThreshold>80</codeCoverageThreshold>
   </properties>
 

@@ -16,6 +16,8 @@
   <description>Magnolia module showcasing a travel-tours website. Especially, this supports graphQL implementation</description>
 
   <properties>
+    <magnoliaLicenseStyle>mna</magnoliaLicenseStyle>
+    <distribRepoPrefix>magnolia.enterprise</distribRepoPrefix>
     <japicmp.skip>true</japicmp.skip>
   </properties>
 
