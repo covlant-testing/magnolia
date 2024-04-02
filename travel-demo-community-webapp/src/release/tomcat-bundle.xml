@@ -38,7 +38,7 @@
     <dependencySet>
       <outputDirectory>apache-tomcat-${project.properties.tomcatVersion}/webapps/magnoliaAuthor</outputDirectory>
       <includes>
-        <include>info.magnolia.bundle:magnolia-community-demo-webapp:war</include>
+        <include>info.magnolia.demo:travel-demo-community-webapp:war</include>
       </includes>
       <useStrictFiltering>true</useStrictFiltering>
       <unpack>true</unpack>

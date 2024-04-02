@@ -21,6 +21,9 @@
     <scmTagPrefix>magnolia-demo-projects</scmTagPrefix>
     <magnolia.version>6.3-SNAPSHOT</magnolia.version>
     <mte.version>3.0-SNAPSHOT</mte.version>
+    <!-- used when filtering tomcat-bundle assembly descriptor -->
+    <tomcatVersion>9.0.87</tomcatVersion>
+    <tomcatBareboneVersion>1.2.26</tomcatBareboneVersion>
   </properties>
 
   <scm>

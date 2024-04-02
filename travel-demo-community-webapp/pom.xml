@@ -86,7 +86,7 @@
             </goals>
             <configuration>
               <skipAssembly>false</skipAssembly>
-              <finalName>magnolia-${project.version}</finalName>
+              <finalName>travel-demo-community-webapp-${project.version}</finalName>
               <descriptors>
                 <descriptor>src/release/tomcat-bundle.xml</descriptor>
               </descriptors>
