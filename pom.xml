@@ -4,7 +4,7 @@
   <parent>
     <groupId>info.magnolia.maven.poms</groupId>
     <artifactId>magnolia-parent-pom-community</artifactId>
-    <version>60</version>
+    <version>61</version>
     <!-- do not forget to also update it in community/magnolia-travel-demo-parent/pom.xml & enterprise/magnolia-travel-demo-enterprise-parent/pom.xml -->
   </parent>
   <groupId>info.magnolia.demo</groupId>
