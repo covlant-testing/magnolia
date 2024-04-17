@@ -37,6 +37,7 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.assertThat;
 import static org.mockito.Mockito.mock;
 
+import info.magnolia.cms.i18n.IetfI18nContentSupport;
 import info.magnolia.rendering.model.RenderingModel;
 import info.magnolia.rendering.template.AreaDefinition;
 import info.magnolia.templating.functions.TemplatingFunctions;
@@ -47,7 +48,7 @@ import org.junit.Test;
 
 public class NavigationAreaModelTest {
 
-    private final NavigationAreaModel navigationAreaModel = new NavigationAreaModel(mock(Node.class), mock(AreaDefinition.class), mock(RenderingModel.class), mock(TemplatingFunctions.class));
+    private final NavigationAreaModel navigationAreaModel = new NavigationAreaModel(mock(Node.class), mock(AreaDefinition.class), mock(RenderingModel.class), mock(TemplatingFunctions.class), new IetfI18nContentSupport());
 
     @Test
     public void makeSureReturnedLocalesTakeCountryIntoAccount() {
@@ -56,7 +57,7 @@ public class NavigationAreaModelTest {
         // THEN
         assertThat(navigationAreaModel.getLocale("de").getLanguage(), is("de"));
         assertThat(navigationAreaModel.getLocale("de").getCountry(), isEmptyString());
-        assertThat(navigationAreaModel.getLocale("de_CH").getLanguage(), is("de"));
-        assertThat(navigationAreaModel.getLocale("de_CH").getCountry(), is("CH"));
+        assertThat(navigationAreaModel.getLocale("de-CH").getLanguage(), is("de"));
+        assertThat(navigationAreaModel.getLocale("de-CH").getCountry(), is("CH"));
     }
 }

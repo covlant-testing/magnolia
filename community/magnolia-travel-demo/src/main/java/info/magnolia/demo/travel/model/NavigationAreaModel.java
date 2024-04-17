@@ -33,6 +33,7 @@
  */
 package info.magnolia.demo.travel.model;
 
+import info.magnolia.cms.i18n.I18nContentSupport;
 import info.magnolia.demo.travel.definition.NavigationAreaDefinition;
 import info.magnolia.demo.travel.user.UserLinksResolver;
 import info.magnolia.rendering.model.RenderingModel;
@@ -48,7 +49,6 @@ import javax.inject.Inject;
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
 
-import org.apache.commons.lang3.LocaleUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -68,11 +68,14 @@ public class NavigationAreaModel extends RenderingModelImpl<AreaDefinition> {
 
     private final TemplatingFunctions templatingFunctions;
 
+    private final I18nContentSupport i18nContentSupport;
+
     @Inject
-    public NavigationAreaModel(Node content, AreaDefinition definition, RenderingModel<?> parent, TemplatingFunctions templatingFunctions) {
+    public NavigationAreaModel(Node content, AreaDefinition definition, RenderingModel<?> parent, TemplatingFunctions templatingFunctions, I18nContentSupport i18nContentSupport) {
         super(content, definition, parent);
 
         this.templatingFunctions = templatingFunctions;
+        this.i18nContentSupport = i18nContentSupport;
     }
 
     public String getAboutDemoLink() {
@@ -139,6 +142,6 @@ public class NavigationAreaModel extends RenderingModelImpl<AreaDefinition> {
     }
 
     public Locale getLocale(String language) {
-        return LocaleUtils.toLocale(language);
+        return i18nContentSupport.determineLocaleFromString(language);
     }
 }
