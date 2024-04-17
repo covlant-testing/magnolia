@@ -16,13 +16,13 @@ domains: !override
   sportstation:
     name: sportstation.magnolia-cms.com
 i18n:
-  class: info.magnolia.cms.i18n.DefaultI18nContentSupport
+  class: info.magnolia.cms.i18n.IetfI18nContentSupport
   enabled: false
   fallbackLocale: en
   locales:
     en:
       enabled: true
-      language: en
+      languageTag: en
     de:
       enabled: true
-      language: de
+      languageTag: de
