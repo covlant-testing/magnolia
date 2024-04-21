@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module SYSTEM "module.dtd" >
+<module>
+  <name>travel-demo</name>
+  <displayName>${project.name}</displayName>
+  <description>${project.description}</description>
+  <versionHandler>info.magnolia.demo.travel.setup.TravelDemoModuleVersionHandler</versionHandler>
+  <version>${project.version}</version>
+
+  <dependencies>
+    <dependency>
+      <name>core</name>
+      <version>6.3/*</version>
+    </dependency>
+    <dependency>
+      <name>rendering</name>
+      <version>6.3/*</version>
+    </dependency>
+    <dependency>
+      <name>dam-jcr</name>
+      <version>4.0/*</version>
+    </dependency>
+    <dependency>
+      <name>imaging</name>
+      <version>2.1/*</version>
+    </dependency>
+    <dependency>
+      <name>form</name>
+      <version>3.0/*</version>
+    </dependency>
+    <dependency>
+      <name>site</name>
+      <version>2.0/*</version>
+    </dependency>
+    <dependency>
+      <name>mte</name>
+      <version>3.0/*</version>
+    </dependency>
+    <dependency>
+      <name>mtk2</name>
+      <version>3.0/*</version>
+    </dependency>
+    <dependency>
+      <name>multisite</name>
+      <version>1.2.1/*</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <name>workflow-jbpm</name>
+      <version>5.5/*</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <name>public-user-registration</name>
+      <version>3.0/*</version>
+    </dependency>
+
+    <!-- travel-demo-pur group contains roles from these modules:  -->
+    <dependency>
+      <name>categorization</name>
+      <version>${magnolia.categorization.version}/*</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <name>contacts</name>
+      <version>1.4.1/*</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <name>commenting</name>
+      <version>2.3.1/*</version>
+      <optional>true</optional>
+    </dependency>
+    <!-- travel-demo-pur group contains roles from these modules ^^^  -->
+
+  </dependencies>
+</module>
