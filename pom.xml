@@ -19,8 +19,8 @@
   <properties>
     <javaVersion>17</javaVersion>
     <scmTagPrefix>magnolia-demo-projects</scmTagPrefix>
-    <magnolia.version>6.3-SNAPSHOT</magnolia.version>
-    <mte.version>3.0-SNAPSHOT</mte.version>
+    <magnolia.version>6.3.0-alpha2</magnolia.version>
+    <mte.version>3.0.0-alpha2</mte.version>
     <!-- used when filtering tomcat-bundle assembly descriptor -->
     <tomcatVersion>9.0.87</tomcatVersion>
     <tomcatBareboneVersion>1.2.26</tomcatBareboneVersion>
