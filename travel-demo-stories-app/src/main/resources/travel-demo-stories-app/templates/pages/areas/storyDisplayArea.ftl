@@ -12,7 +12,7 @@
         [#assign link = storyLink(content, relatedStory)!"#" /]
     <div class="related-story float-container">
         <a href="${link}" style="background-image: url('${rendition.link!}');">
-            <h2>${relatedStory.title}</h2>
+            <h2>${relatedStory.title!?html}</h2>
             <div class="call-to-action">${i18n['story.page.related.stories.view']}</div>
         </a>
     </div>
@@ -82,7 +82,7 @@
                         canPlayH264 = "" !== (testEl.canPlayType('video/mp4; codecs="avc1.42E01E"') || testEl.canPlayType('video/mp4; codecs="avc1.42E01E, mp4a.40.2"'));
                     }
                     if(canPlayH264) {
-                        document.getElementById('embedVideo').innerHTML = '${story.embedsource!}';
+                        document.getElementById('embedVideo').innerHTML = '${story.embedsource!?js_string}';
                     }
                 </script>
             </div>
@@ -92,7 +92,7 @@
     <div class="story-header responsive-wrapper-16x9">
         <div class="responsive-element">
 
-            <h1 class="story-title">${story.title}</h1>
+            <h1 class="story-title">${story.title!?html}</h1>
 
             <div class="story-circle-line">
                 <figure class="clock">
@@ -118,9 +118,9 @@
             </div>
 
             <div class="story-credits">
-                <div class="story-author">${i18n['story.page.published.by']} ${story.author!}</div>
+                <div class="story-author">${i18n['story.page.published.by']} ${story.author!?html}</div>
                 <div class="story-author-meta">
-                    <time datetime="${story.created?isoLocal}">${story.created?date?string.long}</time> / ${story.location!}
+                    <time datetime="${story.created?isoLocal}">${story.created?date?string.long}</time> / ${story.location!?html}
                 </div>
             </div>
 
