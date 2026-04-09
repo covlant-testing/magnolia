@@ -3,40 +3,28 @@
 **Date:** 2026-04-09
 **Scope:** All custom Java code (56 files), FreeMarker templates (40+), YAML/XML configs, GraphQL/REST API layer
 
-### Fix PRs
-
-| Finding | PR |
-|---------|-----|
-| C1, H2 | [fix(tours): sanitize user input in JCR-SQL2 queries](https://github.com/covlant-testing/magnolia/pull/2) |
-| C2 | [fix(graphql): sanitize user input in query construction](https://github.com/covlant-testing/magnolia/pull/1) |
-| C3 | [fix(stories): escape embedsource and plain-text fields to prevent XSS](https://github.com/covlant-testing/magnolia/pull/3) |
-| H1 | [fix(graphql): validate and sanitize filter query parameters](https://github.com/covlant-testing/magnolia/pull/5) |
-| H8 | [fix(graphql): reuse existing query provider instead of uninitialized instance](https://github.com/covlant-testing/magnolia/pull/4) |
-
----
-
 ## Critical (3)
 
-| # | Location | Issue |
-|---|----------|-------|
-| **C1** | `TourServices.java:320` | **JCR-SQL2 Injection** — `getContentNodeByName` interpolates user input (`?tour=` param, URL selectors) directly into a SQL2 query via `String.format`. An attacker can inject arbitrary JCR predicates (e.g., `?tour=' OR 1=1 OR name(content)='`). |
-| **C2** | `graphql-tour-queries-provider.js:53-63` | **JCR Query Injection (client-side)** — `buildFTSQuery` interpolates search box input into LIKE clauses without sanitization. Attacker types a crafted string in the search box to alter query logic. |
-| **C3** | `storyDisplayArea.ftl:42,85` | **Stored XSS via embedsource** — `${story.embedsource!}` is rendered raw into HTML *and* injected into a JS `innerHTML` call. Any CMS editor can inject arbitrary `<script>` tags. The JS string context (`'${story.embedsource!}'`) also breaks on single quotes. |
+| # | Location | Issue | Fix |
+|---|----------|-------|-----|
+| **C1** | `TourServices.java:320` | **JCR-SQL2 Injection** — `getContentNodeByName` interpolates user input (`?tour=` param, URL selectors) directly into a SQL2 query via `String.format`. An attacker can inject arbitrary JCR predicates (e.g., `?tour=' OR 1=1 OR name(content)='`). | [PR #2](https://github.com/covlant-testing/magnolia/pull/2) |
+| **C2** | `graphql-tour-queries-provider.js:53-63` | **JCR Query Injection (client-side)** — `buildFTSQuery` interpolates search box input into LIKE clauses without sanitization. Attacker types a crafted string in the search box to alter query logic. | [PR #1](https://github.com/covlant-testing/magnolia/pull/1) |
+| **C3** | `storyDisplayArea.ftl:42,85` | **Stored XSS via embedsource** — `${story.embedsource!}` is rendered raw into HTML *and* injected into a JS `innerHTML` call. Any CMS editor can inject arbitrary `<script>` tags. The JS string context (`'${story.embedsource!}'`) also breaks on single quotes. | [PR #3](https://github.com/covlant-testing/magnolia/pull/3) |
 
 ---
 
 ## High (8)
 
-| # | Location | Issue |
-|---|----------|-------|
-| **H1** | `graphql-tour-queries-provider.js:41-51` | **Filter injection** — `@duration` values inserted raw without numeric validation; other filter values trivially escape single-quote wrapping. |
-| **H2** | `TourServices.java:361` | **Second JCR-SQL2 injection** — `getToursByCategory` interpolates `categoryPropertyName` and `identifier` into a LIKE clause. |
-| **H3** | `storyDisplayArea.ftl:28` | **Path traversal** — `state.selector` from URL concatenated into JCR path (`getStoriesFolder() + "/" + selector`). `../` sequences could traverse the content tree. |
-| **H4** | `carousel.ftl:15,17` | **XSS in JS context** — `slideShowId` and `slickConfig` CMS fields rendered raw into JavaScript without `?js_string` escaping. |
-| **H5** | `htmlHeader.ftl:9,12,13` | **XSS in meta tags** — `windowTitle`, `description`, `keywords` rendered without `?html` in `<title>` and `content=""` attributes. `</title><script>...` escapes the tag. |
-| **H6** | `htmlHeader-marketing-tags.ftl:76-106` | **XSS in cookie consent JS** — 10+ CMS properties injected into a JS object literal without `?js_string` escaping. |
-| **H7** | `users.admin.*.yaml` | **Password hashes in VCS** — Bcrypt hashes for 4 admin users (eric, peter, tina) committed to source. Demo passwords are likely weak/guessable. |
-| **H8** | `tour-service.js:123` | **Constructor bug** — `new GraphqlTourQueriesProvider()` instantiated without required `(httpClient, baseContext)` args. Works by accident today but fragile. |
+| # | Location | Issue | Fix |
+|---|----------|-------|-----|
+| **H1** | `graphql-tour-queries-provider.js:41-51` | **Filter injection** — `@duration` values inserted raw without numeric validation; other filter values trivially escape single-quote wrapping. | [PR #5](https://github.com/covlant-testing/magnolia/pull/5) |
+| **H2** | `TourServices.java:361` | **Second JCR-SQL2 injection** — `getToursByCategory` interpolates `categoryPropertyName` and `identifier` into a LIKE clause. | [PR #2](https://github.com/covlant-testing/magnolia/pull/2) |
+| **H3** | `storyDisplayArea.ftl:28` | **Path traversal** — `state.selector` from URL concatenated into JCR path (`getStoriesFolder() + "/" + selector`). `../` sequences could traverse the content tree. | |
+| **H4** | `carousel.ftl:15,17` | **XSS in JS context** — `slideShowId` and `slickConfig` CMS fields rendered raw into JavaScript without `?js_string` escaping. | |
+| **H5** | `htmlHeader.ftl:9,12,13` | **XSS in meta tags** — `windowTitle`, `description`, `keywords` rendered without `?html` in `<title>` and `content=""` attributes. `</title><script>...` escapes the tag. | |
+| **H6** | `htmlHeader-marketing-tags.ftl:76-106` | **XSS in cookie consent JS** — 10+ CMS properties injected into a JS object literal without `?js_string` escaping. | |
+| **H7** | `users.admin.*.yaml` | **Password hashes in VCS** — Bcrypt hashes for 4 admin users (eric, peter, tina) committed to source. Demo passwords are likely weak/guessable. | |
+| **H8** | `tour-service.js:123` | **Constructor bug** — `new GraphqlTourQueriesProvider()` instantiated without required `(httpClient, baseContext)` args. Works by accident today but fragile. | [PR #4](https://github.com/covlant-testing/magnolia/pull/4) |
 
 ---
 
