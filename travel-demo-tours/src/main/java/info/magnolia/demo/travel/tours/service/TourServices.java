@@ -315,9 +315,15 @@ public class TourServices {
 
     private Node getContentNodeByName(final String pathOrName, final String workspace) throws RepositoryException {
         if (pathOrName.startsWith("/")) {
-            return MgnlContext.getJCRSession(workspace).getNode(StringUtils.substringBefore(pathOrName, "?"));
+            final String path = StringUtils.substringBefore(pathOrName, "?");
+            if (path.contains("..")) {
+                log.warn("Rejected path traversal attempt in workspace [{}]: [{}]", workspace, pathOrName);
+                return null;
+            }
+            return MgnlContext.getJCRSession(workspace).getNode(path);
         } else {
-            final String sql = String.format("SELECT * FROM [nt:base] AS content WHERE name(content)='%s'", pathOrName);
+            final String sanitized = pathOrName.replace("'", "''");
+            final String sql = String.format("SELECT * FROM [nt:base] AS content WHERE name(content)='%s'", sanitized);
             final NodeIterator items = QueryUtil.search(workspace, sql, Query.JCR_SQL2, "mgnl:content");
 
             if (items != null && items.hasNext()) {
@@ -358,7 +364,8 @@ public class TourServices {
 
         try {
             final Session session = MgnlContext.getJCRSession(ToursModule.TOURS_REPOSITORY_NAME);
-            String query = String.format("%s LIKE '%%%s%%'", categoryPropertyName, identifier);
+            final String sanitizedIdentifier = identifier.replace("'", "''");
+            String query = String.format("%s LIKE '%%%s%%'", categoryPropertyName, sanitizedIdentifier);
             if (featured) {
                 query += " AND isFeatured = 'true'";
             }
