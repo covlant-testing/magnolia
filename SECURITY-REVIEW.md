@@ -3,6 +3,16 @@
 **Date:** 2026-04-09
 **Scope:** All custom Java code (56 files), FreeMarker templates (40+), YAML/XML configs, GraphQL/REST API layer
 
+### Fix PRs
+
+| Finding | PR |
+|---------|-----|
+| C1, H2 | [fix(tours): sanitize user input in JCR-SQL2 queries](https://github.com/covlant-testing/magnolia/pull/2) |
+| C2 | [fix(graphql): sanitize user input in query construction](https://github.com/covlant-testing/magnolia/pull/1) |
+| C3 | [fix(stories): escape embedsource and plain-text fields to prevent XSS](https://github.com/covlant-testing/magnolia/pull/3) |
+| H1 | [fix(graphql): validate and sanitize filter query parameters](https://github.com/covlant-testing/magnolia/pull/5) |
+| H8 | [fix(graphql): reuse existing query provider instead of uninitialized instance](https://github.com/covlant-testing/magnolia/pull/4) |
+
 ---
 
 ## Critical (3)
