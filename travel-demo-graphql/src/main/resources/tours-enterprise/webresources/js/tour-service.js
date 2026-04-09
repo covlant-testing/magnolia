@@ -75,7 +75,7 @@ class RestService {
         return '';
       }
       let values = parameters[key];
-      return `${key}=${values.join(',')}`;
+      return `${encodeURIComponent(key)}=${values.map(v => encodeURIComponent(v)).join(',')}`;
     }).filter(val => val.length!== 0)
       .join('&');
 
