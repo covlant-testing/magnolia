@@ -47,7 +47,17 @@ class GraphqlTourQueriesProvider {
   }
 
   queryValueWrapper(value, namedQuery) {
-    return NO_WRAPPED_VALUE_FIELD.includes(namedQuery) ? value : `'${value}'`;
+    if (NO_WRAPPED_VALUE_FIELD.includes(namedQuery)) {
+      return /^\d+$/.test(value) ? value : '0';
+    }
+    return `'${this.sanitizeQueryValue(value)}'`;
+  }
+
+  sanitizeQueryValue(value) {
+    return String(value)
+      .replace(/'/g, "''")
+      .replace(/%/g, '\\%')
+      .replace(/_/g, '\\_');
   }
 
   buildFTSQuery(queryValue) {
@@ -55,8 +65,9 @@ class GraphqlTourQueriesProvider {
       return '';
     }
 
+    const sanitized = this.sanitizeQueryValue(queryValue);
     const query = ['@name', '@description', '@body', '@location'].map(field => {
-      return `${field} LIKE '%${queryValue}%'`;
+      return `${field} LIKE '%${sanitized}%'`;
     }).join(' OR ');
 
     return `(${query})`;
