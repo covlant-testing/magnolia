@@ -1,0 +1,3 @@
+class: info.magnolia.virtualuri.mapping.RegexpVirtualUriMapping
+fromUri: ^/api/tours/(.*)\.json$
+toUri: forward:/travel/tour-api?tour=/$1

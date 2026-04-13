@@ -20,5 +20,10 @@ areas:
         id: travel-demo:components/teaser
       columnLayout:
         id: travel-demo:components/columnLayout
+  featuredToursHero:
+    type: single
+    modelClass: info.magnolia.demo.travel.tours.TourTemplatingFunctions
+    renderType: freemarker
+    templateScript: /travel-demo/templates/pages/areas/featuredToursHero.ftl
   footer:
     editable: true

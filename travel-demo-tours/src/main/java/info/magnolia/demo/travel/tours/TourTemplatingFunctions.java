@@ -117,4 +117,27 @@ public class TourTemplatingFunctions {
     public Tour marshallTourNode(ContentMap tourContentMap) {
         return marshallTourNode(tourContentMap.getJCRNode());
     }
+
+    /**
+     * Returns the number of featured tours for the current category.
+     * Used by the featured-tours badge in the home page hero area.
+     */
+    public int getFeaturedToursCount() {
+        Category category = tourServices.getCategoryByUrl();
+        if (category == null || category.getFeaturedTours() == null) {
+            return 0;
+        }
+        return category.getFeaturedTours().size();
+    }
+
+    /**
+     * Builds the API link used by the /api/tours/{id} endpoint.
+     */
+    public String getTourApiLink(Node tourNode) {
+        if (tourNode == null) {
+            return "";
+        }
+        String link = tourServices.getTourLink(tourNode);
+        return link == null ? "" : "/api" + link;
+    }
 }
