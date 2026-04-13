@@ -58,6 +58,8 @@ areas:
     renderType: freemarker
     templateScript: /travel-demo/templates/pages/areas/navigation.ftl
     type: noComponent
+    localeResolver:
+      class: info.magnolia.demo.travel.i18n.LocaleResolver
     userLinksResolvers:
       public-user-registration:
         class: info.magnolia.demo.travel.user.DefaultUserLinksResolver
