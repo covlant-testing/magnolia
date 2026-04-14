@@ -128,7 +128,16 @@ var TourFinder = TourFinder || (function(){
                             }
 
                             $http.get(args.restBase + '/tours/v1/' + qs).then(function(response) {
-                                $scope.filteredTours = response.data.results;
+                                var results = response.data.results;
+                                // Apply additional client-side search filtering for accuracy
+                                if (newValues.search.query) {
+                                    var searchTerm = newValues.search.query.trim().toLowerCase();
+                                    results = results.filter(function(tour) {
+                                        return tour.name.indexOf(searchTerm) >= 0 ||
+                                               (tour.description && tour.description.indexOf(searchTerm) >= 0);
+                                    });
+                                }
+                                $scope.filteredTours = results;
                             });
                         }
                     }, true);
