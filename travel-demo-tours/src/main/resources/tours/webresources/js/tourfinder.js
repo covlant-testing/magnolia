@@ -63,7 +63,7 @@ var TourFinder = TourFinder || (function(){
                     }, function(response) {
                         console.error("Couldn't reach endpoint.");
                     });
-                    $http.get(args.restBase + '/tours/v1/?lang=' + args.language).then(function(response) {
+                    $http.get(args.restBase + '/tours/v1/').then(function(response) {
                         $scope.tours = response.data.results;
                     }, function(response) {
                         console.error("Couldn't reach endpoint.");
