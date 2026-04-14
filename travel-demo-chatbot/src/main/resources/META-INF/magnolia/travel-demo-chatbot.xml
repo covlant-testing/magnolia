@@ -8,45 +8,6 @@
   <versionHandler>info.magnolia.demo.travel.chatbot.setup.ChatbotModuleVersionHandler</versionHandler>
   <version>${project.version}</version>
 
-  <components>
-    <id>main</id>
-    <component>
-      <type>info.magnolia.demo.travel.chatbot.tools.ToursTool</type>
-      <implementation>info.magnolia.demo.travel.chatbot.tools.ToursTool</implementation>
-      <scope>singleton</scope>
-    </component>
-    <component>
-      <type>info.magnolia.demo.travel.chatbot.tools.DestinationsTool</type>
-      <implementation>info.magnolia.demo.travel.chatbot.tools.DestinationsTool</implementation>
-      <scope>singleton</scope>
-    </component>
-    <component>
-      <type>info.magnolia.demo.travel.chatbot.tools.EditorialTool</type>
-      <implementation>info.magnolia.demo.travel.chatbot.tools.EditorialTool</implementation>
-      <scope>singleton</scope>
-    </component>
-    <component>
-      <type>info.magnolia.demo.travel.chatbot.session.ChatSessionStore</type>
-      <implementation>info.magnolia.demo.travel.chatbot.session.ChatSessionStore</implementation>
-      <scope>singleton</scope>
-    </component>
-    <component>
-      <type>info.magnolia.demo.travel.chatbot.ratelimit.SessionRateLimiter</type>
-      <implementation>info.magnolia.demo.travel.chatbot.ratelimit.SessionRateLimiter</implementation>
-      <scope>singleton</scope>
-    </component>
-    <component>
-      <type>info.magnolia.demo.travel.chatbot.i18n.LanguageResolver</type>
-      <implementation>info.magnolia.demo.travel.chatbot.i18n.LanguageResolver</implementation>
-      <scope>singleton</scope>
-    </component>
-    <component>
-      <type>info.magnolia.demo.travel.chatbot.personalization.VisitorTraitsResolver</type>
-      <implementation>info.magnolia.demo.travel.chatbot.personalization.VisitorTraitsResolver</implementation>
-      <scope>singleton</scope>
-    </component>
-  </components>
-
   <dependencies>
     <dependency>
       <name>core</name>
@@ -58,7 +19,7 @@
     </dependency>
     <dependency>
       <name>travel-demo</name>
-      <version>${project.version}</version>
+      <version>*</version>
     </dependency>
     <dependency>
       <name>ui-admincentral</name>
