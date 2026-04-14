@@ -34,4 +34,43 @@
       <version>2.0/*</version>
     </dependency>
   </dependencies>
+
+  <components>
+    <id>main</id>
+    <component>
+      <type>info.magnolia.demo.travel.chatbot.tools.ToursTool</type>
+      <implementation>info.magnolia.demo.travel.chatbot.tools.ToursTool</implementation>
+      <scope>singleton</scope>
+    </component>
+    <component>
+      <type>info.magnolia.demo.travel.chatbot.tools.DestinationsTool</type>
+      <implementation>info.magnolia.demo.travel.chatbot.tools.DestinationsTool</implementation>
+      <scope>singleton</scope>
+    </component>
+    <component>
+      <type>info.magnolia.demo.travel.chatbot.tools.EditorialTool</type>
+      <implementation>info.magnolia.demo.travel.chatbot.tools.EditorialTool</implementation>
+      <scope>singleton</scope>
+    </component>
+    <component>
+      <type>info.magnolia.demo.travel.chatbot.session.ChatSessionStore</type>
+      <implementation>info.magnolia.demo.travel.chatbot.session.ChatSessionStore</implementation>
+      <scope>singleton</scope>
+    </component>
+    <component>
+      <type>info.magnolia.demo.travel.chatbot.ratelimit.SessionRateLimiter</type>
+      <implementation>info.magnolia.demo.travel.chatbot.ratelimit.SessionRateLimiter</implementation>
+      <scope>singleton</scope>
+    </component>
+    <component>
+      <type>info.magnolia.demo.travel.chatbot.i18n.LanguageResolver</type>
+      <implementation>info.magnolia.demo.travel.chatbot.i18n.LanguageResolver</implementation>
+      <scope>singleton</scope>
+    </component>
+    <component>
+      <type>info.magnolia.demo.travel.chatbot.personalization.VisitorTraitsResolver</type>
+      <implementation>info.magnolia.demo.travel.chatbot.personalization.VisitorTraitsResolver</implementation>
+      <scope>singleton</scope>
+    </component>
+  </components>
 </module>

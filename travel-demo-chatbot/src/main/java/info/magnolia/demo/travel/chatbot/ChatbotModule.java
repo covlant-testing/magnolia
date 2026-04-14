@@ -68,6 +68,18 @@ public class ChatbotModule {
 
     private int maxUserMessageChars = 4000;
 
+    private String apiKey;
+
+    public String getApiKey() {
+        if (apiKey == null) {
+            java.util.Map<String,String> merged = info.magnolia.demo.travel.chatbot.env.EnvLoader
+                    .merge(info.magnolia.demo.travel.chatbot.env.EnvLoader.loadFile(new java.io.File(".env")),
+                           System.getenv());
+            apiKey = merged.get("GEMINI_API_KEY");
+        }
+        return apiKey;
+    }
+
     public String getModel() {
         return model;
     }
