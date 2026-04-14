@@ -45,11 +45,24 @@ public class TourCategoryTemplateDefinition extends ConfiguredTemplateDefinition
      */
     private String category;
 
+    /**
+     * Maximum number of related tours to display.
+     */
+    private int maxResults = 6;
+
     public String getCategory() {
         return category;
     }
 
     public void setCategory(String category) {
         this.category = category;
+    }
+
+    public int getMaxResults() {
+        return maxResults;
+    }
+
+    public void setMaxResults(int maxResults) {
+        this.maxResults = maxResults;
     }
 }

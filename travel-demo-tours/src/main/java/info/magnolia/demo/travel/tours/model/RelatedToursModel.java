@@ -71,7 +71,7 @@ public class RelatedToursModel<RD extends TourCategoryTemplateDefinition> extend
     }
 
     /**
-     * Filters the current tour from the category.
+     * Filters the current tour from the category and caps result size.
      */
     public List<Tour> getRelatedToursByCategory(String identifier) {
         List<Tour> relatedTours = Lists.newArrayList();
@@ -86,6 +86,12 @@ public class RelatedToursModel<RD extends TourCategoryTemplateDefinition> extend
                     return !currentIdentifier.equals(tour.getIdentifier());
                 }
             }));
+
+            // Cap results to configured maximum
+            int maxResults = definition.getMaxResults();
+            if (relatedTours.size() > maxResults - 1) {
+                relatedTours = relatedTours.subList(0, maxResults - 1);
+            }
         } catch (RepositoryException e) {
             log.error("Could not retrieve identifier for the current tour.", e);
         }
