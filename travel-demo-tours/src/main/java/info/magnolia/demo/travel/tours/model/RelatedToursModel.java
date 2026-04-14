@@ -80,12 +80,7 @@ public class RelatedToursModel<RD extends TourCategoryTemplateDefinition> extend
             final String currentIdentifier = getTourServices().getTourNodeByParameter().getIdentifier();
             List<Tour> tours = getTourServices().getToursByCategory(definition.getCategory(), identifier, true);
 
-            relatedTours = Lists.newArrayList(Iterables.filter(tours, new Predicate<Tour>() {
-                @Override
-                public boolean apply(Tour tour) {
-                    return !currentIdentifier.equals(tour.getIdentifier());
-                }
-            }));
+            relatedTours = Lists.newArrayList(tours);
         } catch (RepositoryException e) {
             log.error("Could not retrieve identifier for the current tour.", e);
         }
