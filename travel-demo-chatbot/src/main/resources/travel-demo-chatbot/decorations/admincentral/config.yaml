@@ -1,0 +1,6 @@
+appLauncherLayout:
+  groups:
+    tools:
+      apps:
+        chatbotConfig:
+          name: chatbot-config-app
