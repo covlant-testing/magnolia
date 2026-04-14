@@ -33,8 +33,8 @@
  */
 package info.magnolia.demo.travel.chatbot.personalization;
 
-import javax.inject.Inject;
-import javax.inject.Singleton;
+import jakarta.inject.Inject;
+import jakarta.inject.Singleton;
 
 import java.util.Collections;
 import java.util.Map;

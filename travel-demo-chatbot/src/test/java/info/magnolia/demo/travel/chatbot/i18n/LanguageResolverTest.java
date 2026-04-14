@@ -40,7 +40,7 @@ import static org.mockito.Mockito.when;
 import java.util.Locale;
 import java.util.function.Supplier;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 import org.junit.Test;
 
