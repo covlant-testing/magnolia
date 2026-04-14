@@ -33,8 +33,110 @@
  */
 package info.magnolia.demo.travel.chatbot;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Configuration bean for the travel-demo-chatbot module.
  */
 public class ChatbotModule {
+
+    private String model = "gemini-3-flash-preview";
+
+    private String systemPromptTemplate = "You are a travel advisor for the Magnolia Travel demo site.\n\n"
+            + "Always reply in ${language}. If the visitor writes in a different language,\n"
+            + "still reply in ${language} unless they explicitly ask you to switch.\n\n"
+            + "You only answer questions about travel, tours, and destinations available\n"
+            + "on this site. If asked about anything else, politely redirect.\n\n"
+            + "Use the available tools to ground your recommendations in real content.\n"
+            + "Prefer one or two strong suggestions over long lists. When you reference\n"
+            + "a tour or destination, include its title.\n\n"
+            + "Visitor profile (for tailoring; do not mention these traits explicitly\n"
+            + "unless asked): ${visitorTraits}";
+
+    private List<String> enabledTools = new ArrayList<>(List.of("tours", "destinations", "editorial"));
+
+    private int maxToolIterations = 5;
+
+    private int historyTurnLimit = 20;
+
+    private int requestTimeoutMs = 30000;
+
+    private int rateLimitPerMinute = 30;
+
+    private int maxTokensPerSession = 50000;
+
+    private int maxUserMessageChars = 4000;
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public String getSystemPromptTemplate() {
+        return systemPromptTemplate;
+    }
+
+    public void setSystemPromptTemplate(String systemPromptTemplate) {
+        this.systemPromptTemplate = systemPromptTemplate;
+    }
+
+    public List<String> getEnabledTools() {
+        return enabledTools;
+    }
+
+    public void setEnabledTools(List<String> enabledTools) {
+        this.enabledTools = enabledTools;
+    }
+
+    public int getMaxToolIterations() {
+        return maxToolIterations;
+    }
+
+    public void setMaxToolIterations(int maxToolIterations) {
+        this.maxToolIterations = maxToolIterations;
+    }
+
+    public int getHistoryTurnLimit() {
+        return historyTurnLimit;
+    }
+
+    public void setHistoryTurnLimit(int historyTurnLimit) {
+        this.historyTurnLimit = historyTurnLimit;
+    }
+
+    public int getRequestTimeoutMs() {
+        return requestTimeoutMs;
+    }
+
+    public void setRequestTimeoutMs(int requestTimeoutMs) {
+        this.requestTimeoutMs = requestTimeoutMs;
+    }
+
+    public int getRateLimitPerMinute() {
+        return rateLimitPerMinute;
+    }
+
+    public void setRateLimitPerMinute(int rateLimitPerMinute) {
+        this.rateLimitPerMinute = rateLimitPerMinute;
+    }
+
+    public int getMaxTokensPerSession() {
+        return maxTokensPerSession;
+    }
+
+    public void setMaxTokensPerSession(int maxTokensPerSession) {
+        this.maxTokensPerSession = maxTokensPerSession;
+    }
+
+    public int getMaxUserMessageChars() {
+        return maxUserMessageChars;
+    }
+
+    public void setMaxUserMessageChars(int maxUserMessageChars) {
+        this.maxUserMessageChars = maxUserMessageChars;
+    }
 }
