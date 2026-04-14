@@ -1,5 +1,5 @@
 (function () {
-  var ENDPOINT = '/.rest/chatbot/v1/turn';
+  var ENDPOINT = null; // set by init()
   var STORAGE_KEY = 'mgnl-chatbot-transcript';
 
   function el(tag, cls, txt) {
@@ -86,6 +86,7 @@
 
   window.MagnoliaChatbot = {
     init: function (opts) {
+      ENDPOINT = opts.endpointUrl || '/.rest/chatbot/v1/turn';
       var mount = document.querySelector(opts.mountSelector);
       if (!mount) return;
       var panel = buildPanel(opts);

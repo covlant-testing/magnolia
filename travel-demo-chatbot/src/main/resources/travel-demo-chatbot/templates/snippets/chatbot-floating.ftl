@@ -10,6 +10,7 @@
     placeholder: '${i18n["chatbot.placeholder"]!""?js_string}',
     sendLabel: '${i18n["chatbot.send"]!""?js_string}',
     thinkingLabel: '${i18n["chatbot.thinking"]!""?js_string}',
-    errorLabel: '${i18n["chatbot.error"]!""?js_string}'
+    errorLabel: '${i18n["chatbot.error"]!""?js_string}',
+    endpointUrl: '${ctx.contextPath}/.rest/chatbot/v1/turn'
   });
 </script>
