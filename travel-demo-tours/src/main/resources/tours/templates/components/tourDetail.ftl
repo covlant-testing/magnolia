@@ -106,7 +106,7 @@
         [#assign bookNode = cmsfn.contentByPath("/travel/book-tour")]
             <form action="${cmsfn.link(bookNode)}">
                 <input type="hidden" name="location" value="${tour.location!}">
-                <input class="btn btn-primary btn-lg book-button" type="submit" value="${i18n['tour.book']}">
+                <input class="btn btn-primary btn-lg book-button" type="submit" value="Book now ">
             </form>
         </div>
     </div>
