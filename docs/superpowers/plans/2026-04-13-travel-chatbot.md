@@ -149,9 +149,7 @@ public class ChatbotModuleVersionHandlerTest extends ModuleVersionHandlerTestCas
 
     @Override
     protected List<String> getModuleDescriptorPathsForTests() {
-        return Arrays.asList(
-                "/META-INF/magnolia/core.xml",
-                "/META-INF/magnolia/travel-demo-chatbot.xml");
+        return Arrays.asList("/META-INF/magnolia/core.xml");
     }
 
     @Test
