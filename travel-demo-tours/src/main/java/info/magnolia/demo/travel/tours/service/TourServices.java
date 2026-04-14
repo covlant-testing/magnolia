@@ -140,7 +140,7 @@ public class TourServices {
                 category = new Category(name, categoryNode.getIdentifier());
 
                 // We always require a slug, here using the node name as the name might have a nicer display name
-                category.setNodeName(categoryNode.getName());
+                category.setNodeName(categoryNode.getName().toLowerCase());
 
                 if (categoryNode.hasProperty(Category.PROPERTY_NAME_DESCRIPTION)) {
                     category.setDescription(categoryNode.getProperty(Category.PROPERTY_NAME_DESCRIPTION).getString());
