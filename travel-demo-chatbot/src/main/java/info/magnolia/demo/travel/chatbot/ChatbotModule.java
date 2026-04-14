@@ -72,8 +72,9 @@ public class ChatbotModule {
 
     public String getApiKey() {
         if (apiKey == null) {
+            java.io.File envFile = resolveEnvFile();
             java.util.Map<String,String> merged = info.magnolia.demo.travel.chatbot.env.EnvLoader
-                    .merge(info.magnolia.demo.travel.chatbot.env.EnvLoader.loadFile(new java.io.File(".env")),
+                    .merge(info.magnolia.demo.travel.chatbot.env.EnvLoader.loadFile(envFile),
                            System.getenv());
             apiKey = merged.get("GEMINI_API_KEY");
         }
@@ -150,5 +151,19 @@ public class ChatbotModule {
 
     public void setMaxUserMessageChars(int maxUserMessageChars) {
         this.maxUserMessageChars = maxUserMessageChars;
+    }
+
+    private static java.io.File resolveEnvFile() {
+        String catalinaBase = System.getProperty("catalina.base");
+        if (catalinaBase != null) {
+            java.io.File installDir = new java.io.File(catalinaBase).getParentFile();
+            if (installDir != null) {
+                java.io.File envFile = new java.io.File(installDir, ".env");
+                if (envFile.isFile()) {
+                    return envFile;
+                }
+            }
+        }
+        return new java.io.File(".env");
     }
 }
