@@ -74,7 +74,7 @@
         <div class="product-properties col-xs-10 col-xs-push-1">
             <div class="product-property">
                 <div class="property-label">${i18n.get('tour.property.startCity')}</div>
-                <div class="property-value">${tour.location!}</div>
+                <div class="property-value">${tour.location}</div>
             </div>
             <div class="product-property">
                 <div class="property-label">${i18n.get('tour.property.duration')}</div>
