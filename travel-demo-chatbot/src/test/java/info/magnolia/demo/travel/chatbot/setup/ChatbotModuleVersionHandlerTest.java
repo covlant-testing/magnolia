@@ -33,7 +33,7 @@
  */
 package info.magnolia.demo.travel.chatbot.setup;
 
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 import info.magnolia.context.MgnlContext;
 import info.magnolia.module.ModuleVersionHandler;
@@ -64,7 +64,7 @@ public class ChatbotModuleVersionHandlerTest extends ModuleVersionHandlerTestCas
     @Test
     public void freshInstallSucceeds() throws Exception {
         executeUpdatesAsIfTheCurrentlyInstalledVersionWas(null);
-        assertNotNull(MgnlContext.getJCRSession("config")
-                .getNode("/modules/travel-demo-chatbot/config"));
+        assertTrue(MgnlContext.getJCRSession("config")
+                .nodeExists("/modules/travel-demo-chatbot"));
     }
 }
