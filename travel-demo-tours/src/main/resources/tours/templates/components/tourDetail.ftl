@@ -131,15 +131,13 @@
     </div>
 
     [#if assetCredit?has_content]
-        <div class="row product-info ">
-            <div class="col-xs-10 col-xs-push-1 product-image-credit">
-                <hr style="margin-top:0px;">
-                <div class="body">${i18n['credit.leadImage']} ${assetCredit}
-                    [#assign license=asset.copyright!]
-                    [#if license?has_content]
-                        &nbsp;<a target="_blank" href="https://creativecommons.org/licenses/${license}">${license}</a>
-                    [/#if]
-                </div>
+        <div class="col-xs-10 col-xs-push-1 product-image-credit">
+            <hr style="margin-top:0px;">
+            <div class="body">${i18n['credit.leadImage']} ${assetCredit}
+                [#assign license=asset.copyright!]
+                [#if license?has_content]
+                    &nbsp;<a target="_blank" href="https://creativecommons.org/licenses/${license}">${license}</a>
+                [/#if]
             </div>
         </div>
     [/#if]
