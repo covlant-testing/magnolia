@@ -82,6 +82,10 @@ var TourFinder = TourFinder || (function(){
                     }, function (newValues, oldValues) {
                         // wait for both tourTypes & destinations to be populated by async calls
                         if (newValues !== oldValues && newValues.tourTypes && newValues.destinations) {
+                            // Reset duration filters when search is cleared for cleaner UX
+                            if (oldValues.search && oldValues.search.query && !newValues.search.query) {
+                                $scope.useDurations = {};
+                            }
                             var randomIndex = Math.floor(Math.random() * notFoundMessages.length);
                             $scope.notFoundMessage = notFoundMessages[randomIndex];
 
