@@ -84,7 +84,7 @@ public class ToursTool implements Tool {
 
     @Override
     public JsonNode invoke(JsonNode args, ToolContext ctx) throws ToolException {
-        String op = args.path("operation").asText("");
+        String op = args.path("operation").asText("searchTours");
         try {
             Session session = MgnlContext.getJCRSession("tours");
             switch (op) {

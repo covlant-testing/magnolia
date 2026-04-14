@@ -84,7 +84,7 @@ public class EditorialTool implements Tool {
 
     @Override
     public JsonNode invoke(JsonNode args, ToolContext ctx) throws ToolException {
-        String op = args.path("operation").asText("");
+        String op = args.path("operation").asText("searchEditorial");
         try {
             Session session = MgnlContext.getJCRSession("website");
             if ("searchEditorial".equals(op)) {

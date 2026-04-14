@@ -198,7 +198,6 @@ public class ChatEndpoint {
         for (int i = 0; i < cfg.getMaxToolIterations(); i++) {
             ObjectNode geminiBody = buildGeminiRequest(systemPrompt, working.turns(), tools);
             JsonNode geminiResponse = gemini.generate(cfg.getModel(), geminiBody);
-            log.info("Gemini response iteration {}: {}", i, geminiResponse.toString().substring(0, Math.min(500, geminiResponse.toString().length())));
 
             java.util.Optional<GeminiToolAdapter.FunctionCall> callOpt =
                     GeminiToolAdapter.parseFunctionCall(geminiResponse);
@@ -208,10 +207,25 @@ public class ChatEndpoint {
                 try {
                     JsonNode result = registry.invoke(call.name(), call.args(), ctx);
                     toolResult = result != null ? result.toString() : "{}";
-                } catch (info.magnolia.demo.travel.chatbot.tools.ToolException e) {
-                    toolResult = "{\"error\":\"" + e.getMessage() + "\"}";
+                } catch (Exception e) {
+                    log.warn("Tool '{}' failed: {}", call.name(), e.getMessage());
+                    toolResult = "{\"error\":\"tool unavailable\"}";
                 }
                 working.append(Turn.tool(call.name(), toolResult));
+
+                boolean empty = toolResult.contains("\"results\":[]") || toolResult.equals("{}");
+                if (empty) {
+                    ConversationHistory fresh = new ConversationHistory();
+                    for (Turn t : working.turns()) {
+                        if (t.role() == Turn.Role.USER) fresh.append(t);
+                    }
+                    ObjectNode fallbackBody = buildGeminiRequest(systemPrompt, fresh.turns(), Collections.emptyList());
+                    JsonNode fallbackResp = gemini.generate(cfg.getModel(), fallbackBody);
+                    String fallbackText = GeminiToolAdapter.parseTextReply(fallbackResp);
+                    if (!fallbackText.isBlank()) {
+                        return fallbackText;
+                    }
+                }
                 continue;
             }
 

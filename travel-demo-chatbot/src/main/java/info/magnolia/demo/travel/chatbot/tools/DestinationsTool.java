@@ -80,7 +80,7 @@ public class DestinationsTool implements Tool {
 
     @Override
     public JsonNode invoke(JsonNode args, ToolContext ctx) throws ToolException {
-        String op = args.path("operation").asText("");
+        String op = args.path("operation").asText("searchDestinations");
         try {
             Session session = MgnlContext.getJCRSession("website");
             switch (op) {
