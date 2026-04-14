@@ -40,6 +40,10 @@
       <groupId>info.magnolia.demo</groupId>
       <artifactId>magnolia-travel-tours</artifactId>
     </dependency>
+    <dependency>
+      <groupId>info.magnolia.demo</groupId>
+      <artifactId>magnolia-travel-demo-chatbot</artifactId>
+    </dependency>
   </dependencies>
 
   <build>
