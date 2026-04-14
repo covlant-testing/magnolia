@@ -8,33 +8,6 @@
   <versionHandler>info.magnolia.demo.travel.chatbot.setup.ChatbotModuleVersionHandler</versionHandler>
   <version>${project.version}</version>
 
-  <dependencies>
-    <dependency>
-      <name>core</name>
-      <version>6.3/*</version>
-    </dependency>
-    <dependency>
-      <name>rest-services</name>
-      <version>3.0/*</version>
-    </dependency>
-    <dependency>
-      <name>travel-demo</name>
-      <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <name>ui-admincentral</name>
-      <version>6.3/*</version>
-    </dependency>
-    <dependency>
-      <name>ui-framework</name>
-      <version>6.3/*</version>
-    </dependency>
-    <dependency>
-      <name>site</name>
-      <version>2.0/*</version>
-    </dependency>
-  </dependencies>
-
   <components>
     <id>main</id>
     <component>
@@ -73,4 +46,31 @@
       <scope>singleton</scope>
     </component>
   </components>
+
+  <dependencies>
+    <dependency>
+      <name>core</name>
+      <version>6.3/*</version>
+    </dependency>
+    <dependency>
+      <name>rest-services</name>
+      <version>3.0/*</version>
+    </dependency>
+    <dependency>
+      <name>travel-demo</name>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <name>ui-admincentral</name>
+      <version>6.3/*</version>
+    </dependency>
+    <dependency>
+      <name>ui-framework</name>
+      <version>6.3/*</version>
+    </dependency>
+    <dependency>
+      <name>site</name>
+      <version>2.0/*</version>
+    </dependency>
+  </dependencies>
 </module>

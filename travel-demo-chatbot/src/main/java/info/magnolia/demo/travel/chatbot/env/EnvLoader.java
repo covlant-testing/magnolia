@@ -45,7 +45,7 @@ import java.util.Map;
  * A missing file returns an empty map. The {@link #merge} method overlays dotenv entries with system env,
  * where system env takes precedence.
  */
-final class EnvLoader {
+public final class EnvLoader {
 
     private EnvLoader() {
     }
