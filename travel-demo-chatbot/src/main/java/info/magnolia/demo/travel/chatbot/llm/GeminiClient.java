@@ -53,7 +53,7 @@ import org.slf4j.LoggerFactory;
 @Singleton
 public class GeminiClient {
 
-    interface Sleeper {
+    public interface Sleeper {
         void sleep(long millis) throws InterruptedException;
     }
 
