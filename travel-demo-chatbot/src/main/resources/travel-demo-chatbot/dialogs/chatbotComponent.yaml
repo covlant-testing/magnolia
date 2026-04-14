@@ -1,0 +1,7 @@
+form:
+  properties: {}
+actions:
+  commit:
+    class: info.magnolia.ui.dialog.actions.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.dialog.actions.CancelDialogActionDefinition
