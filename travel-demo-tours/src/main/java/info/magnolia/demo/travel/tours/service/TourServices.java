@@ -99,7 +99,7 @@ public class TourServices {
      * Tries to determine {@link Category} from passed URL selector (e.g. <code>/page~category_name~.html</code>).
      */
     public Category getCategoryByUrl() {
-        final String categoryName = StringUtils.defaultIfBlank(SelectorUtil.getSelector(0), "active");
+        final String categoryName = StringUtils.defaultIfBlank(SelectorUtil.getSelector(0), "featured");
         return getCategoryByName(categoryName);
     }
 
