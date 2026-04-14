@@ -1,0 +1,46 @@
+class: info.magnolia.ui.contentapp.configuration.ContentAppDescriptor
+icon: icon-app
+appClass: info.magnolia.ui.contentapp.ContentApp
+datasource:
+  $type: jcrDatasource
+  workspace: config
+  rootPath: /modules/travel-demo-chatbot/config
+subApps:
+  detail:
+    $type: detailSubApp
+    nodeType: mgnl:contentNode
+    form:
+      properties:
+        model:
+          $type: textField
+          label: Model
+        systemPromptTemplate:
+          $type: textField
+          label: System prompt template
+          rows: 12
+        enabledTools:
+          $type: textField
+          label: Enabled tools (comma-separated)
+        maxToolIterations:
+          $type: textField
+          label: Max tool iterations
+        historyTurnLimit:
+          $type: textField
+          label: History turn limit
+        requestTimeoutMs:
+          $type: textField
+          label: Request timeout (ms)
+        rateLimitPerMinute:
+          $type: textField
+          label: Rate limit per minute
+        maxTokensPerSession:
+          $type: textField
+          label: Max tokens per session
+        maxUserMessageChars:
+          $type: textField
+          label: Max user message chars
+    actions:
+      commit:
+        $type: commitAction
+      cancel:
+        $type: closeAction

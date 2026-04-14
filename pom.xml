@@ -70,6 +70,11 @@
       </dependency>
       <dependency>
         <groupId>info.magnolia.demo</groupId>
+        <artifactId>magnolia-travel-demo-chatbot</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>info.magnolia.demo</groupId>
         <artifactId>magnolia-travel-tours</artifactId>
         <version>${project.version}</version>
       </dependency>
@@ -125,6 +130,7 @@
     <!-- Community Edition demo -->
     <module>travel-demo-module</module>
     <module>travel-demo-tours</module>
+    <module>travel-demo-chatbot</module>
     <module>travel-demo-community-webapp</module>
     <!-- DX Core demo -->
     <module>travel-demo-component-personalization</module>

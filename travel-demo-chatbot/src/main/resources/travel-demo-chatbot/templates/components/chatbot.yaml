@@ -1,0 +1,5 @@
+templateScript: /travel-demo-chatbot/templates/components/chatbot.ftl
+renderType: freemarker
+title: Travel Chatbot
+visible: true
+dialog: travel-demo-chatbot:chatbotComponent

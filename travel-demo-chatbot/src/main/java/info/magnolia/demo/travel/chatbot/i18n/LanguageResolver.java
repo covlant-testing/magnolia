@@ -1,0 +1,81 @@
+/**
+ * This file Copyright (c) 2026 Magnolia International
+ * Ltd.  (http://www.magnolia-cms.com). All rights reserved.
+ *
+ *
+ * This file is dual-licensed under both the Magnolia
+ * Network Agreement and the GNU General Public License.
+ * You may elect to use one or the other of these licenses.
+ *
+ * This file is distributed in the hope that it will be
+ * useful, but AS-IS and WITHOUT ANY WARRANTY; without even the
+ * implied warranty of MERCHANTABILITY or FITNESS FOR A
+ * PARTICULAR PURPOSE, TITLE, or NONINFRINGEMENT.
+ * Redistribution, except as permitted by whichever of the GPL
+ * or MNA you select, is prohibited.
+ *
+ * 1. For the GPL license (GPL), you can redistribute and/or
+ * modify this file under the terms of the GNU General
+ * Public License, Version 3, as published by the Free Software
+ * Foundation.  You should have received a copy of the GNU
+ * General Public License, Version 3 along with this program;
+ * if not, write to the Free Software Foundation, Inc., 51
+ * Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ *
+ * 2. For the Magnolia Network Agreement (MNA), this file
+ * and the accompanying materials are made available under the
+ * terms of the MNA which accompanies this distribution, and
+ * is available at http://www.magnolia-cms.com/mna.html
+ *
+ * Any modifications to this file must keep this entire header
+ * intact.
+ *
+ */
+package info.magnolia.demo.travel.chatbot.i18n;
+
+import info.magnolia.cms.core.AggregationState;
+import info.magnolia.context.MgnlContext;
+
+import java.util.Locale;
+import java.util.function.Supplier;
+
+import jakarta.inject.Inject;
+import jakarta.inject.Singleton;
+import jakarta.servlet.http.HttpServletRequest;
+
+@Singleton
+public class LanguageResolver {
+
+    private final Supplier<Locale> aggregationLocale;
+
+    @Inject
+    public LanguageResolver() {
+        this(() -> {
+            try {
+                AggregationState s = MgnlContext.getAggregationState();
+                return s != null ? s.getLocale() : null;
+            } catch (IllegalStateException e) {
+                return null;
+            }
+        });
+    }
+
+    LanguageResolver(Supplier<Locale> aggregationLocale) {
+        this.aggregationLocale = aggregationLocale;
+    }
+
+    public String resolve(HttpServletRequest request) {
+        Locale agg = aggregationLocale.get();
+        if (agg != null && agg.getLanguage() != null && !agg.getLanguage().isEmpty()) {
+            return agg.getLanguage();
+        }
+        String header = request != null ? request.getHeader("Accept-Language") : null;
+        if (header != null && !header.isBlank()) {
+            String first = header.split(",")[0].trim().split(";")[0].trim();
+            if (!first.isEmpty()) {
+                return first.split("-")[0].toLowerCase(Locale.ROOT);
+            }
+        }
+        return "en";
+    }
+}

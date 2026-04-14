@@ -1,0 +1,2 @@
+class: info.magnolia.rest.registry.ConfiguredEndpointDefinition
+implementationClass: info.magnolia.demo.travel.chatbot.rest.ChatEndpoint
