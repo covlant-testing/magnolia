@@ -41,6 +41,6 @@ subApps:
           label: Max user message chars
     actions:
       commit:
-        $type: saveDetailAction
+        $type: commitAction
       cancel:
-        $type: cancelFormAction
+        $type: closeAction

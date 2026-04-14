@@ -40,6 +40,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 
 import info.magnolia.demo.travel.chatbot.ChatbotModule;
 import info.magnolia.demo.travel.chatbot.i18n.LanguageResolver;
+import info.magnolia.demo.travel.chatbot.tools.ToolRegistry;
 import info.magnolia.demo.travel.chatbot.llm.GeminiClient;
 import info.magnolia.demo.travel.chatbot.llm.GeminiToolAdapter;
 import info.magnolia.demo.travel.chatbot.llm.LlmException;
@@ -84,17 +85,36 @@ public class ChatEndpoint {
     private final String apiKey;
     private final ChatbotModule cfg;
     private final GeminiClient gemini;
-    private final info.magnolia.demo.travel.chatbot.tools.ToolRegistry registry;
+    private final ToolRegistry registry;
     private final ChatSessionStore sessions;
     private final SessionRateLimiter limiter;
     private final LanguageResolver languageResolver;
     private final VisitorTraitsResolver traitsResolver;
 
+    public ChatEndpoint() {
+        ChatbotModule module = info.magnolia.objectfactory.Components.getComponent(ChatbotModule.class);
+        this.cfg = module;
+        this.apiKey = module.getApiKey();
+        this.gemini = new GeminiClient(
+                this.apiKey != null ? this.apiKey : "",
+                "https://generativelanguage.googleapis.com/v1beta",
+                module.getRequestTimeoutMs(),
+                Thread::sleep);
+        this.registry = new ToolRegistry(List.of(
+                new info.magnolia.demo.travel.chatbot.tools.ToursTool(),
+                new info.magnolia.demo.travel.chatbot.tools.DestinationsTool(),
+                new info.magnolia.demo.travel.chatbot.tools.EditorialTool()));
+        this.sessions = new ChatSessionStore();
+        this.limiter = new SessionRateLimiter();
+        this.languageResolver = new LanguageResolver();
+        this.traitsResolver = new VisitorTraitsResolver();
+    }
+
     public ChatEndpoint(
             String apiKey,
             ChatbotModule cfg,
             GeminiClient gemini,
-            info.magnolia.demo.travel.chatbot.tools.ToolRegistry registry,
+            ToolRegistry registry,
             ChatSessionStore sessions,
             SessionRateLimiter limiter,
             LanguageResolver languageResolver,
