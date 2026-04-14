@@ -198,6 +198,7 @@ public class ChatEndpoint {
         for (int i = 0; i < cfg.getMaxToolIterations(); i++) {
             ObjectNode geminiBody = buildGeminiRequest(systemPrompt, working.turns(), tools);
             JsonNode geminiResponse = gemini.generate(cfg.getModel(), geminiBody);
+            log.info("Gemini response iteration {}: {}", i, geminiResponse.toString().substring(0, Math.min(500, geminiResponse.toString().length())));
 
             java.util.Optional<GeminiToolAdapter.FunctionCall> callOpt =
                     GeminiToolAdapter.parseFunctionCall(geminiResponse);

@@ -34,9 +34,47 @@
 package info.magnolia.demo.travel.chatbot.setup;
 
 import info.magnolia.module.DefaultModuleVersionHandler;
+import info.magnolia.module.InstallContext;
+import info.magnolia.module.delta.AbstractRepositoryTask;
+import info.magnolia.module.delta.Task;
+import info.magnolia.module.delta.TaskExecutionException;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.jcr.Node;
+import javax.jcr.RepositoryException;
+import javax.jcr.Session;
 
 /**
  * Module-version handler for travel-demo-chatbot.
+ * Grants the rest-anonymous role access to the chatbot REST endpoint on first install.
  */
 public class ChatbotModuleVersionHandler extends DefaultModuleVersionHandler {
+
+    @Override
+    protected List<Task> getStartupTasks(InstallContext installContext) {
+        List<Task> tasks = new ArrayList<>(super.getStartupTasks(installContext));
+        tasks.add(new AbstractRepositoryTask("Grant chatbot REST access to anonymous",
+                "Adds /.rest/chatbot* URI permission to rest-anonymous role") {
+            @Override
+            protected void doExecute(InstallContext ctx) throws RepositoryException, TaskExecutionException {
+                Session session = ctx.getJCRSession("userroles");
+                if (!session.nodeExists("/rest-anonymous")) {
+                    return;
+                }
+                Node role = session.getNode("/rest-anonymous");
+                Node aclUri = role.hasNode("acl_uri")
+                        ? role.getNode("acl_uri")
+                        : role.addNode("acl_uri", "mgnl:contentNode");
+                if (!aclUri.hasNode("chatbot-access")) {
+                    Node entry = aclUri.addNode("chatbot-access", "mgnl:contentNode");
+                    entry.setProperty("path", "/.rest/chatbot*");
+                    entry.setProperty("permissions", 63L);
+                }
+                session.save();
+            }
+        });
+        return tasks;
+    }
 }
