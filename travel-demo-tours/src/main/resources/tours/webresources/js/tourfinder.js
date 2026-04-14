@@ -33,7 +33,7 @@ var TourFinder = TourFinder || (function(){
                         $scope.useDurations = {};
                         var split = $routeParams.duration.split(',');
                         for (var i in split) {
-                            $scope.useDurations[split[i]] = true;
+                            $scope.useDurations[i] = true;
                         }
                     }
                     if ($routeParams.q) {
