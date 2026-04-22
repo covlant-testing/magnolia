@@ -1,0 +1,14 @@
+{
+  "name": "magnolia-travel-demo-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Playwright end-to-end regression tests for the travel-demo modules (Covlant-Demo fork).",
+  "scripts": {
+    "e2e:test": "playwright test",
+    "e2e:install": "playwright install chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "typescript": "^5.5.0"
+  }
+}

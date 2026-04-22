@@ -14,3 +14,10 @@ target
 overlays
 .DS_Store
 
+
+# Playwright E2E
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+
