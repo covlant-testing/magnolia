@@ -142,6 +142,9 @@ public class NavigationAreaModel extends RenderingModelImpl<AreaDefinition> {
     }
 
     public Locale getLocale(String language) {
+        if (language == null || language.isEmpty()) {
+            return Locale.getDefault();
+        }
         return i18nContentSupport.determineLocaleFromString(language);
     }
 }
