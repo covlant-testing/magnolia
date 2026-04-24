@@ -12,7 +12,6 @@ import { test, expect } from '@playwright/test';
 
 test('/tours/{slug}.html forwards to /travel/tour (master forward target)', async ({ page }) => {
   await page.goto('/tours/rome.html');
-
   await page.waitForURL(/\/travel\/tour\?tour=\/rome\b/);
   expect(page.url()).toContain('/travel/tour?tour=/rome');
   expect(page.url()).not.toContain('/travel/tour-page');
