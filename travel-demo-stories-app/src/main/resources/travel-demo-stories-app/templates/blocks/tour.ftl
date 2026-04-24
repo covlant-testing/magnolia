@@ -22,13 +22,13 @@
     <div class="row">
         <div class="title-badge-wrapper col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div class="title-badge" style="background-image: url(${imageLink!});">
-                <h3>${tour.name!tour.@name}</h3>
+                <h3>${(tour.name!tour.@name)?html}</h3>
                     [#assign tourType = tourTypes?first]
                     [#assign category = cmsfn.contentById(tourType, "category")!]
                 <div class="tour-type">
                     [#assign rendition = damfn.getRendition(category.icon, "original")]
                     [#assign imageLink = rendition.link]
-                    <img class="icon" src="${imageLink}" alt="${category.name!}" title="${category.name!}">
+                    <img class="icon" src="${imageLink}" alt="${category.name!?html}" title="${category.name!?html}">
                 </div>
             </div>
         </div>
@@ -37,13 +37,13 @@
 
         <div class="tour-meta col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <div class="prop-label">${i18n['tour.property.startCity']}</div>
-            <h4 class="prop-value">${tour.location!"-"}</h4>
+            <h4 class="prop-value">${(tour.location!"-")?html}</h4>
 
             <div class="prop-label">${i18n['tour.property.duration']}</div>
-            <h4 class="prop-value">${tour.duration!"-"} days</h4>
+            <h4 class="prop-value">${(tour.duration!"-")?html} days</h4>
 
             <div class="prop-label">${i18n['tour.property.operator']}</div>
-            <h4 class="prop-value">${tour.author!"-"}</h4>
+            <h4 class="prop-value">${(tour.author!"-")?html}</h4>
 
             <p class="summary">${tour.description}</p>
                 [#assign body = tour.body!]
@@ -53,7 +53,7 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
             <form action="${bookTourLink()}">
-                <input type="hidden" name="location" value="${tour.location!}">
+                <input type="hidden" name="location" value="${tour.location!?html}">
                 <input class="btn btn-primary btn-lg book-button call-to-action" type="submit" value="${i18n['tour.book']}">
             </form>
         </div>
