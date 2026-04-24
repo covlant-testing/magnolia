@@ -142,6 +142,6 @@ public class NavigationAreaModel extends RenderingModelImpl<AreaDefinition> {
     }
 
     public Locale getLocale(String language) {
-        return i18nContentSupport.determineLocaleFromString(language);
+        return new info.magnolia.demo.travel.i18n.LocaleResolver(i18nContentSupport).resolve(language);
     }
 }
