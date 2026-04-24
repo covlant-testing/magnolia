@@ -120,7 +120,7 @@ class GraphQLService {
 
   filterTours(parameters) {
     return this.queryProvider.getTourQueries().then(query => {
-      const filter = new GraphqlTourQueriesProvider().buildGraphQLFilterQueryParams(parameters);
+      const filter = this.queryProvider.buildGraphQLFilterQueryParams(parameters);
       return this.httpService.post(this.contextPath + this.graphQLBase,
         { query: query.data, variables: { filter: filter } },
         { headers: this.headers })
